@@ -29,6 +29,7 @@
 
 * [Cross-Chain Interoperability Goals](cross-chain-interoperability/cross-chain-interoperability-goals.md)
 * [eMTRG and eMTR](cross-chain-interoperability/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](cross-chain-interoperability/liquidity-mining-with-emtrg.md)
 
 ## Developer Documentation
 

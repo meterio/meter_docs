@@ -26,7 +26,7 @@ Here is important information about our ERC-20 tokens, Balancer and Uniswap pool
 
 On Ethereum, we are partnering with [ChadSwap](https://chadswap.finance) for liquidity mining program. Uniswap liquidity providers could stake the eMTRG/ETH LP tokens in on ChadSwap to earn around 200% annual returns, of which 25% is vested immediately and 75% will be vested linearly over a year.
 
-If you are not participating in the liquidity mining for ChadSwap, simply holding your Uniswap v2 eMTRG-ETH or the Balancer eMTRG/USDC \(90%/10%\) LP tokens, you will receive 30% APY airdrops in eMTRG directly sent to your wallet.
+Whether you are participating in the liquidity mining for ChadSwap, you will receive 30% APY airdrops in eMTRG directly sent to your wallet on weekly basis
 
 ## How to map MTR -&gt; eMTR and MTRG -&gt; eMTRG using the Meter wallet
 
