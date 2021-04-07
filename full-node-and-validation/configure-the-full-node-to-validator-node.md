@@ -24,17 +24,17 @@ It is recommended to have a public IP address if you want to become a delegate n
 
 Under the "Candidates" tab of the wallet, you could self elect to be a candidate for delegate node by staking at least 2000 MTRG tokens and input all the required information for your node. When filling in the "Candidate" page, you will have to name your validator, put in the IP address of your node, select whether you want to system to automatically participate in the onchain MTRG auction \(enable autobid\) and also submit the public key used to sign the block proposals \(**this is the BLS key for the node running the validator, you could find the key in $METER\_MAIN\_DATA\_PATH/public.key** file, its corresponding private key is in the master.key file\) 
 
-At launch, there are 300 delegator nodes limit, which mean only the top 300 candidate nodes will be selected as delegate to participate in the consensus.  You could have other accounts delegate their votes to you as well to increase the chance of becoming a delegate node. The candidate transaction is recorded immediately and the node could start to receive votes. However, the votes won't be counted until the next k-block even with enough votes. You could check the list of candidate nodes through [https://mainnet.meter.io/staking/candidates](http://ipaddrofyournode:8669/staking/candidates) or inside the wallet.
+At launch, there are 300 delegator nodes limit, which mean only the top 300 candidate nodes will be selected as delegate to participate in the consensus.  You could have other accounts delegate their votes to you as well to increase the chance of becoming a delegate node. The candidate transaction is recorded immediately and the node could start to receive votes. However, the votes won't be counted until the next k-block even with enough votes. You could check the list of candidate nodes through [https://mainnet.meter.io/staking/candidates](https://mainnet.meter.io/staking/candidates) or inside the wallet.
 
 The votes for each validator automatically increases at 5% annualized rate to encourage validator to stay in long term. if you uncandidate and recandidate, you will lose these bonus votes. Whenever you uncandidate and undelegate, it will take one week before the tokens become unbounded and transferrable.
 
 Please be aware that the public.key file in the docker container is generated when the container is launched. If you start a container from scratch, the public.key will be different from the one you used for the "Candidate" transaction. You could either "Uncandidate" and "Candidate" again with the new public key or change the public key to the one you used before.
 
-Your node will automatically pick up by our [Meter Scan](https://scan-warringstakes.meter.io/pos) once you successfully become a candidate.
+Your node will automatically pick up by our [Meter Scan](https://scan.meter.io) once you successfully become a candidate.
 
 **Please be aware that the candidate transaction require tokens that are not staked**. Please use the Update button in the candidate tab for changes.  If you uncandidate you node, the staked token will be unbounded and available for withdraw after 7 days.
 
-If a candidate receives enough votes and ranked in the top 300, it will become a delegate node. You could find the list of delegates through [http://mainnet.meter.io/staking/delegates](http://ipaddrofyournode:8669/staking/delegates)
+If a candidate receives enough votes and ranked in the top 300, it will become a delegate node. You could find the list of delegates through [http://mainnet.meter.io/staking/delegates](http://mainnet.meter.io/staking/delegates)
 
 ## Jailing
 
