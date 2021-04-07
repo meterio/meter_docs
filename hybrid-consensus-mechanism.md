@@ -21,7 +21,9 @@ Because Meter separates these, PoW mining of MTR will consume less energy due to
 
 This hybrid consensus mechanism also make Meter extremely secure. In order to attack the Meter network, you will have to pass the sybil resistance for both PoW and PoS. Because transactions settle instantly in the system, it is more secure than Bitcoin or ETH which have transaction roll back issues in their PoW systems.
 
-More details about Proof of Value can be found here: [https://www.meter.io/what-is-proof-of-value-consensus/](https://www.meter.io/what-is-proof-of-value-consensus/)
+More details about Proof of Value can be found here: 
+
+{% embed url="https://medium.com/meter-io/what-is-proof-of-value-consensus-meter-c47f989065fa" %}
 
 ## What is the difference between HotStuff consensus and Tendermint or Capser FFG 
 
@@ -31,7 +33,11 @@ More details about Proof of Value can be found here: [https://www.meter.io/what-
 2. Higher performance than pBFT.  HotStuff consensus is designed as a pipeline consensus, there are two to three blocks constantly being processed in the system at the same time.  In addition, because of the consensus doesn't have to run a synchronous mode, the consensus could be reached as quickly as the network speed allows.  Therefore the block period could be much shorter than pBFT, and variable based on the network on the node status.  In Meter we limit the smallest the block period to be 2 seconds.  The typical block period is 2 to 3 seconds.  The throughput could be 6~7 times of Tendermint
 3. Less communication and data storage requirement.  Because of the pipeline implementation and BLS signature aggregation we used Meter HotStuff consensus, Meter's consensus message is o\(n\) complexity compared to the o\(n^2\) complexity in Tendermint, which means with the communication required in the current 125 committee nodes configuration in Tendermint, Meter could run 15,625 nodes.  On Meter, when there are not many transactions, the block database expected to grow at a rate of 2~3GB/month.
 
-A more technical comparison of HotStuff, Capser FFG and Tendermint can be found [here](https://dahliamalkhi.wordpress.com/2018/03/13/casper-in-the-lens-of-bft/).
+A more technical comparison of HotStuff, Capser FFG and Tendermint can be found at the following Link:
+
+{% embed url="https://dahliamalkhi.github.io/posts/2018/03/bft-lens-casper/" %}
+
+{% embed url="https://dahliamalkhi.github.io/posts/2018/04/BFT-lens-tndrmnt/" %}
 
 
 
