@@ -16,7 +16,7 @@ Here is important information about our ERC-20 tokens, Balancer and Uniswap pool
    2. [eMTR / USDT Uniswap pool](https://uniswap.info/pair/0xbc565c35539a821075404764a4ba203b5bb7db6f)
 3. Meter bridge address: 
 
-          Mainnet: [0x5c5713656c6819ebe3921936fd28bed2a387cda5](https://scan.meter.io/account/0x5c5713656c6819ebe3921936fd28bed2a387cda5)
+          Mainnet: [0x5c5713656c6819ebe3921936fd28bed2a387cda5](https://scan.meter.io/address/0x5c5713656c6819ebe3921936fd28bed2a387cda5)
 
           Ethereum:
 
