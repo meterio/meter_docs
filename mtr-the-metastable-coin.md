@@ -28,7 +28,7 @@ Crypto-backed stablecoins like DAI first have capacity issues.  The cryptocurren
 
 Meter's full decentralization and permissionless nature is designed to avoid such systematic risks. It gives up strong pegging to USD, but maintains a long term purchasing power stable value and eliminates counter-party, regulatory, and oracle risks typically found with crypto- and fiat-backed stablecoins.
 
-Read more here: [https://www.meter.io/why-meter-is-different-than-other-stablecoins/](https://www.meter.io/why-meter-is-different-than-other-stablecoins/)
+Read more[ here](https://medium.com/meter-io/meter-why-we-are-different-7cd94ea6eead).
 
 ## How does MTR maintain stability?
 
