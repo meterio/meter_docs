@@ -1,13 +1,10 @@
 # Cross-Chain Interoperability Goals
 
-One of Meter's goals is to achieve interoperability with other public blockchains to:
+One of Meter's goals is maximizing interoperability with other public blockchains. Meter has already achieved backwards compatibility with the EVM (Ethereum Virtual Machine). 
 
-1. Address performance issues with our Hybrid PoW/PoS + HotStuff consensus that is backward compatible with EVM. 
-2. Enable decentralized value interaction between these chains.
+Our interoperability goals:
 
-We have already built a bridge to Ethereum, and have partnered with Elrond and Matic to do the same, with many more similar partnerships coming. 
+1. Further improve our Hybrid PoW/PoS + HotStuff Consensus performance.
+2. Enable decentralized value interaction between these blockchains.
 
-
-
-
-
+In the past year we built a bridge to Ethereum and have partnerships with Elrond and Matic to do the same. Many more similar partnerships are coming, so stay tuned!
