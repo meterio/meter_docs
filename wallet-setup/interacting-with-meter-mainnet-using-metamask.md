@@ -11,7 +11,7 @@ Metamask communicates with the Meter mainnet through a RPC \(Remote Procedure Ca
 
 1. Select the network drop down menu, and then click on the custom RPC at the bottom.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 If you are using the mobile app version of Metamask, the custom RPC setup is under "Settings" and then "Networks".
 

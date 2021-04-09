@@ -4,16 +4,14 @@
 
 ## Overview of Meter
 
----
-
-* [Introduction to Meter](introduction-to-meter.md)
-* [Hybrid PoV Consensus Mechanism](hybrid-consensus-mechanism.md)
-* [MTR - The Metastable Coin](mtr-the-metastable-coin.md)
-* [MTRG - Meter Governance Coin](mtrg-meter-governance-coin.md)
-* [On-Chain Auctions](on-chain-auctions.md)
-* [The Meter Reserve](the-meter-reserve.md)
-* [Meter's Ethereum Emulation Mode](meters-ethereum-emulation-mode.md)
-* [Useful Information](useful-information.md)
+* [Introduction to Meter](overview-of-meter/introduction-to-meter.md)
+* [Hybrid PoV Consensus Mechanism](overview-of-meter/hybrid-consensus-mechanism.md)
+* [MTR - The Metastable Coin](overview-of-meter/mtr-the-metastable-coin.md)
+* [MTRG - Meter Governance Coin](overview-of-meter/mtrg-meter-governance-coin.md)
+* [On-Chain Auctions](overview-of-meter/on-chain-auctions.md)
+* [The Meter Reserve](overview-of-meter/the-meter-reserve.md)
+* [Meter's Ethereum Emulation Mode](overview-of-meter/meters-ethereum-emulation-mode.md)
+* [Useful Information](overview-of-meter/useful-information.md)
 
 ## Wallet Setup
 
@@ -56,6 +54,10 @@
 ## Mining
 
 * [Meter Mining Guide](mining/meter-mining-guide.md)
+
+## NFT Collections
+
+* [Current Meter Community NFTs](nft-collections/current-meter-community-nfts.md)
 
 ## Smart AMM
 
