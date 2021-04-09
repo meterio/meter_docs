@@ -29,6 +29,14 @@
 * [eMTRG and eMTR](cross-chain-interoperability/ethereum-interoperability.md)
 * [Liquidity Mining with eMTRG](cross-chain-interoperability/liquidity-mining-with-emtrg.md)
 
+## Mining
+
+* [Meter Mining Guide](mining/meter-mining-guide.md)
+
+## NFT Collections
+
+* [Current Meter Community NFTs](nft-collections/current-meter-community-nfts.md)
+
 ## Developer Documentation
 
 * [Introduction to Developer Documentation](developer-documentation/introduction.md)
@@ -50,14 +58,6 @@
     * [Tutorial Creation Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/tutorial-creation-guidelines.md)
     * [Code Example Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/code-example-guidelines.md)
     * [Article Writing Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/article-writing-guidelines.md)
-
-## Mining
-
-* [Meter Mining Guide](mining/meter-mining-guide.md)
-
-## NFT Collections
-
-* [Current Meter Community NFTs](nft-collections/current-meter-community-nfts.md)
 
 ## Smart AMM
 
