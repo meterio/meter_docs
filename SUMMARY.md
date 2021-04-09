@@ -33,9 +33,9 @@
 
 * [Meter Mining Guide](mining/meter-mining-guide.md)
 
-## NFT Collections
+## NFT Collections <a id="nfts"></a>
 
-* [Current Meter Community NFTs](nft-collections/current-meter-community-nfts.md)
+* [Meter Community NFTs](nfts/current-meter-community-nfts.md)
 
 ## Developer Documentation
 
