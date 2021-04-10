@@ -7,7 +7,7 @@ The Meter network employs an innovative Proof of Value \(PoV\) consensus mechani
 The Meter system consists of two tokens:
 
 1. MTR, the low-volatility meta-stable token created by PoW miners.
-2. MTRG, the governance token used by PoS validators to validate transactions.
+2. MTRG, the governance token used by PoS validators in a HotStuff BFT style consensus to validate transactions.
 
 Unlike traditional cryptocurrencies the Meter protocol separates the economic consensus from the record-keeping consesus. The economic consensus determines how much new value will be added to the economy whereas the record-keeping consesus prevents double spending. In the Meter system MTR represents the economic consesus while MTRG represents the record-keeping consensus.
 
@@ -42,7 +42,7 @@ A more technical comparison of HotStuff, Capser FFG and Tendermint can be found 
 
 {% embed url="https://dahliamalkhi.github.io/posts/2018/04/BFT-lens-tndrmnt/" caption="" %}
 
-1. Less communication and lower data storage requirements.  The pipeline implementation and BLS signature aggregation we used in Meter's HotStuff consensus means Meter's consensus message is o\(n\) in complexity compared to the o\(n^2\) complexity in Tendermint. With the communication required for the current 125 committe node configuration in Tendermint Meter would be able to run 15,625 nodes - a
+3. Less communication and lower data storage requirements.  The pipeline implementation and BLS signature aggregation we used in Meter's HotStuff consensus means Meter's consensus message is o\(n\) in complexity compared to the o\(n^2\) complexity in Tendermint. 
 
 This means the communication required in the current 125 committee nodes configuration in Tendermint Meter could run 15,625 nodes - an increase of over 12,000%. Using Meter's current transaction volume the block database is expected to grow at a rate of 2~3GB/month.
 
