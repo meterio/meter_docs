@@ -13,7 +13,6 @@ Here is important information about our ERC-20 tokens, Balancer and Uniswap pool
    4. Ethereum address where eMTRG tokens are stored: [0x62e3E1DF0430E6Da83060b3CfFc1AdEb3792DAF1](https://etherscan.io/address/0x62e3e1df0430e6da83060b3cffc1adeb3792daf1)
 2. eMTR
    1. Contract address: [0x29e9fdf5933824ad21bc6dbb8bf156efa3735e32](https://etherscan.io/token/0x29e9fdf5933824ad21bc6dbb8bf156efa3735e32)
-   2. [eMTR / USDT Uniswap pool](https://uniswap.info/pair/0xbc565c35539a821075404764a4ba203b5bb7db6f)
 3. Meter bridge address: 
 
           Mainnet: [0x5c5713656c6819ebe3921936fd28bed2a387cda5](https://scan.meter.io/address/0x5c5713656c6819ebe3921936fd28bed2a387cda5)
