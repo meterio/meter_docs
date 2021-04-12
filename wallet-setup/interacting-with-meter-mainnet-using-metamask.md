@@ -9,6 +9,12 @@ Metamask communicates with the Meter mainnet through a RPC \(Remote Procedure Ca
 
 **For the browser plugin version of Metamask:**
 
+The easiest way to configure metamask is to click on the "Configure Metamask" button on the [wallet page of Meter website](https://meter.io/wallets).
+
+![Configure Metamask with One Click](../.gitbook/assets/image%20%287%29.png)
+
+If you prefer configuring Metamask manually, here are the steps:
+
 1. Select the network drop down menu, and then click on the custom RPC at the bottom.
 
 ![](../.gitbook/assets/image%20%283%29.png)
