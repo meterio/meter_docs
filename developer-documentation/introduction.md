@@ -36,3 +36,11 @@ Mainnet Endpoint: [https://rpc.meter.io](https://rpc.meter.io)
 
 Warringstakes Testnet Endpoint: [https://rpctest.meter.io](https://rpctest.meter.io)
 
+The following is the Metamask settings for the Testnet
+
+![Metamask Settings for Meter Testnet](../.gitbook/assets/image%20%288%29.png)
+
+Faucet for Testnet can be found at:
+
+[http://faucet-warringstakes.meter.io/](http://faucet-warringstakes.meter.io/)
+
