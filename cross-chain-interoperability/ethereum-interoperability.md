@@ -18,9 +18,3 @@ On Ethereum, we are partnering with [ChadSwap](https://chadswap.finance) for liq
 
 Whether you are participating in the liquidity mining for ChadSwap, you will receive 30% APY airdrops in eMTRG directly sent to your wallet on weekly basis
 
-## How to map MTR -&gt; eMTR and MTRG -&gt; eMTRG using the Meter wallet
-
-
-
-
-
