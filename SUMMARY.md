@@ -59,10 +59,3 @@
     * [Code Example Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/code-example-guidelines.md)
     * [Article Writing Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/article-writing-guidelines.md)
 
-## Smart AMM
-
-* [What is Smart AMM?](smart-amm/what-is-charge-finance.md)
-* [Problems with Existing AMMs](smart-amm/problems-with-existing-amms.md)
-* [How Meter's Smart AMM Engine Works](smart-amm/how-meters-smart-amm-engine-works.md)
-* [How Smart AMM Uses Uniswap Oracle](smart-amm/how-smart-amm-uses-uniswap-oracle.md)
-
