@@ -22,7 +22,7 @@ Requirements for running a delegate/committee node: To achieve the full performa
 
 ## Tutorials \(Community Version\)
 
-This [step by step tutorial](https://medium.com/@Paolo_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) is created by community members on how to setup a full node and validator for Meter
+This [step by step tutorial](https://medium.com/@Paolo_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) on how to setup a full node and validator for Meter was created by a community member.  The following guide is officially maintained.
 
 ## Setting up Docker
 
