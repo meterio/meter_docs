@@ -20,6 +20,10 @@ In the initial launch of the main net. The number of Delegate Nodes will be the 
 
 Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory and 200GB of SSD \(AWS c5.2xlarge instance or better\). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 4GB of memory. When the network has minimum load, the average monthly block data is expected to be about 1.5GB.
 
+## Tutorials \(Community Version\)
+
+This [step by step tutorial](https://medium.com/@Paolo_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) is created by community members on how to setup a full node and validator for Meter
+
 ## Setting up Docker
 
 Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu. 
