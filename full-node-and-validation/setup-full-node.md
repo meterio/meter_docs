@@ -57,7 +57,7 @@ Prepare a clean working directory
 ```text
 $ mkdir meter_main_data
 $ cd meter_main_data/
-$ echo "export METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
+$ echo export "METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
