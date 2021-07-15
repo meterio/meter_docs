@@ -39,9 +39,11 @@ These two ERC-20 contracts will only be effective after block 4.9M on the Meter 
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-One potential confusing issue is that the minimum gas price is 500 gwei in Meter.  Metamask will typically estimate the transaction fees too low unless the user set custom gas price 500 gwei.  Meter also doesn't use the gas limit passed from Metamask.
+One potential confusing issue is that the minimum gas price is 500 gwei in Meter.  In some pages of Metamask, it may estimate the transaction fees too low unless the user set custom gas price 500 gwei.  Meter al
 
-Please be aware there is no nonce concept in Meter.  Therefore, **you should NOT click on the "Speed up" or "Cancel" button for the transaction**.  This will cause the same transaction to be issued multiple times.  Any transactions that are not processed within 320 seconds are automatically cancelled in Meter.
+so doesn't use the gas limit passed from Metamask.
+
+Please be aware there is no nonce concept in Meter.  **Therefore, there is no point to click on the "Speed up" or "Cancel" button for the transaction**.  Any transactions that are not processed within 320 seconds are automatically canceled in Meter.
 
 Finally, since Metamask interacts with the Ethereum network by default, it adds wait and delay time for sending transactions. Therefore, it may take up to 30 seconds for Metamask to show that a Meter transaction is confirmed, although it may already be confirmed on the Meter mainnet. 
 
