@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Meter!](README.md)
+* [中文版文档](https://1273611106.gitbook.io/metettest123/)
 
 ## Overview of Meter
 
