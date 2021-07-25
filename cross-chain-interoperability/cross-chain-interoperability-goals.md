@@ -1,11 +1,6 @@
 # Cross-Chain Interoperability Goals
 
-One of Meter's goals is maximizing interoperability with other public blockchains. Meter has already achieved backwards compatibility with the EVM \(Ethereum Virtual Machine\).
+One of Meter's goals is maximizing interoperability with other public blockchains.  Meter Passport is a multi-chain router and enables smart contracts to both transfer assets and communicate across blockchains.
 
-Our interoperability goals:
-
-1. Further improve our Hybrid PoW/PoS + HotStuff Consensus performance.
-2. Enable decentralized value interaction between these blockchains.
-
-In the past year we built a bridge to Ethereum and have partnerships with Elrond and Matic to do the same. Many more similar partnerships are coming, so stay tuned!
+The initial implementation of Meter Passport is based on multi-sig contract secured by five relayers including Protofire, Harshquark, Wetez, InfinityStones, and Meter team.  The upcoming v2 version will support an unlimited number of relayers running consensus on the status of the source chains through the  HotStuff consensus on Meter and create threshold signature based verifications. 
 
