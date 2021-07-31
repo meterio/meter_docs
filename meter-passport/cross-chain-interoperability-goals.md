@@ -1,4 +1,4 @@
-# Cross-Chain Interoperability Goals
+# Meter Passport Goals
 
 One of Meter's goals is maximizing interoperability with other public blockchains.  Meter Passport is a multi-chain router and enables smart contracts to both transfer assets and communicate across blockchains.
 

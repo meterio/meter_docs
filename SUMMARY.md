@@ -24,11 +24,11 @@
 * [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
 * [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
 
-## Cross-Chain Interoperability
+## Meter Passport
 
-* [Cross-Chain Interoperability Goals](cross-chain-interoperability/cross-chain-interoperability-goals.md)
-* [Cross Chain Info](cross-chain-interoperability/ethereum-interoperability.md)
-* [Liquidity Mining with eMTRG](cross-chain-interoperability/liquidity-mining-with-emtrg.md)
+* [Meter Passport Goals](meter-passport/cross-chain-interoperability-goals.md)
+* [Cross Chain Info](meter-passport/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](meter-passport/liquidity-mining-with-emtrg.md)
 
 ## Mining
 
