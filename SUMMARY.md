@@ -27,7 +27,7 @@
 ## Meter Passport
 
 * [Meter Passport Goals](meter-passport/cross-chain-interoperability-goals.md)
-* [Cross Chain Info](meter-passport/ethereum-interoperability.md)
+* [Using Passport](meter-passport/ethereum-interoperability.md)
 * [Liquidity Mining with eMTRG](meter-passport/liquidity-mining-with-emtrg.md)
 
 ## Mining

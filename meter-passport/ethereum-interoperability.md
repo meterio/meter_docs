@@ -1,4 +1,4 @@
-# Cross Chain Info
+# Using Passport
 
 ## The Meter Passport
 
