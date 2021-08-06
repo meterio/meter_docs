@@ -20,7 +20,9 @@ MTRG contract address: [0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F](https://ethe
 
 ## Operating the Same Account on Metamask and Meter Wallet
 
-Meter Wallet supports native Meter transactions including staking, starting candidate nodes, vote on candidates.  Metamask is used in the Ethereum emulation mode to interact with dApps.  It is easy to operate the same account in both Meter Wallet and Metamask.  Meter wallet is completely [open sourced](https://github.com/meterio/meter-wallet).  Your private key will only be encrypted and stored in your local computer.
+Metamask configuration information can be found in the previous section
+
+Meter Wallet supports native Meter transactions including staking, starting candidate nodes, vote on candidates.  Metamask is used in the Ethereum emulation mode to interact with dApps.  It is easy to operate the same account in both Meter Wallet and Metamask.  Meter wallet is completely [open sourced](https://github.com/meterio/meter-wallet).  Your private key will only be encrypted and stored on your local computer.
 
 To export the private keys from Meter Wallet to Metamask:
 

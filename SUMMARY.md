@@ -18,17 +18,17 @@
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
 
-## Staking and Validation <a id="full-node-and-validation"></a>
-
-* [Staking MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details.md)
-* [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
-* [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
-
 ## Meter Passport
 
 * [Meter Passport Goals](meter-passport/cross-chain-interoperability-goals.md)
 * [Using Passport](meter-passport/ethereum-interoperability.md)
 * [Liquidity Mining with eMTRG](meter-passport/liquidity-mining-with-emtrg.md)
+
+## Staking and Validation <a id="full-node-and-validation"></a>
+
+* [Staking MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details.md)
+* [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
+* [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
 
 ## Mining
 

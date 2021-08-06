@@ -1,11 +1,11 @@
 # Interacting with Meter Mainnet Using MetaMask
 
-Meter mainnet now supports two transaction \(tx\) formats: 
+Meter mainnet now supports two transactions \(tx\) formats: 
 
 1. The native Meter tx, which is more expansive and supports staking, on-chain auctions, validator transactions, and future multiple chains/shards. This tx format is used by the Meter mainnet wallet which is a PC/Mac application [downloadable](https://www.meter.io/wallets/) from the Meter website or [Github](https://github.com/meterio/meter-wallet). 
 2. Ethereum tx. This is designed for backward compatibility with existing Ethereum dApps and ecosystem including wallets like [Metamask](https://metamask.io/).
 
-Metamask communicates with the Meter mainnet through a RPC \(Remote Procedure Call\) emulation layer.  The user will have to configure a custom RPC network inside MetaMask. Here is how to do so.
+Metamask communicates with the Meter mainnet through an RPC \(Remote Procedure Call\) emulation layer.  The user will have to configure a custom RPC network inside MetaMask. Here is how to do so.
 
 **For the browser plugin version of Metamask:**
 
@@ -15,7 +15,7 @@ The easiest way to configure metamask is to click on the "Configure Metamask" bu
 
 If you prefer configuring Metamask manually, here are the steps:
 
-1. Select the network drop down menu, and then click on the custom RPC at the bottom.
+1. Select the network drop-down menu, and then click on the custom RPC at the bottom.
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
