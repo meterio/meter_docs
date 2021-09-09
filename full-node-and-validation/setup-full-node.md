@@ -49,10 +49,9 @@ After this, please logout and log back in to refresh the user group setting and 
 ## Setting up a full node
 
 1. Download the latest [desktop wallet](https://www.meter.io/wallets/)
-2. Prepare host working directory for Meter Docker container It is recommended to have a host working directory for the container to save important keys and block database, so we could retain them in future upgrades. We will create a directory called meter-data and set its path to and environment variable called **METER\_MAIN\_DATA\_PATH** 
-3. Prepare host working directory for Meter Docker container It is recommended to have a host working directory for the container to save important keys and block database, so we could retain them in future upgrades. We will create a directory called meter-data and set its path to and environment variable called METER\_DATA\_PATH \(you will have to modify accordingly if you have a different directory structure\) and map it to the /pos directory inside the container.
+2. Prepare host working directory for Meter Docker container It is recommended to have a host working directory for the container to save important keys and block database, so we could retain them in future upgrades. We will create a directory called meter-data and set its path to and environment variable called **METER\_MAIN\_DATA\_PATH** \(you will have to modify accordingly if you have a different directory structure\) and map it to the /pos directory inside the container.
 
-Prepare a clean working directory
+3. Prepare a clean working directory
 
 ```text
 $ mkdir meter_main_data
@@ -61,7 +60,7 @@ $ echo export "METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-Launch the Meter container
+4. Launch the Meter container
 
 **The following instructions assumes the user operates in METER\_MAIN\_DATA\_PATH. Please pay attention to the parameters in the commands and replace the path accordingly to your environment, especially the path after -v in docker run commands**.
 
@@ -69,7 +68,7 @@ Launch the Meter container
 docker run --network host --name meter_main --restart always -e NETWORK="main" -v $METER_MAIN_DATA_PATH:/pos -d meterio/mainnet:latest
 ```
 
-Several useful commands for docker:
+5. Check that container is actually working
 
 ```text
 docker container ls -a
@@ -99,7 +98,9 @@ docker cp meter_main:/var/log/supervisor/[LogFileNameHere]     //replace with th
 
 After confirming the node is running properly through the log, you could then connect the desktop wallet to your own full node.
 
-You could compare the with height with the [Explorer](http://scan.meter.io/) maintained by the team
+## Track node sync status
+
+You can compare the height of your running node with the [Explorer](http://scan.meter.io/) maintained by the team
 
 1. Point [Meter desktop wallet](https://meter.io/wallets) to your own full node In the settings of the wallet, under node, you could and connect add your own full node by adding http://IPaddrOfYourNode:8669 . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions. 
 
@@ -125,11 +126,14 @@ docker container rm -f meter_main
 
 Pull the latest container image
 
+
 ```text
 docker pull meterio/mainnet:latest
 ```
 
+
 Start the new image
+
 
 ```text
 docker run --network host --name meter_main --restart always -e NETWORK="main" -v $METER_MAIN_DATA_PATH:/pos -d meterio/mainnet:latest
