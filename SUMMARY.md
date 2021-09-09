@@ -20,9 +20,13 @@
 
 ## Meter Passport
 
-* [Meter Passport Goals](meter-passport/cross-chain-interoperability-goals.md)
-* [Using Passport](meter-passport/ethereum-interoperability.md)
-* [Liquidity Mining with eMTRG](meter-passport/liquidity-mining-with-emtrg.md)
+* [Architecture Overview](meter-passport/architecture-overview.md)
+
+## Meter Passport <a id="meter-passport-1"></a>
+
+* [Meter Passport Goals](meter-passport-1/cross-chain-interoperability-goals.md)
+* [Using Passport](meter-passport-1/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](meter-passport-1/liquidity-mining-with-emtrg.md)
 
 ## Staking and Validation <a id="full-node-and-validation"></a>
 
