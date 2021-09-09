@@ -30,7 +30,7 @@ Whether you are participating in the liquidity mining for ChadSwap, you will rec
 
 The most up to date circulating supply and total supply information can be found on the Meter explorer
 
-\*\*\*\*[**Converting between MTRG and eMTRG**](../cross-chain-interoperability/ethereum-interoperability.md)
+\*\*\*\*[**Converting between MTRG and eMTRG**](../meter-passport-1/ethereum-interoperability.md)
 
 \*\*\*\*
 

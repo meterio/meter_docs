@@ -56,7 +56,7 @@ After this, please logout and log back in to refresh the user group setting and 
 ```text
 $ mkdir meter_main_data
 $ cd meter_main_data/
-$ echo "export METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
+$ echo export "METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
@@ -118,19 +118,22 @@ docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/ru
 
 ## Upgrade a full node manually
 
-1. Stop and remove the current CONTAINER
+Stop and remove the current CONTAINER
 
 ```text
-docker container rm -f meter
+docker container rm -f meter_main
 ```
 
-2. Pull the latest container image
+Pull the latest container image
+
 
 ```text
 docker pull meterio/mainnet:latest
 ```
 
-3. Start the new image
+
+Start the new image
+
 
 ```text
 docker run --network host --name meter_main --restart always -e NETWORK="main" -v $METER_MAIN_DATA_PATH:/pos -d meterio/mainnet:latest

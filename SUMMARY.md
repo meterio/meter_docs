@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Meter!](README.md)
+* [中文版文档](https://cn.docs.meter.io)
 
 ## Overview of Meter
 
@@ -17,17 +18,21 @@
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
 
+## Meter Passport
+
+* [Architecture Overview](meter-passport/architecture-overview.md)
+
+## Meter Passport <a id="meter-passport-1"></a>
+
+* [Meter Passport Goals](meter-passport-1/cross-chain-interoperability-goals.md)
+* [Using Passport](meter-passport-1/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](meter-passport-1/liquidity-mining-with-emtrg.md)
+
 ## Staking and Validation <a id="full-node-and-validation"></a>
 
 * [Staking MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details.md)
 * [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
 * [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
-
-## Cross-Chain Interoperability
-
-* [Cross-Chain Interoperability Goals](cross-chain-interoperability/cross-chain-interoperability-goals.md)
-* [eMTRG and eMTR](cross-chain-interoperability/ethereum-interoperability.md)
-* [Liquidity Mining with eMTRG](cross-chain-interoperability/liquidity-mining-with-emtrg.md)
 
 ## Mining
 
