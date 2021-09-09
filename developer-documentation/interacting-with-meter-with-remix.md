@@ -1,12 +1,12 @@
 # Developing with Remix, Ethers.js and Web3.js
 
-Ethereum developers are able to use Remix to compile and debug code for Meter. The current EVM version for Meter is **Constantinople**.  MTR is used instead of ETH in Ethereum.
+Ethereum developers are able to use Remix to compile and debug code for Meter. The current EVM version for Meter is **Constantinople**. MTR is used instead of ETH in Ethereum.
 
-### Remix:  
+### Remix:
 
 Use "Injected Web3" in Remix and [configure Metamask](../wallet-setup/interacting-with-meter-mainnet-using-metamask.md) properly to deploy on Meter.
 
-Meter also supports ethers.js and web3.js through the RPC endpoints.  
+Meter also supports ethers.js and web3.js through the RPC endpoints.
 
 ## Using Ethers.js
 
@@ -52,11 +52,11 @@ const web3 = new Web3('RPC_URL');
 
 Please remember to set the `RPC_URL` to the correct RPC endpoint.
 
-### RPC End Points 
+### RPC End Points
 
 Mainnet: `https://rpc.meter.io`
 
-Warringstakes Testnet: `https://rpctest.meter.io` 
+Warringstakes Testnet: `https://rpctest.meter.io`
 
 Private Node: `http://`_`node_ip`_`:8545`
 

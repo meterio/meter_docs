@@ -20,6 +20,10 @@ In the initial launch of the main net. The number of Delegate Nodes will be the 
 
 Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory and 200GB of SSD \(AWS c5.2xlarge instance or better\). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 4GB of memory. When the network has minimum load, the average monthly block data is expected to be about 1.5GB.
 
+## Tutorials \(Community Version\)
+
+This [step by step tutorial](https://medium.com/@Paolo_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) on how to setup a full node and validator for Meter was created by a community member.  The following guide is officially maintained.
+
 ## Setting up Docker
 
 Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu. 
@@ -53,7 +57,7 @@ Prepare a clean working directory
 ```text
 $ mkdir meter_main_data
 $ cd meter_main_data/
-$ echo "export METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
+$ echo export "METER_MAIN_DATA_PATH=$PWD" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
@@ -97,7 +101,7 @@ After confirming the node is running properly through the log, you could then co
 
 You could compare the with height with the [Explorer](http://scan.meter.io/) maintained by the team
 
-1. Point [Meter desktop wallet](https://meter.io/wallets) to your own full node In the settings of the wallet, under node, you could and connect add your own full node by adding [http://IPaddrOfYourNode:8669](http://ipaddrofyournode:8669/) . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions. 
+1. Point [Meter desktop wallet](https://meter.io/wallets) to your own full node In the settings of the wallet, under node, you could and connect add your own full node by adding http://IPaddrOfYourNode:8669 . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions. 
 
 [![Adding Your Node in Wallet Settings](https://github.com/meterio/mainnet_docs/raw/master/addnode.png)](https://github.com/meterio/mainnet_docs/blob/master/addnode.png) [![Connecting to Your Node](https://github.com/meterio/mainnet_docs/raw/master/connectnode.png)](https://github.com/meterio/mainnet_docs/blob/master/connectnode.png)
 
@@ -113,19 +117,19 @@ docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/ru
 
 ## Upgrade a full node manually
 
-1. Stop and remove the current CONTAINER
+Stop and remove the current CONTAINER
 
 ```text
-docker container rm -f meter
+docker container rm -f meter_main
 ```
 
-1. Pull the latest container image
+Pull the latest container image
 
 ```text
 docker pull meterio/mainnet:latest
 ```
 
-1. Start the new image
+Start the new image
 
 ```text
 docker run --network host --name meter_main --restart always -e NETWORK="main" -v $METER_MAIN_DATA_PATH:/pos -d meterio/mainnet:latest

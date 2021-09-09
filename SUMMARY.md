@@ -1,23 +1,32 @@
 # Table of contents
 
 * [Welcome to Meter!](README.md)
+* [中文版文档](https://cn.docs.meter.io)
 
 ## Overview of Meter
 
----
-
-* [Introduction to Meter](introduction-to-meter.md)
-* [Hybrid PoV Consensus Mechanism](hybrid-consensus-mechanism.md)
-* [MTR - The Metastable Coin](mtr-the-metastable-coin.md)
-* [MTRG - Meter Governance Coin](mtrg-meter-governance-coin.md)
-* [On-Chain Auctions](on-chain-auctions.md)
-* [The Meter Reserve](the-meter-reserve.md)
-* [Meter's Ethereum Emulation Mode](meters-ethereum-emulation-mode.md)
-* [Useful Information](useful-information.md)
+* [Introduction to Meter](overview-of-meter/introduction-to-meter.md)
+* [Hybrid PoV Consensus Mechanism](overview-of-meter/hybrid-consensus-mechanism.md)
+* [MTR - The Metastable Coin](overview-of-meter/mtr-the-metastable-coin.md)
+* [MTRG - Meter Governance Coin](overview-of-meter/mtrg-meter-governance-coin.md)
+* [On-Chain Auctions](overview-of-meter/on-chain-auctions.md)
+* [The Meter Reserve](overview-of-meter/the-meter-reserve.md)
+* [Meter's Ethereum Emulation Mode](overview-of-meter/meters-ethereum-emulation-mode.md)
+* [Useful Information](overview-of-meter/useful-information.md)
 
 ## Wallet Setup
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
+
+## Meter Passport
+
+* [Architecture Overview](meter-passport/architecture-overview.md)
+
+## Meter Passport <a id="meter-passport-1"></a>
+
+* [Meter Passport Goals](meter-passport-1/cross-chain-interoperability-goals.md)
+* [Using Passport](meter-passport-1/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](meter-passport-1/liquidity-mining-with-emtrg.md)
 
 ## Staking and Validation <a id="full-node-and-validation"></a>
 
@@ -25,11 +34,13 @@
 * [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
 * [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
 
-## Cross-Chain Interoperability
+## Mining
 
-* [Cross-Chain Interoperability Goals](cross-chain-interoperability/cross-chain-interoperability-goals.md)
-* [eMTRG and eMTR](cross-chain-interoperability/ethereum-interoperability.md)
-* [Liquidity Mining with eMTRG](cross-chain-interoperability/liquidity-mining-with-emtrg.md)
+* [Meter Mining Guide](mining/meter-mining-guide.md)
+
+## NFT Collections <a id="nfts"></a>
+
+* [Meter Community NFTs](nfts/current-meter-community-nfts.md)
 
 ## Developer Documentation
 
@@ -52,15 +63,4 @@
     * [Tutorial Creation Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/tutorial-creation-guidelines.md)
     * [Code Example Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/code-example-guidelines.md)
     * [Article Writing Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/article-writing-guidelines.md)
-
-## Mining
-
-* [Meter Mining Guide](mining/meter-mining-guide.md)
-
-## Smart AMM
-
-* [What is Smart AMM?](smart-amm/what-is-charge-finance.md)
-* [Problems with Existing AMMs](smart-amm/problems-with-existing-amms.md)
-* [How Meter's Smart AMM Engine Works](smart-amm/how-meters-smart-amm-engine-works.md)
-* [How Smart AMM Uses Uniswap Oracle](smart-amm/how-smart-amm-uses-uniswap-oracle.md)
 
