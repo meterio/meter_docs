@@ -24,7 +24,8 @@
 
 ## Meter Passport <a id="meter-passport-1"></a>
 
-* [Meter Passport Goals](meter-passport-1/cross-chain-interoperability-goals.md)
+* [Meter Passport Architecture](meter-passport-1/cross-chain-interoperability-goals.md)
+* [Onboarding Meter Passport for Your Project](meter-passport-1/onboarding-meter-passport-for-your-project.md)
 * [Using Passport](meter-passport-1/ethereum-interoperability.md)
 * [Liquidity Mining with eMTRG](meter-passport-1/liquidity-mining-with-emtrg.md)
 
