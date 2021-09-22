@@ -1,4 +1,4 @@
-# Onboarding Meter Passport for Your Project
+# Onboarding Passport for Your Project
 
 The primary purpose of this document is to provide guidelines for projects on how they can onboard their tokens to the Meter Passport bridge and start transferring assets to/from Moonbeam/Moonriver.  
 
