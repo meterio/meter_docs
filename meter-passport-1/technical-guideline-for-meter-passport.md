@@ -5,11 +5,11 @@ The primary purpose of this document is to provide guidelines for projects on ho
 
 The document is divided into the following sections:
 
-* [How the bridge works](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#heading=h.xii9o4d8ci7r)
-* [Different token transfer models supported by the bridge](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#heading=h.9jff3tl1kr2m)
-* [As a project, what do you have to do](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#heading=h.e299lzbdhpz)
-* [Links of interest](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#heading=h.2e07jjt734cs)
-* [Contact information](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#heading=h.qgmkskm58pkl)
+* How the bridge works
+* Different token transfer models supported by the bridge
+* As a project, what do you have to do
+* Links of interest
+* Contact information
 
 ### How does the bridge work at a high level?
 
@@ -31,7 +31,7 @@ In terms of paying for gas, users of the bridge will cover gas costs in the sour
 
 On both sides of the bridge, there are a set of smart contracts, where each has a specific function:
 
-Bridge contract — users and relayers interact with this contract. It delegates calls to the handler contracts for deposits, starts a transaction on the source chain, and for executions of the proposals on the target chain.
+Bridge contract — users and relayers interact with this contract. It delegates calls to the handler contracts for deposits, starts a transaction on the source chain, and executes the proposals on the target chain.
 
 Handler contracts — validates the parameters provided by the user, creating a deposit/execution record.
 
