@@ -1,6 +1,6 @@
 # Tutorials for Using Meter Passport
 
-A video tutorial on using Meter Passport can be found here.
+A video tutorial on using Meter Passport can be found [here](https://youtu.be/pii65LCFXQ4).
 
 Important Links:
 
@@ -8,9 +8,9 @@ Important Links:
 
 [https://passport.meter.io](https://passport.meter.io)  Bridging assets across different chains
 
-The bridge is currently secured by Protofire, Hashquark, InfinityStones, Wetez, and Meter.  3 out of these 5 relayers have to sign off on a transaction to go through.  Typical transfer between BSC, Moonriver, and Meter take around 10 to 20 seconds, while any transfer that involves Ethereum requires 25 block confirmations for the bridge deposit transaction on the Ethereum side \(When the UI shows "In transit"\) which may take 6 to 10 minutes.  
+The bridge is currently secured by Protofire, Hashquark, InfinityStones, Wetez, and Meter.  3 out of these 5 relayers have to sign off on a transaction to go through.  Typical transfer between BSC, Moonriver, and Meter takes around 10 to 20 seconds, while any transfer that involves Ethereum requires 25 block confirmations for the bridge deposit transaction on the Ethereum side \(When the UI shows "In transit"\) which may take 6 to 10 minutes.  
 
-The bridge fee exists to support the gas spending and operations for the team of decentralized relayers.  For MoonRiver users, MTRG will be directly airdropped on the MoonRiver network at launch to cover bridge and gas fees on Ethereum.  This is a short-term promotional program funded by the Meter Foundation to help the MoonRiver community building the initial DeFi ecosystem.  The MTRG tokens can be transferred to Meter Mainnet and traded on [VoltSwap](https://voltswap.finance).  Meter also has a standard bridge fee subsidy program that reimburses up to 85% of the bridge fee in MTRG based on the rules at the end of this tutorial.
+The bridge fee exists to support the gas spending and operations for the team of decentralized relayers.  For MoonRiver users, MTRG will be directly airdropped on the MoonRiver network at launch to cover bridge and gas fees on Ethereum.  This is a short-term promotional program funded by the Meter Foundation to help the MoonRiver community building the initial DeFi ecosystem.  The MTRG tokens can be transferred to Meter Mainnet and traded on [VoltSwap](https://voltswap.finance).  Meter also has a standard bridge fee subsidy program that reimburses up to 85% of the bridge fee in MTRG described in the [Bridge Fee Subsidy Program](bridge-fee-subsidy-program.md).
 
 Different assets are supported depend on the source and destination chains.  Click “Change” to select the network where you want to bring the tokens from. Then select the token and the amount. Make sure “I want to send funds to my address.” is checked for bridge fee subsidy and airdrops.  Lastly, click on “Start Transfer” to initiate the bridging.
 
@@ -25,19 +25,6 @@ Different assets are supported depend on the source and destination chains.  Cli
 ![](../.gitbook/assets/image%20%2816%29.png)
 
 3\) Now that your tokens have been bridged \(transferred\) to the destination.  If you are bridging into Meter should automatically receive 0.3 MTR airdrop in your wallet whenever you bridge an asset into Meter.  You could use it for the initial transfers and swaps on the Meter mainnet. 
-
-**The Meter Standard Bridge Subsidy Program:**
-
-**All bridge transfers across all assets into the Meters Tesla Mainnet will be reimbursed to 85% of the bridge fees.** 
-
-**Passport transfer in all other directions:** gets 30% reimbursement on the first 3 bridge transfers. 
-
-Meter stakers on Tesla Mainnet are further incentivized as the following: 
-
-1. Address &gt; 100 MTRG staked — 30% reimbursement on all bridge fees 
-2. Address &gt; 500 MTRG staked — 50% reimbursement on all bridge fees 
-3. Address &gt; 1000 MTRG staked — 60% reimbursement on all bridge fees 
-4. Address &gt; 5000 MTRG staked — 85% reimbursement on all bridge fees
 
 
 

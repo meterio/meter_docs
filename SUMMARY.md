@@ -26,6 +26,7 @@
 
 * [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
 * [Tutorials for Using Meter Passport](passport/tutorials-for-using-meter-passport.md)
+* [Bridge Fee Subsidy Program](passport/bridge-fee-subsidy-program.md)
 * [MTRG Crosschain Info](passport/ethereum-interoperability.md)
 * [Liquidity Mining with eMTRG](passport/liquidity-mining-with-emtrg.md)
 * [Onboarding Passport for Your Project](passport/onboarding-meter-passport-for-your-project.md)
