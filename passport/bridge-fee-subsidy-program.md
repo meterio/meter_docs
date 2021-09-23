@@ -1,12 +1,14 @@
 # Bridge Fee Subsidy Program
 
-**The Meter Standard Bridge Subsidy Program:**
+To qualify for the program the user has to use the same address on both the source chain and the destination chain \(default mode\).
 
 **All bridge transfers across all assets into the Meters Tesla Mainnet will be reimbursed to 85% of the bridge fees.** 
 
-**Passport transfer in all other directions:** gets 30% reimbursement on the first 3 bridge transfers. 
+**Passport transfer in all other directions:** 
 
-Meter stakers on Tesla Mainnet are further incentivized as the following: 
+30% reimbursement on the first 3 bridge transfers. 
+
+Meter stakers on the Meter Mainnet are further incentivized as the following: 
 
 1. Address &gt; 100 MTRG staked — 30% reimbursement on all bridge fees 
 2. Address &gt; 500 MTRG staked — 50% reimbursement on all bridge fees 
