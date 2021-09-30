@@ -29,7 +29,7 @@ The following sections go through each of the steps.
 There are two main possibilities for transferring tokens from one chain to another: the lock-unlock mechanism and the lock/mint - burn/unlock mechanism. In both models, tokens in the destination chain are typically called “wrapped representations” of the original tokens.  
 
 
-Each model has pros and cons in terms of user experience, setup, token accountability, and security. You can read more about each token model in the [Technical Guidelines](https://docs.google.com/document/d/1z8a8yjRvqDe6fTjLXGyhjyyjQIwz2ENIsXsju3mvVlo/edit#) document.  
+Each model has pros and cons in terms of user experience, setup, token accountability, and security. You can read more about each token model in the [Technical Guidelines](technical-guideline-for-meter-passport.md) document.  
 
 
 The token model you decide defines the smart contract you’ll need to deploy for the wrapped token representation for the destination chains.  
