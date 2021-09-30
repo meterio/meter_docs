@@ -126,10 +126,9 @@ Meter Passport bridge tokens Github:
 [https://github.com/meterio/token-list](https://github.com/meterio/token-list)  
 
 
-Chainbridge Github: 
+Bridge contract Github: 
 
-[https://github.com/ChainSafe/chainbridge-solidity](https://github.com/ChainSafe/chainbridge-solidity)  
-
+[https://github.com/meterio/chainbridge-solidity-v1.0.0-eth](https://github.com/meterio/chainbridge-solidity-v1.0.0-eth)
 
 Chainbridge original documentation:
 
