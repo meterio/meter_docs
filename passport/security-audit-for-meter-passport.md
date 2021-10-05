@@ -6,7 +6,7 @@ The changes made by Meter Passport were intentionally limited to the peripherals
 
 The changes include:
 
-1. Automatically wrapping and unwrapping native gas tokens, for example from ETH to WETH.
+1. Automatically wrapping and unwrapping native gas tokens, for example converting betwen ETH and WETH.
 2. Configuring different bridge fees based on source and destination networks
 3. Configuring different proposal expiration block count to accommodate various block speed on different networks
 
