@@ -12,3 +12,5 @@ The changes include:
 
 The changes have been thoroughly peer-reviewed by other teams who are familiar with the Chainbridge implementation including the Ampleforth team.  An official security report will be posted later when it is published.
 
+The relayers running Meter Passport are: Protofire, Hashquark, InfinityStones, Wetez, and Meter.  3 out of the 5 relayers were previously running the original Avalanche-Ethereum bridge, which was also based on Chainbridge and had more than $300M TVL with no security incidents.  They are also running validator nodes on various other networks including Binance Smart Chain, Polygon, Avalanche, and Fantom.
+
