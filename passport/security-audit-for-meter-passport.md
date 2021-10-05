@@ -4,7 +4,7 @@ The v1 version of Meter Passport is forked from Chainsafe chainbridge v1, which 
 
 The changes made by Meter Passport were intentionally limited to the periphirals of the Chainbridge smart contracts to ensure the original security parameters were intact.  
 
-The changes made by Meter Passport include:
+The changes are:
 
 1. Automatically wrapping and unwrapping native gas tokens, for example from ETH to WETH.
 2. Configuring different bridge fees based on source and destination networks
