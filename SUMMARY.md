@@ -31,6 +31,7 @@
 * [Liquidity Mining with eMTRG](passport/liquidity-mining-with-emtrg.md)
 * [Onboarding Passport for Your Project](passport/onboarding-meter-passport-for-your-project.md)
 * [Technical Guideline for Meter Passport](passport/technical-guideline-for-meter-passport.md)
+* [Security Audit for Meter Passport](passport/security-audit-for-meter-passport.md)
 
 ## Staking and Validation <a id="full-node-and-validation"></a>
 
