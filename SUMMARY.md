@@ -22,11 +22,16 @@
 
 * [Architecture Overview](meter-passport/architecture-overview.md)
 
-## Meter Passport <a id="meter-passport-1"></a>
+## Meter Passport <a id="passport"></a>
 
-* [Meter Passport Goals](meter-passport-1/cross-chain-interoperability-goals.md)
-* [Using Passport](meter-passport-1/ethereum-interoperability.md)
-* [Liquidity Mining with eMTRG](meter-passport-1/liquidity-mining-with-emtrg.md)
+* [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
+* [Tutorials for Using Meter Passport](passport/tutorials-for-using-meter-passport.md)
+* [Bridge Fee Subsidy Program](passport/bridge-fee-subsidy-program.md)
+* [MTRG Crosschain Info](passport/ethereum-interoperability.md)
+* [Liquidity Mining with eMTRG](passport/liquidity-mining-with-emtrg.md)
+* [Onboarding Passport for Your Project](passport/onboarding-meter-passport-for-your-project.md)
+* [Technical Guideline for Meter Passport](passport/technical-guideline-for-meter-passport.md)
+* [Security Audit for Meter Passport](passport/security-audit-for-meter-passport.md)
 
 ## Staking and Validation <a id="full-node-and-validation"></a>
 

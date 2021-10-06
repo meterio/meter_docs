@@ -1,4 +1,4 @@
-# Using Passport
+# MTRG Crosschain Info
 
 ## The Meter Passport
 
@@ -17,6 +17,10 @@ Ethereum:
 Binance Smart Chain\(BSC\):
 
 MTRG contract address: [0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F](https://etherscan.io/token/0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F)
+
+MoonRiver:
+
+MTRG contract address: [0x1e24EC84F66cd26Dad607d81796DbeB13Cb22692](https://blockscout.moonriver.moonbeam.network/address/0x1e24EC84F66cd26Dad607d81796DbeB13Cb22692)
 
 ## Operating the Same Account on Metamask and Meter Wallet
 
