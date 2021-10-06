@@ -4,7 +4,7 @@ The v1 version of Meter Passport is forked from Chainsafe chainbridge v1, which 
 
 The changes made by Meter Passport were intentionally limited to the peripherals of the Chainbridge smart contracts to ensure the original security parameters were intact.  
 
-The changes include and can be found [here](https://github.com/meterio/chainbridge-solidity-v1.0.0-eth/commits/1d58a3fe0c10506b438b26f5d7a7a13982437126):
+The list of changes can be found [here](https://github.com/meterio/chainbridge-solidity-v1.0.0-eth/commits/1d58a3fe0c10506b438b26f5d7a7a13982437126):
 
 1. Automatically wrapping and unwrapping native gas tokens, for example converting between ETH and WETH.
 2. Configuring different bridge fees based on source and destination networks
