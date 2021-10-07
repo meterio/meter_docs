@@ -54,7 +54,7 @@ First of all you need to create some addresses using a Mnemonic generator
 ## Download the contract boilerplate source code
 
 Download/Clone the boilerplate meter contract, compile & deploy scripts.
-[https://github.com/antonimassomola/meter-dev-series/tree/main/solidity-meter-boilerplate](https://github.com/antonimassomola/meter-dev-series/tree/main/solidity-meter-boilerplate) Meter boilerplate contract
+[https://github.com/meterio/meter_tutorials/tree/main/solidity-meter-boilerplate](https://github.com/meterio/meter_tutorials/tree/main/solidity-meter-boilerplate) Meter boilerplate contract
 
 ### Install the dependencies
 
@@ -91,7 +91,7 @@ Contract deployed to 0x0Fdef7877e835d68ddC09Becce1bAa6e5a8c2919
 ## Download the react app boilerplate source code to interact with the contract
 
 Download/Clone the boilerplate react web3 meter.
-[https://github.com/antonimassomola/meter-dev-series/tree/main/react-web3-meter-boilerplate](https://github.com/antonimassomola/meter-dev-series/tree/main/react-web3-meter-boilerplate) Meter React & web3 boilerplate
+[https://github.com/meterio/meter_tutorials/tree/main/react-web3-meter-boilerplate](https://github.com/meterio/meter_tutorials/tree/main/react-web3-meter-boilerplate) Meter React & web3 boilerplate
 
 ### Install the dependencies
 
