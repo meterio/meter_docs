@@ -21,7 +21,7 @@ VOLT contract addresses:
 
 ### Receive MTR function
 
-To receive MTR in your contract balance you need to create a function that is payable. msg.value contains the amount of MTR that has been in the transaction.
+To receive MTR in your contract balance you need to create a function that is payable. msg.value contains the amount of MTR that has been sent in the transaction.
 
 ````solidity
 function receiveMTR() public payable {
