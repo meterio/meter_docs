@@ -95,7 +95,6 @@ function transferVOLT(){
   IERC20 paymentToken = IERC20(voltMTRG);
   paymentToken.transfer(address, transferAmount);
 }
-
 ````
 
 ## React dApp using web3
