@@ -18,11 +18,7 @@
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
 
-## Meter Passport
-
-* [Architecture Overview](meter-passport/architecture-overview.md)
-
-## Meter Passport <a id="passport"></a>
+## Meter Passport <a href="passport" id="passport"></a>
 
 * [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
 * [Tutorials for Using Meter Passport](passport/tutorials-for-using-meter-passport.md)
@@ -33,7 +29,7 @@
 * [Technical Guideline for Meter Passport](passport/technical-guideline-for-meter-passport.md)
 * [Security Audit for Meter Passport](passport/security-audit-for-meter-passport.md)
 
-## Staking and Validation <a id="full-node-and-validation"></a>
+## Staking and Validation <a href="full-node-and-validation" id="full-node-and-validation"></a>
 
 * [Staking MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details.md)
 * [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
@@ -43,7 +39,7 @@
 
 * [Meter Mining Guide](mining/meter-mining-guide.md)
 
-## NFT Collections <a id="nfts"></a>
+## NFT Collections <a href="nfts" id="nfts"></a>
 
 * [Meter Community NFTs](nfts/current-meter-community-nfts.md)
 
@@ -68,4 +64,3 @@
     * [Tutorial Creation Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/tutorial-creation-guidelines.md)
     * [Code Example Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/code-example-guidelines.md)
     * [Article Writing Guidelines](developer-documentation/contributing-to-meter-and-our-documentation/documentation-guidelines/article-writing-guidelines.md)
-

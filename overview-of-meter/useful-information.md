@@ -1,12 +1,12 @@
 # Useful Information
 
-**Meter Explorer:**  
+**Meter Explorer:  **
 
 https://scan.meter.io
 
 **Meter Main net applications:**
 
-Meter Swap: 
+Meter Swap:&#x20;
 
 {% embed url="https://swap.meter.io" %}
 
@@ -14,9 +14,9 @@ Meter Swap:
 
 Main net MTRG and MTR
 
-{% embed url="https://www.gate.io/trade/MTRG\_USDT" %}
+{% embed url="https://www.gate.io/trade/MTRG_USDT" %}
 
-eMTRG \(wrapped MTRG on Ethereum\)
+eMTRG (wrapped MTRG on Ethereum)
 
 {% embed url="https://info.uniswap.org/pair/0x837f68d11cd15e8ab10dd5f3f210516f2cf2bcfb" %}
 
@@ -30,9 +30,7 @@ Whether you are participating in the liquidity mining for ChadSwap, you will rec
 
 The most up to date circulating supply and total supply information can be found on the Meter explorer
 
-\*\*\*\*[**Converting between MTRG and eMTRG**](../passport/ethereum-interoperability.md)
+****[**Converting between MTRG and eMTRG**](../passport/ethereum-interoperability.md)
 
-\*\*\*\*
-
-
+****
 
