@@ -6,33 +6,47 @@ There are two primary methods of interacting with Meter:
 
 **Ethereum RPC**
 
-In order to better support existing Ethereum dApp developers we developed an Ethereum emulation mode for Meter. Through an addon module called webgear Meter nodes are able to understand Ethereum transaction format and support the standard Ethereum RPC interface. It is like using the Apple M1 silicon to run x86 applications with a 100x performance improvement. Developers are even able to use their preferred Ethereum development tools like `Remix`, `ethers.js` and `web3.js` to interact with Meter. Due to the limitations of the Ethereum RPC not all Meter functionality is available in Ethereum emulation mode. In this mode MTRG must be treated as a special ERC20 token via a system contract.
+In order to better support existing Ethereum dApp developers, we developed an Ethereum emulation mode for Meter. Through an addon module called webgear Meter nodes are able to understand Ethereum transaction format and support the standard Ethereum RPC interface. It is like using the Apple M1 silicon to run x86 applications with a 100x performance improvement. Developers are even able to use their preferred Ethereum development tools like `Remix`, `ethers.js` and `web3.js` to interact with Meter. Due to the limitations of the Ethereum RPC, not all Meter functionality is available in Ethereum emulation mode. In this mode, MTRG must be treated as a special ERC20 token via a system contract.
 
-The other difference between Meter and Ethereum is that Meter removed the sequential nonce concept in Ethereum and uses a random number as nonce instead. The Ethereum emulation layer will automatically generate the random nonce, you will not be able to replace a transaction with the same nonce. Additionally the sender of a transation must rely on the transaction hash returned by the node instead of generating it directly offline.
+The other difference between Meter and Ethereum is that Meter removed the sequential nonce concept in Ethereum and uses a random number as nonce instead. The Ethereum emulation layer will automatically generate the random nonce, you will not be able to replace a transaction with the same nonce. Additionally, the sender of a transation must rely on the transaction hash returned by the node instead of generating it directly offline.
 
 When interacting with Meter you must use "Injected Web3" in Remix alongside Metamask.
 
-Mainnet Endpoint: [https://rpc.meter.io](https://rpc.meter.io)
+**Testnet:**
 
 Warringstakes Testnet Endpoint: [https://rpctest.meter.io](https://rpctest.meter.io)
-
-The following is the Metamask settings for the Testnet
-
-RPC: https://rpctest.meter.io
 
 ChainID: 83
 
 Currency Symbol: MTR
 
-Explorer: https://scan-warringstakes.meter.io
+Explorer: [https://scan-warringstakes.meter.io](https://scan-warringstakes.meter.io)
 
-ERC20 System Interface:
+_ERC20 System Interface:_
 
 MTRG: 0x8A419EF4941355476CF04933E90BF3BBF2F73814
 
-MTR: 0x6AF26474015a6bF540C79b77a6155b67900879D9
+MTR(Optional): 0x6AF26474015a6bF540C79b77a6155b67900879D9
 
-**Currently there is a limitation that MTR could only be sent to a contract address through smart contract interactions.  For example if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+**Mainnet:**
+
+RPC Endpoint: [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
+
+ChainID: 82
+
+Currency Symbol: MTR
+
+Explorer: [https://scan.meter.io](https://scan.meter.io)
+
+_ERC20 System Interface:_
+
+\-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
+
+\-MTR (Optional): 0x687A6294D0D6d63e751A059bf1ca68E4AE7B13E2
+
+****
+
+**Currently, there is a limitation that MTR could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 
 Faucet for Testnet can be found at:
 
