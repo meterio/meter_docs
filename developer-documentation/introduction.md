@@ -24,9 +24,9 @@ Explorer: [https://scan-warringstakes.meter.io](https://scan-warringstakes.meter
 
 _ERC20 System Interface:_
 
-MTRG: 0x8A419EF4941355476CF04933E90BF3BBF2F73814
+MTRG: 0x8a419ef4941355476cf04933e90bf3bbf2f73814
 
-MTR(Optional): 0x6AF26474015a6bF540C79b77a6155b67900879D9
+MTR: 0x4cb6cef87d8cadf966b455e8bd58fff32aba49d1&#x20;
 
 **Mainnet:**
 
