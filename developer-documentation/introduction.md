@@ -14,7 +14,11 @@ When interacting with Meter you must use "Injected Web3" in Remix alongside Meta
 
 **Testnet:**
 
-Warringstakes Testnet Endpoint: [https://rpctest.meter.io](https://rpctest.meter.io)
+Warringstakes Testnet Endpoints:&#x20;
+
+&#x20;              RPC: [https://rpctest.meter.io](https://rpctest.meter.io)
+
+&#x20;              Websocket: <mark style="color:blue;">wss://ws.meter.io</mark>&#x20;
 
 ChainID: 83
 
@@ -30,7 +34,11 @@ MTR: 0x4cb6cef87d8cadf966b455e8bd58fff32aba49d1&#x20;
 
 **Mainnet:**
 
-RPC Endpoint: [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
+RPC Endpoint:&#x20;
+
+&#x20;              RPC: [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
+
+&#x20;              Websocket: <mark style="color:blue;">ws</mark>[<mark style="color:blue;">s://ws.meter.io</mark>](https://rpc.meter.io)  (port 8546 on the mainnet docker)
 
 ChainID: 82
 
@@ -52,7 +60,7 @@ Faucet for Testnet can be found at:
 
 {% embed url="http://faucet-warringstakes.meter.io" %}
 
-**RESTful API**
+**RESTful API (Not Required if you are using Ethereum RPC toolchains)**
 
 This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io:8667](https://mainnet.meter.io:8667).
 
