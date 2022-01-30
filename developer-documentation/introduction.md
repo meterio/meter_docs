@@ -54,7 +54,7 @@ _ERC20 System Interface:_
 
 ****
 
-**Currently, there is a limitation that MTR could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+**Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 
 Faucet for Testnet can be found at:
 
