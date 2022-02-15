@@ -18,7 +18,7 @@ Warringstakes Testnet Endpoints:&#x20;
 
 &#x20;              RPC: [https://rpctest.meter.io](https://rpctest.meter.io)
 
-&#x20;              Websocket: <mark style="color:blue;">wss://ws.meter.io</mark>&#x20;
+&#x20;              Websocket: <mark style="color:blue;">wss://wstest.meter.io</mark>&#x20;
 
 ChainID: 83
 
