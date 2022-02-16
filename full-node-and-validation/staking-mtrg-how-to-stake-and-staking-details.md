@@ -24,7 +24,7 @@ You are able to increase the bucket size. However, if you want to reduce the buc
 
 At launch, we will set the active committee size at 300 validators, and the delegate size to the top 300 candidates as well. Over the next few months, we will gradually increase the candidate pool size as the protocol code gets more stable and more validators request to join the network
 
-Each validator delegate has a target base reward of 100 MTR per month, prorated to each epoch. This reward will not be split with the stakers who voted. Beyond that, the reward is distributed according to the number of votes each candidate receives.
+
 
 ## How to stake MTRG with the Meter wallet
 
