@@ -7,13 +7,13 @@ async function main () {
   console.log('Greeter deployed to:', box.address);
 
   const Mtrg = await ethers.getContractFactory('Mtrg');
-  console.log('Deploying Mtrg...');
+  console.log('Deploying TEST Mtrg token...');
   const mtrg = await Mtrg.deploy();
   await mtrg.deployed();
   console.log('Mtrg deployed to:', mtrg.address);
 
   const Volt = await ethers.getContractFactory('Volt');
-  console.log('Deploying Volt...');
+  console.log('Deploying TEST Volt token...');
   const volt = await Volt.deploy();
   await volt.deployed();
   console.log('Volt deployed to:', volt.address);

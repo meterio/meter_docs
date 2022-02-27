@@ -9,7 +9,9 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   }
 });
 
-const METER_TESTNET_PRIVATE_KEY = process.env.METER_TESTNET_PRIVATE_KEY
+const METER_TESTNET_PRIVATE_KEY = process.env.METER_TESTNET_PRIVATE_KEY;
+const METER_MAINNET_PRIVATE_KEY = process.env.METER_MAINNET_PRIVATE_KEY;
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -20,10 +22,11 @@ module.exports = {
     },
     meter_testnet: {
       url: "https://rpctest.meter.io",
-      accounts: [`${METER_TESTNET_PRIVATE_KEY}`],
-      gas: 99999999999999,
-      gasPrice: 999999999999999999,
-      chainId: 83
+      accounts: [`${METER_TESTNET_PRIVATE_KEY}`]
+    },
+    meter_mainnet: {
+      url: "https://rpc.meter.io",
+      accounts: [`${METER_MAINNET_PRIVATE_KEY}`]
     }
   },
 };
