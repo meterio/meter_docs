@@ -33,10 +33,10 @@ Once deployed you will see the deployed contract addresses.
 
 Deploying Greeter...
 Greeter deployed to: 0x610178dA211FEF7D417bC0e6FeD39F05609AD788
-Deploying Mtrg...
-Mtrg deployed to: 0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e
-Deploying Volt...
-Volt deployed to: 0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0
+Deploying TEST Mtrg token...
+TEST Mtrg token deployed to: 0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e
+Deploying TEST Volt token...
+TEST Volt token deployed to: 0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0
 
 ### Run the hardhat console
 ```shell
@@ -92,7 +92,14 @@ Add network:
   New RPC URL: http://localhost:8545
   Chain ID: 31337
 
-Import both VOLT & MTRG ERC20 tokens
+Import both VOLT Test token & MTRG Test token ERC20 tokens
 
 ## Clear cache & delete artifacts 
 npx hardhat clean
+
+## Deploy to Meter Testnet & Mainnet
+export METER_TESTNET_PRIVATE_KEY=PRIVATE_KEY
+npx hardhat run scripts/deploy.js --network meter_testnet
+
+export METER_MAINNET_PRIVATE_KEY=PRIVATE_KEY
+npx hardhat run scripts/deploy.js --network meter_mainnet
