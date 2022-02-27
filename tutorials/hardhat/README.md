@@ -95,11 +95,17 @@ Add network:
 Import both VOLT Test token & MTRG Test token ERC20 tokens
 
 ## Clear cache & delete artifacts 
+```shell
 npx hardhat clean
+```
 
 ## Deploy to Meter Testnet & Mainnet
+```shell
 export METER_TESTNET_PRIVATE_KEY=PRIVATE_KEY
 npx hardhat run scripts/deploy.js --network meter_testnet
+```
 
+```shell
 export METER_MAINNET_PRIVATE_KEY=PRIVATE_KEY
 npx hardhat run scripts/deploy.js --network meter_mainnet
+```
