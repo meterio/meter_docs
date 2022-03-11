@@ -6,9 +6,9 @@ description: >-
 
 # Staking MTRG
 
-You can earn MTR or MTRG and help secure the Meter network by staking your MTRG in the [Meter desktop wallet.](https://meter.io/getcoins)  Please make sure your wallet version is 1.3.1 or higher.
+You can earn MTR or MTRG and help secure the Meter network by staking your MTRG through the[ Meter Staking Portal](https://staking.meter.io) or the [Meter desktop wallet.](https://meter.io/getcoins)  If you are using the desktop wallet, please make sure your wallet version is 1.3.1 or higher.
 
-If you are not planning to run a Meter validator node yourself, but delegate the stake to a validator, here’s how MTRG staking works and a step-by-step tutorial on how to do it.  There is no risk involved when you delegate the stake.  You will not be punished even if the validator misbehaves.  However, if the validator you delegate become "jailed", you will not be able to receive rewards until you delegate the stake to another validator.
+If you are not planning to run a Meter validator node yourself, but delegate the stake to a validator, here’s how MTRG staking works and a step-by-step tutorial on how to do it.  There is no risk involved when you delegate the stake.  You will not be punished even if the validator misbehaves.  However, if the validator you delegate becomes "jailed", you will not be able to receive rewards until you delegate the stake to another validator.
 
 ## How MTRG staking works
 
