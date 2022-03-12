@@ -108,4 +108,3 @@ npx hardhat run scripts/deploy.js --network meter_testnet
 ```shell
 export METER_MAINNET_PRIVATE_KEY=PRIVATE_KEY
 npx hardhat run scripts/deploy.js --network meter_mainnet
-```
