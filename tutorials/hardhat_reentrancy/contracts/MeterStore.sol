@@ -13,7 +13,7 @@ contract MeterStore {
     require(bal > 0);
 
     (bool sent, ) = msg.sender.call{value: bal}("");
-    require(sent, "Failed to send Ether");
+    require(sent, "Failed to send MTR");
     
     balances[msg.sender] = 0;
   }
