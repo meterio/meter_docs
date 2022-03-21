@@ -2,18 +2,16 @@
 
 Meter mainnet now supports two transactions (tx) formats:&#x20;
 
-1. The native Meter tx, which is more expansive and supports staking, on-chain auctions, validator transactions, and future multiple chains/shards. This tx format is used by the Meter mainnet wallet which is a PC/Mac application [downloadable](https://www.meter.io/wallets/) from the Meter website or [Github](https://github.com/meterio/meter-wallet).&#x20;
-2. Ethereum tx. This is designed for backward compatibility with existing Ethereum dApps and ecosystem including wallets like [Metamask](https://metamask.io).
+1. The native Meter tx: which is more expansive and supports staking, on-chain auctions, validator transactions, and future multiple chains/shards. This tx format is used by the Meter mainnet wallet which is a PC/Mac application [downloadable](https://www.meter.io/wallets/) from the Meter website or [Github](https://github.com/meterio/meter-wallet).&#x20;
+2. Ethereum tx: This is designed for backward compatibility with existing Ethereum dApps and ecosystem including wallets like [Metamask](https://metamask.io).
 
 Metamask communicates with the Meter mainnet through an RPC (Remote Procedure Call) emulation layer.  The user will have to configure a custom RPC network inside MetaMask. Here is how to do so.
 
 **For the browser plugin version of Metamask:**
 
-The easiest way to configure metamask is to click on the "Configure Metamask" button on the [wallet page of Meter website](https://meter.io/wallets).
+The easiest way to configure Metamask for your browser extension is to select Meter Network from "SupportNetworks" in the [Meter Passport Wallet](https://wallet.meter.io).
 
-![Configure Metamask with One Click](<../.gitbook/assets/image (7) (1).png>)
-
-If you prefer configuring Metamask manually, here are the steps:
+If you are configuring manually, there following are the details:
 
 1. Select the network drop-down menu, and then click on the custom RPC at the bottom.
 
