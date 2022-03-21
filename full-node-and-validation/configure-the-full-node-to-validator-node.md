@@ -1,12 +1,12 @@
 # Configure the Full Node to Validator Node
 
-After you Successfully starting a full node, you may want to run a validator node on the network.  **Please make sure the block height on your node (http://IPofYourNode:8670/probe) is the same as the **[**official block explorer**](https://scan.meter.io)** before proceeding.**  It may take a long time to sync all the data on the mainnet depending on your network bandwidth and CPU power.
+After you Successfully starting a full node, you may want to run a validator node on the network.  **Please make sure the block height on your node (http://IPofYourNode:8670/probe) is the same as the** [**official block explorer**](https://scan.meter.io) **before proceeding.**  It may take a long time to sync all the data on the mainnet depending on your network bandwidth and CPU power.
 
 ## Become a delegate (Validator) node
 
 Becoming a delegate node requires staking MTRG tokens. You will also need a little MTR to pay for transaction fees.
 
-1. **Configure network ports for your node. **
+1. **Configure network ports for your node.**&#x20;
 
 It is recommended to have a public IP address if you want to become a delegate node and have the following ports open for inbound TCP connections on your firewall or cloud network security group.
 
@@ -20,13 +20,13 @@ It is recommended to have a public IP address if you want to become a delegate n
 | 11235      | PoS P2P (required)          |
 | 9100       | node explorers              |
 
-**  2. Elect your node to be a candidate In Meter Wallet**
+&#x20; **2. Elect your node to be a candidate In Meter Wallet**
 
-Under the "Candidates" tab of the wallet, you could self elect to be a candidate for delegate node by staking at least 2000 MTRG tokens and input all the required information for your node. When filling in the "Candidate" page, you will have to name your validator, put in the IP address of your node, select whether you want to system to automatically participate in the onchain MTRG auction (enable autobid) and also submit the public key used to sign the block proposals (**this is the BLS key for the node running the validator, you could find the key in $METER\_MAIN\_DATA\_PATH/public.key** file, its corresponding private key is in the master.key file)&#x20;
+In the [Staking portal](https://staking.meter.io), you could self elect to be a candidate for delegate node by creating a "New Candidate" and stake least 2000 MTRG tokens.  The "New Candidate" diagloue box collects all the required information for your node. You will have to name your validator, put in the IP address of your node, select whether you want to system to automatically participate in the onchain MTRG auction (enable autobid) and also submit the public key used to sign the block proposals (**this is the BLS key for the node running the validator, you could find the key in $METER\_MAIN\_DATA\_PATH/public.key** file, its corresponding private key is in the master.key file)&#x20;
 
-At launch, there are 300 delegator nodes limit, which mean only the top 300 candidate nodes will be selected as delegate to participate in the consensus.  You could have other accounts delegate their votes to you as well to increase the chance of becoming a delegate node. The candidate transaction is recorded immediately and the node could start to receive votes. However, the votes won't be counted until the next k-block even with enough votes. You could check the list of candidate nodes through [https://mainnet.meter.io/staking/candidates](https://mainnet.meter.io/staking/candidates) or inside the wallet.
+At launch, there is a 300 delegator nodes limit, which mean only the top 300 candidate nodes will be selected as delegates to participate in the consensus.  You could have other accounts delegate their votes to you as well to increase the chance of becoming a delegate node. The candidate transaction is recorded immediately and the node could start to receive votes. However, the votes won't be counted until the next k-block even with enough votes. You could check the list of candidate nodes through the [Staking Portal](https://staking.meter.io) or [Meter scan](https://scan.meter.io).
 
-The votes for each validator automatically increases at 5% annualized rate to encourage validator to stay in long term. if you uncandidate and recandidate, you will lose these bonus votes. Whenever you uncandidate and undelegate, it will take one week before the tokens become unbounded and transferrable.
+The votes for each validator automatically increases at 5% annualized rate to encourage validator to stay in long term. if you uncandidate and recandidate, you will lose these bonus votes. Whenever you uncandidate or unbound, it will take one week before the tokens become unbounded and transferrable.
 
 Please be aware that the public.key file in the docker container is generated when the container is launched. If you start a container from scratch, the public.key will be different from the one you used for the "Candidate" transaction. You could either "Uncandidate" and "Candidate" again with the new public key or change the public key to the one you used before.
 
