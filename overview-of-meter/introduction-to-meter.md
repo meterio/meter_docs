@@ -2,13 +2,13 @@
 
 ## What is Meter?
 
-Meter is DeFi infrastructure with a built-in, crypto-native, metastable currency.  It functions as a highly-decentralized, high-performance EVM compatible side chain for Ethereum and other public chains.
+Meter is a DeFi infrastructure with a built-in, crypto-native, metastable currency.  It functions as a highly-decentralized, high-performance EVM compatible side chain for Ethereum and other public chains.
 
 The Meter system uses Proof of Work to create a fully-decentralized, low-volatility coin MTR for fees and payments, and HotStuff-based Proof of Stake with the MTRG governance coin to validate transactions.
 
-This hybrid consensus mechanism makes Meter fast - the system can process thousands of transactions per second, reaching finality almost instantly - and super secure. 
+This hybrid consensus mechanism makes Meter fast - the system can process thousands of transactions per second, reaching finality almost instantly - and super secure.&#x20;
 
-DeFi app developers can also use our highly-decentralized, HotStuff-consensus PoS chain as an EVM-compatible side chain to increase the speed and scalability of decentralized exchanges, derivative trading platforms, yield farming programs, and other DeFi apps. 
+DeFi app developers can also use our highly-decentralized, HotStuff-consensus PoS chain as an EVM-compatible side chain to increase the speed and scalability of decentralized exchanges, derivative trading platforms, yield farming programs, and other DeFi apps.&#x20;
 
 ## What problems does Meter solve?
 
@@ -23,9 +23,9 @@ Meter can be used in a number of ways.
 
 ### DeFi infrastructure
 
-Meter was built from the ground up to enable DeFi. DeFi apps like decentralized exchanges, synthetic asset platforms, lending applications, and many others can be built on top of Meter to leverage its fast, decentralized network. 
+Meter was built from the ground up to enable DeFi. DeFi apps like decentralized exchanges, synthetic asset platforms, lending applications, and many others can be built on top of Meter to leverage its fast, decentralized network.&#x20;
 
-And with Meter's EVM compatibility and future interoperability with Polkadot, Cosmos and many other public blockchains, Meter can be used as a side chain to help scale and enable value interaction acros. 
+And with Meter's EVM compatibility and future interoperability with Polkadot, Cosmos and many other public blockchains, Meter can be used as a side chain to help scale and enable value interaction acros.&#x20;
 
 ### Everyday payments
 
@@ -33,5 +33,4 @@ Meter can be used for everyday purchases and payments, such as for your cup of c
 
 ### Store of value
 
-While governments are devaluing their currencies with continuous printing, Meter maintains its long-term value by being pegged to 10 kWh of electricity, one of the most stable resources in the world. 
-
+While governments are devaluing their currencies with continuous printing, Meter maintains its long-term value by being pegged to 10 kWh of electricity, one of the most stable resources in the world.&#x20;
