@@ -1,6 +1,6 @@
 # Meter Mining Guide
 
-Mining is how cryptocurrency is created and one way to acquire coins. It is an intensive computing activity, and involves the use of specialized hardware to get rewarded for processing transaction blocks on a blockchain. Meter \(MTR\) itself is no exception to this.
+Mining is how cryptocurrency is created and one way to acquire coins. It is an intensive computing activity, and involves the use of specialized hardware to get rewarded for processing transaction blocks on a blockchain. Meter (MTR) itself is no exception to this.
 
 There are a number of interlinked factors to consider when it comes to mining. Just to name a few:
 
@@ -8,7 +8,7 @@ There are a number of interlinked factors to consider when it comes to mining. J
 * What blockchain to focus on, and why.
 * How to approach mining. For example, doing it all yourself, cooperating with others, or have somebody else do it for you.
 
-## Making the Case for Mining <a id="making-the-case-for-mining"></a>
+## Making the Case for Mining <a href="#making-the-case-for-mining" id="making-the-case-for-mining"></a>
 
 Every miner will have their own reasons whether or not to choose mining. For example, under some circumstances it may be highly profitable to mine, while in other situations the costs may be too high and the return on investment too low.
 
@@ -20,9 +20,9 @@ Meter mining is in its early stages, and thus provides very good incentives for 
 
 ## How to Mine
 
-Generally speaking, miners may choose to operate their own equipment, and gain all the rewards for their efforts, or join together with others in a mining pool and share the rewards \(see [What is a Mining Pool](meter-mining-guide.md#what-is-a-mining-pool)\). In some cases people can subscribe to a pool and gain some of the rewards, but without owning any equipment of their own. This is called cloud mining. Each has its own benefits and drawbacks, and it is up to each person to determine which approach suits them best.
+Generally speaking, miners may choose to operate their own equipment, and gain all the rewards for their efforts, or join together with others in a mining pool and share the rewards (see [What is a Mining Pool](meter-mining-guide.md#what-is-a-mining-pool)). In some cases people can subscribe to a pool and gain some of the rewards, but without owning any equipment of their own. This is called cloud mining. Each has its own benefits and drawbacks, and it is up to each person to determine which approach suits them best.
 
-The remainder of this document is in support of those that already operate their own equipment \(or wish to\), and are interested in mining MTR. This will primarily include those that will mine directly on their own, mining pools that choose to support Meter, or those that want to setup cloud mining for Meter. 
+The remainder of this document is in support of those that already operate their own equipment (or wish to), and are interested in mining MTR. This will primarily include those that will mine directly on their own, mining pools that choose to support Meter, or those that want to setup cloud mining for Meter.&#x20;
 
 However, this information might also be of interest to others, such as those that are already part of a mining pool, and want to request that their pool add support for Meter.
 
@@ -40,34 +40,11 @@ ASIC miners are specialized hardware machines that are required to efficiently m
 
 Since Meter uses SHA256, the same as Bitcoin, miners can use the same hardware for mining both coins, and the mining setup for the two is very similar.
 
-#### Hardware Setup Guide <a id="hardware-setup-guide"></a>
+#### Hardware Setup Guide <a href="#hardware-setup-guide" id="hardware-setup-guide"></a>
 
 Meter uses an account-based system, rather than the UTXO based method that Bitcoin uses. However, this difference only amounts to a small change that needs to be made in the configuration.
 
 Follow [this guide](https://www.bitcoin.com/get-started/how-to-setup-a-bitcoin-asic-miner-and-what-they-are) on installing and configuring your ASICs.
-
-The following instructions is from one of Meter's launch partner mining pools, 8btc pool.
-
-## 8BTC mining pool MTR \(Meter\) Mining Tutorial
-
-\*\* What shall we prepare for mining?\*\*
-
-1. **Hardware:** Because MTR mining adopts SHA-256 algorithm, BTC ASIC machines can be used for mining at present.
-2. **Wallet Address:** https://www.meter.io/wallets/
-3. **Mining Pool URL:** mtr.matpool.io:10460, mtr.matpool.io:10470 \(for NiceHash\)
-
-### **Example configuration**
-
-1. Enter the machine IP address and enter the background configuration interface, or use batch management software to set and configure mining information.
-2. Enter the "Miner Configuration" interface to configure details.
-   1. URL: mtr.matpool.io:10460 
-   2. Worker: Your wallet address.
-   3. Worker Name Password: this could be anything 
-   4. Click \(Save&Apply\), then you should be able to connect to 8btc pool successfully.
-3. Enter "Miner Status" to check the Miner's working status. After setting the change or restarting, please wait for a few minutes and refresh the webpage.
-4. To check mining revenue, navigate to http://mining.8btc.com/, click the circle at the top-right corner, then enter your MTR mining address to monitor your hashrate, revenue, and payouts.
-
-PS: For now we cant show the real-time earnings. But everyday at 2 am GMT we will settle the revenue of your account over the past 24 hours. This will show up at 4 am GMT and be paid out before 1 pm GMT.
 
 ## The Meter Solo Mining Pool
 
@@ -83,7 +60,7 @@ The Meter mining pool status statistics can be viewed at http://54.184.235.97:80
 
 In order to configure a miner to join the mining pool, the following fields in the `Miner configuration` tab of the ASIC's web panel need to be set:
 
-![S9 Configuration](../.gitbook/assets/conf_s9.png)
+![S9 Configuration](../.gitbook/assets/conf\_s9.png)
 
 Where:
 
@@ -97,22 +74,22 @@ An example implementation of the Meter mining pool is available on [GitHub](http
 
 ### Requirements
 
-There are three things required to run Meter nomp: 
+There are three things required to run Meter nomp:&#x20;
 
 1. Node.js
-2. A database \(Redis or MySQL\), 
+2. A database (Redis or MySQL),&#x20;
 3. A connection to a coin daemon on the Meter Network, which is a Meter full node that monitors transactions on both the Meter PoW and PoS chains.
 
 On the testnet, coin daemons have already been set up by the Meter team. Normally a pool operator would set up its own coin daemon, and this will be possible in the future.
 
-The following are the minimal version requirements for Node.js and Redis. If older versions than the following are used \(e.g. installed by a package manager\) then problems will arise:
+The following are the minimal version requirements for Node.js and Redis. If older versions than the following are used (e.g. installed by a package manager) then problems will arise:
 
-* [Node.js](http://nodejs.org/) v0.10+ \([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/#)\)
-* [Redis](http://redis.io/) v2.6+ \([follow these instructions](http://redis.io/topics/quickstart)\)
+* [Node.js](http://nodejs.org) v0.10+ ([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/#))
+* [Redis](http://redis.io) v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 
 In Ubuntu, you could use the following command to install nodejs and Redis:
 
-```text
+```
 $ sudo apt install npm
 $ sudo apt install nodejs
 $ sudo apt install redis
@@ -124,7 +101,7 @@ $ sudo apt install redis
 
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
-```text
+```
 git clone https://github.com/meterio/meter-nomp.git
 cd meter-nomp
 npm install
@@ -134,9 +111,9 @@ npm install
 
 There is a json config file `meter.json` in the `pool_configs` sub-directory. Make sure to configure the appropriate fields in this file, especially the `rewardBeneficiary` and the `daemon`/`daemons` fields.
 
-In the following example, the pool owner's Meter address is `0a05c2d862ca051010698b69b54278cbaf945ccb` \(no 0x in the beginning\), the `rewardBeneficiary` should be configured accordingly. In addition, the mining pool has to connect to a coin daemon \(full node\) on the Meter network. We will use a full node on the testnet. The value for Meter in the `daemons` section should be configured as follows:
+In the following example, the pool owner's Meter address is `0a05c2d862ca051010698b69b54278cbaf945ccb` (no 0x in the beginning), the `rewardBeneficiary` should be configured accordingly. In addition, the mining pool has to connect to a coin daemon (full node) on the Meter network. We will use a full node on the testnet. The value for Meter in the `daemons` section should be configured as follows:
 
-```text
+```
 [
     {
         "host": "c04.meter.io",
@@ -147,7 +124,7 @@ In the following example, the pool owner's Meter address is `0a05c2d862ca0510106
 ]
 ```
 
-c04.meter.io is a node we provided for testing only, its availability is not guaranteed. If you are running a pool, you should be running a full node on Meter mainnet \(Please refer to the mainnet full node tutorial on Github\).
+c04.meter.io is a node we provided for testing only, its availability is not guaranteed. If you are running a pool, you should be running a full node on Meter mainnet (Please refer to the mainnet full node tutorial on Github).
 
 There are many other fields in `meter.json`. We could ignore them for now as only limited functions was ported in the current Nomp implementation for Meter.
 
@@ -159,9 +136,8 @@ After all the configuration files have been set up, it is time to start the mini
 
 If everything is installed locally on the host, initiate using the following:
 
-```text
+```
 $ node init.js
 ```
 
 The pool should now start running and we could see the status of the pool from the log and http://pool\_ip:8080/stats.
-
