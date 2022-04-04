@@ -54,9 +54,16 @@ _ERC20 System Interface:_
 
 ****
 
-**Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+**Important Things to Pay Attention to:**
 
-Faucet for Testnet can be found at:
+1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
+3. **The minimum gas price on Meter is currently 500gwei.  Even if a lower gas price is specified, the network will still charge 500gwei silently.  Make sure you have enough MTR in the account.**
+4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified, transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
+
+
+
+The faucet for Testnet can be found at:
 
 {% embed url="http://faucet-warringstakes.meter.io" %}
 
