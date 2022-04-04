@@ -59,7 +59,7 @@ _ERC20 System Interface:_
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
 3. **The minimum gas price on Meter is currently 500gwei.  Even if a lower gas price is specified, the network will still charge 500gwei silently.  Make sure you have enough MTR in the account.**
-4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified, transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
+4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
 
 
 
@@ -69,7 +69,7 @@ The faucet for Testnet can be found at:
 
 **Source Code Verification**
 
-Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
+Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allow the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
 The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
