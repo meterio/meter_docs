@@ -31,7 +31,7 @@ This code...
 ```javascript
 const meter = require("meterify").meterify;
 const Web3 = require("web3");
-const meterify = meter(new Web3(), "http://test.meter.io:8669");
+const meterify = meter(new Web3(), "https://testnet.meter.io");
 ```
 
 ...returns an object:
@@ -125,17 +125,17 @@ web3 instance\
 └── utils\
 
 
-## MODULES <a href="modules" id="modules"></a>
+## MODULES <a href="#modules" id="modules"></a>
 
-### eth <a href="eth" id="eth"></a>
+### eth <a href="#eth" id="eth"></a>
 
 For `meterify.eth` see the [`eth`](meterify.eth.md) reference documentation.
 
-### utils <a href="utils" id="utils"></a>
+### utils <a href="#utils" id="utils"></a>
 
 For `meterify.utils` see the [`utils`](meterify.utils.md) reference documentation.
 
-### module.options <a href="module-options" id="module-options"></a>
+### module.options <a href="#module-options" id="module-options"></a>
 
 A module does provide several options for configuring the transaction confirmation workflow, or for defining default values.
 

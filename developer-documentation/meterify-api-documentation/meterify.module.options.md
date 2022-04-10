@@ -20,12 +20,12 @@ import Web3 from 'web3';
         transactionSigner: new CustomTransactionSigner()
     }
 
-    const web3 = new Web3('http://test.meter.io:8669', null, options);
+    const web3 = new Web3('https://testnet.meter.io', null, options);
 
-    const meterify = meterify(web3, "http://test.meter.io:8669");
+    const meterify = meterify(web3, "https://testnet.meter.io");
 ```
 
-## defaultBlock <a id="defaultblock"></a>
+## defaultBlock <a href="#defaultblock" id="defaultblock"></a>
 
 ```javascript
     web3.defaultBlock
@@ -47,16 +47,16 @@ The default block is used for all methods which have a block parameter. You can 
 
 The `defaultBlock` property can return the following values:
 
-| Value | Type | Description |
-| :--- | :--- | :--- |
-| a number | `Number` | A block number |
-| `genesis` | `String` | The genesis block |
-| `latest` | `String` | The latest block \(current head of the blockchain\) |
-| `pending` | `String` | The currently mined block \(including pending transactions\) |
+| Value     | Type     | Description                                                |
+| --------- | -------- | ---------------------------------------------------------- |
+| a number  | `Number` | A block number                                             |
+| `genesis` | `String` | The genesis block                                          |
+| `latest`  | `String` | The latest block (current head of the blockchain)          |
+| `pending` | `String` | The currently mined block (including pending transactions) |
 
 Default is `latest`
 
-## defaultAccount <a id="defaultaccount"></a>
+## defaultAccount <a href="#defaultaccount" id="defaultaccount"></a>
 
 ```javascript
     web3.defaultAccount
@@ -69,11 +69,11 @@ This default address is used as the default `"from"` property, if no `"from"` pr
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
-| `String` - 20 Bytes | Any Ethereum address. You need to have the private key for that address in your node or keystore. \(Default is `undefined`\) |
+| Type                | Description                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `String` - 20 Bytes | Any Ethereum address. You need to have the private key for that address in your node or keystore. (Default is `undefined`) |
 
-## defaultGasPrice <a id="defaultgasprice"></a>
+## defaultGasPrice <a href="#defaultgasprice" id="defaultgasprice"></a>
 
 ```javascript
     web3.defaultGasPrice
@@ -86,11 +86,11 @@ The default gas price which will be used for a request.
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type                 | Description                                        |
+| -------------------- | -------------------------------------------------- |
 | `string` or `number` | The current value of the defaultGasPrice property. |
 
-## defaultGas <a id="defaultgas"></a>
+## defaultGas <a href="#defaultgas" id="defaultgas"></a>
 
 ```javascript
     web3.defaultGas
@@ -103,11 +103,11 @@ The default gas which will be used for a request.
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type                 | Description                                   |
+| -------------------- | --------------------------------------------- |
 | `string` or `number` | The current value of the defaultGas property. |
 
-## transactionBlockTimeout <a id="transactionblocktimeout"></a>
+## transactionBlockTimeout <a href="#transactionblocktimeout" id="transactionblocktimeout"></a>
 
 ```javascript
     web3.transactionBlockTimeout
@@ -120,11 +120,11 @@ The `transactionBlockTimeout` will be used over a socket-based connection. This 
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description                                  |
+| -------- | -------------------------------------------- |
 | `number` | The current value of transactionBlockTimeout |
 
-## transactionConfirmationBlocks <a id="transactionconfirmationblocks"></a>
+## transactionConfirmationBlocks <a href="#transactionconfirmationblocks" id="transactionconfirmationblocks"></a>
 
 ```javascript
     web3.transactionConfirmationBlocks
@@ -137,11 +137,11 @@ This defines the number of blocks it requires until a transaction will be handle
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description                                        |
+| -------- | -------------------------------------------------- |
 | `number` | The current value of transactionConfirmationBlocks |
 
-## transactionPollingTimeout <a id="transactionpollingtimeout"></a>
+## transactionPollingTimeout <a href="#transactionpollingtimeout" id="transactionpollingtimeout"></a>
 
 ```javascript
     web3.transactionPollingTimeout
@@ -150,15 +150,15 @@ This defines the number of blocks it requires until a transaction will be handle
     ...
 ```
 
-The `transactionPollingTimeout` will be used over a HTTP connection. This option does define the amount of polls \(each second\) it should wait until the first confirmation happens.
+The `transactionPollingTimeout` will be used over a HTTP connection. This option does define the amount of polls (each second) it should wait until the first confirmation happens.
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description                                    |
+| -------- | ---------------------------------------------- |
 | `number` | The current value of transactionPollingTimeout |
 
-## transactionSigner <a id="transactionsigner"></a>
+## transactionSigner <a href="#transactionsigner" id="transactionsigner"></a>
 
 ```javascript
     web3.eth.transactionSigner
@@ -186,11 +186,11 @@ The interface of a `TransactionSigner`:
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type                | Description                                   |
+| ------------------- | --------------------------------------------- |
 | `TransactionSigner` | A JavaScript class of type TransactionSigner. |
 
-## setProvider <a id="setprovider"></a>
+## setProvider <a href="#setprovider" id="setprovider"></a>
 
 ```javascript
 
@@ -232,16 +232,16 @@ Note: When called on the umbrella package `web3` it will also set the provider f
 
 **Parameters:**
 
-| Type | Description |
-| :--- | :--- |
-| `Object` or `String` | `provider`: a valid provider |
-| `Net` | `net`: \(optional\) the node.js Net package. This is only required for the IPC provider. |
+| Type                 | Description                                                                            |
+| -------------------- | -------------------------------------------------------------------------------------- |
+| `Object` or `String` | `provider`: a valid provider                                                           |
+| `Net`                | `net`: (optional) the node.js Net package. This is only required for the IPC provider. |
 
 **Returns:**
 
 `Boolean`
 
-## providers <a id="providers"></a>
+## providers <a href="#providers" id="providers"></a>
 
 ```javascript
 
@@ -274,13 +274,13 @@ Contains the current available providers.
 
 `Object` with the following providers:
 
-| Property | Name | Description |
-| :--- | :--- | :--- |
-| `Object` | `HttpProvider` | The HTTP provider is **deprecated**, as it will not work for subscriptions. |
-| `Object` | `WebsocketProvider` | The Websocket provider is the standard for usage in legacy browsers. |
-| `Object` | `IpcProvider` | The IPC provider is used node dapps when running a local node. Gives the most secure connection. |
+| Property | Name                | Description                                                                                      |
+| -------- | ------------------- | ------------------------------------------------------------------------------------------------ |
+| `Object` | `HttpProvider`      | The HTTP provider is **deprecated**, as it will not work for subscriptions.                      |
+| `Object` | `WebsocketProvider` | The Websocket provider is the standard for usage in legacy browsers.                             |
+| `Object` | `IpcProvider`       | The IPC provider is used node dapps when running a local node. Gives the most secure connection. |
 
-## givenProvider <a id="givenprovider"></a>
+## givenProvider <a href="#givenprovider" id="givenprovider"></a>
 
 ```javascript
     Web3.givenProvider
@@ -296,15 +296,15 @@ Contains the current available providers.
     web3.setProvider(Web3.givenProvider || 'ws://localhost:8546');
 ```
 
-When using web3.js in an Ethereum compatible browser, it will set with the current native provider by that browser. Will return the given provider by the \(browser\) environment, otherwise `null`.
+When using web3.js in an Ethereum compatible browser, it will set with the current native provider by that browser. Will return the given provider by the (browser) environment, otherwise `null`.
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description                        |
+| -------- | ---------------------------------- |
 | `Object` | The given provider set or `false`. |
 
-## currentProvider <a id="currentprovider"></a>
+## currentProvider <a href="#currentprovider" id="currentprovider"></a>
 
 ```javascript
 
@@ -327,11 +327,11 @@ Will return the current provider.
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description               |
+| -------- | ------------------------- |
 | `Object` | The current provider set. |
 
-## BatchRequest <a id="batchrequest"></a>
+## BatchRequest <a href="#batchrequest" id="batchrequest"></a>
 
 ```javascript
 
@@ -361,12 +361,11 @@ none
 
 **Returns:**
 
-| Type | Description |
-| :--- | :--- |
+| Type     | Description                     |
+| -------- | ------------------------------- |
 | `Object` | Contains the following methods: |
 
-| Method | Description |
-| :--- | :--- |
+| Method         | Description                                |
+| -------------- | ------------------------------------------ |
 | `add(request)` | To add a request object to the batch call. |
-| `execute()` | Will execute the batch request. |
-
+| `execute()`    | Will execute the batch request.            |

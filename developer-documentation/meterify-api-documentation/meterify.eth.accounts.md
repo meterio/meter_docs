@@ -1,6 +1,6 @@
 # meterify.eth.accounts
 
-The `meterify.eth.accounts` contains functions to generate Meter accounts and sign transactions and data. 
+The `meterify.eth.accounts` contains functions to generate Meter accounts and sign transactions and data.&#x20;
 
 Note: Take precautions to clear memory properly, store the private keys safely, and test transaction receiving and sending functionality properly before using in production!
 
@@ -9,12 +9,12 @@ import {Accounts} from 'web3-eth-accounts';
 
     // Passing in the eth or web3 package is necessary to allow retrieving chainId, gasPrice and nonce automatically
     // for accounts.signTransaction().
-    const accounts = new Accounts('ws://localhost:8546', null, options);
+    const accounts = new Accounts('ws://wstest.meter.io', null, options);
 ```
 
-## create    
+## create   &#x20;
 
-```text
+```
 meterify.eth.accounts.create([entropy]);
 ```
 
@@ -53,18 +53,18 @@ meterify.eth.accounts.create();
 
 **Parameters:**
 
-1. `entropy` - `String`\(optional\): A random string to increase entropy. If given it should be at least 32 characters. If none is given a random string will be generated using [`randomhex`](meterify.utils.md#randomhex).
+1. `entropy` - `String`(optional): A random string to increase entropy. If given it should be at least 32 characters. If none is given a random string will be generated using [`randomhex`](meterify.utils.md#randomhex).
 
 **Returns:**
 
 `Object` - The account object with the following structure:
 
-1. `address` - `String`: The account address. 
-2. `privateKey` - `String`: The accounts private key. This should never be shared or stored unencrypted in local storage! Also make sure to `null` the memory after usage. 
-3. `signTransaction(tx [, callback])` - `Function`: The function to sign transactions. See [`meterify.eth.accounts.signTransaction()`](meterify.eth.accounts.md#signtransaction) for more. 
+1. `address` - `String`: The account address.&#x20;
+2. `privateKey` - `String`: The accounts private key. This should never be shared or stored unencrypted in local storage! Also make sure to `null` the memory after usage.&#x20;
+3. `signTransaction(tx [, callback])` - `Function`: The function to sign transactions. See [`meterify.eth.accounts.signTransaction()`](meterify.eth.accounts.md#signtransaction) for more.&#x20;
 4. `sign(data)` - `Function`: The function to sign transactions. See [`meterify.eth.accounts.sign()`](meterify.eth.accounts.md#sign) for more.
 
-## privateKeyToAccount <a id="privatekeytoaccount"></a>
+## privateKeyToAccount <a href="#privatekeytoaccount" id="privatekeytoaccount"></a>
 
 ```javascript
 meterify.eth.accounts.privateKeyToAccount(privateKey);
@@ -74,7 +74,7 @@ Creates an account object from a private key.
 
 
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 ```javascript
 
@@ -104,7 +104,7 @@ meterify.eth.accounts.signTransaction(tx, privateKey [, callback]);
 
 Signs a Meter transaction with a given private key.
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 ```javascript
 meterify.eth.accounts.signTransaction({
@@ -118,7 +118,7 @@ meterify.eth.accounts.signTransaction({
     .then(console.log);
 ```
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 ```javascript
 > {
@@ -131,31 +131,31 @@ meterify.eth.accounts.signTransaction({
     }
 ```
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 1. `tx` - `Object`: The transaction's properties object as follows:
-   1. `nonce` - `String`: \(optional\) The nonce to use when signing this transaction. Default will use [`meterify.eth.getTransactionCount()`](meterify.eth.md#gettransactioncount).
-   2. `chainId` - `String`: \(optional\) The chain id to use when signing this transaction. Default will use [`meterify.eth.net.getChainId()`](meterify.eth.md#getchainid).
-   3. `to` - `String`: \(optional\) The receiver of the transaction, can be empty when deploying a contract.
-   4. `data` - `String`: \(optional\) The call data of the transaction, can be empty for simple value transfers.
-   5. `value` - `String`: \(optional\) The value of the transaction in wei.
-   6. `gasPrice` - `String`: \(optional\) The gas price set by this transaction. If empty, it will use [`meterify.eth.getGasPrice()`](meterify.eth.md#getgasprice)\`\`
+   1. `nonce` - `String`: (optional) The nonce to use when signing this transaction. Default will use [`meterify.eth.getTransactionCount()`](meterify.eth.md#gettransactioncount).
+   2. `chainId` - `String`: (optional) The chain id to use when signing this transaction. Default will use [`meterify.eth.net.getChainId()`](meterify.eth.md#getchainid).
+   3. `to` - `String`: (optional) The receiver of the transaction, can be empty when deploying a contract.
+   4. `data` - `String`: (optional) The call data of the transaction, can be empty for simple value transfers.
+   5. `value` - `String`: (optional) The value of the transaction in wei.
+   6. `gasPrice` - `String`: (optional) The gas price set by this transaction. If empty, it will use [`meterify.eth.getGasPrice()`](meterify.eth.md#getgasprice)``
    7. `gas` - `String`: The gas provided by the transaction.
 2. `privateKey` - `String`: The private key to sign with.
-3. `callback` - `Function`: \(optional\) Optional callback, returns an error object as first parameter and the result as second.
+3. `callback` - `Function`: (optional) Optional callback, returns an error object as first parameter and the result as second.
 
 Returns
 
-`Promise` returning `Object`: The signed data RLP encoded transaction, or if `returnSignature` is `true` the signature values as follows: 
+`Promise` returning `Object`: The signed data RLP encoded transaction, or if `returnSignature` is `true` the signature values as follows:&#x20;
 
-1. `messageHash` - `String`: The hash of the given message. 
+1. `messageHash` - `String`: The hash of the given message.&#x20;
 2. `r` - `String`: First 32 bytes of the signature
 3. `s` - `String`: Next 32 bytes of the signature
 4. `v` - `String`: Recovery value + 27
 5. `rawTransaction` - `String`: The RLP encoded transaction, ready to be send using [`meterify.eth.sendSignedTransaction`](meterify.eth.md#sendsignedtransaction).
 6. `transactionHash` - `String`: The transaction hash for the RLP encoded transaction.
 
-## recoverTransaction <a id="recovertransaction"></a>
+## recoverTransaction <a href="#recovertransaction" id="recovertransaction"></a>
 
 ```javascript
     meterify.eth.accounts.recoverTransaction(rawTransaction);
@@ -178,13 +178,13 @@ Recovers the Meter address which was used to sign the given RLP encoded transact
 
 `String`: The Meter address used to sign this transaction.
 
-## hashMessage <a id="hashmessage"></a>
+## hashMessage <a href="#hashmessage" id="hashmessage"></a>
 
 ```javascript
     meterify.eth.accounts.hashMessage(message);
 ```
 
-Hashes the given message to be passed [`meterify.eth.accounts.recover()`](meterify.eth.accounts.md#recover) function. 
+Hashes the given message to be passed [`meterify.eth.accounts.recover()`](meterify.eth.accounts.md#recover) function.&#x20;
 
 The data will be UTF-8 HEX decoded and enveloped as follows: `"\x19Ethereum Signed Message:\n" + message.length + message` and hashed using keccak256.
 
@@ -208,7 +208,7 @@ The data will be UTF-8 HEX decoded and enveloped as follows: `"\x19Ethereum Sign
 
 `String`: The hashed message
 
-## sign    
+## sign   &#x20;
 
 ```javascript
 meterify.eth.accounts.sign(data, privateKey);
@@ -216,7 +216,7 @@ meterify.eth.accounts.sign(data, privateKey);
 
 Signs arbitrary data. This data is before UTF-8 HEX decoded and enveloped as follows: `"\x19Ethereum Signed Message:\n" + message.length + message`.
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 ```javascript
 meterify.eth.accounts.sign('Some data', '0x4c0883a69102937d6231471b5dbb6204fe5129617082792ae468d01a3f362318');
@@ -232,20 +232,20 @@ meterify.eth.accounts.sign('Some data', '0x4c0883a69102937d6231471b5dbb6204fe512
 
 **Parameters:**
 
-1. `data` - `String`: The data to sign. 
+1. `data` - `String`: The data to sign.&#x20;
 2. `privateKey` - `String`: The private key to sign with.
 
 **Returns:**
 
-`Object`: The signed data RLP encoded signature, or if `returnSignature` is `true` the signature values as follows: 
+`Object`: The signed data RLP encoded signature, or if `returnSignature` is `true` the signature values as follows:&#x20;
 
-1. `message` - `String`: The the given message. 
+1. `message` - `String`: The the given message.&#x20;
 2. `messageHash` - `String`: The hash of the given message.
 3. `r` - `String`: First 32 bytes of the signature.
 4. `s` - `String`: Next 32 bytes of the signature.
 5. `v` - `String`: Recovery value + 27.
 
-## recover    
+## recover   &#x20;
 
 ```javascript
 meterify.eth.accounts.recover(signatureObject);    
@@ -255,7 +255,7 @@ meterify.eth.accounts.recover(message, v, r, s [, preFixed]);
 
 Recovers the Meter address which was used to sign the given data.
 
-#### Parameters <a id="parameters-2"></a>
+#### Parameters <a href="#parameters-2" id="parameters-2"></a>
 
 ```javascript
 meterify.eth.accounts.recover({
@@ -275,7 +275,7 @@ meterify.eth.accounts.recover({
     > "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
 ```
 
-#### Parameters: <a id="parameters-2"></a>
+#### Parameters: <a href="#parameters-2" id="parameters-2"></a>
 
 1. `message` or `signatureObject` - `String` or `Object`: Either signed message or hash, or the signature object as following values:
    1. `messageHash` - `String`: The hash of the given message already prefixed with `"\x19Ethereum Signed Message:\n" + message.length + message`.
@@ -283,13 +283,13 @@ meterify.eth.accounts.recover({
    3. `s` - `String`: Next 32 bytes of the signature.
    4. `v` - `String`: Recovery value + 27
 2. `signature` - `String`: The raw RLP encoded signature, OR parameter 2-4 as v, r, s values.
-3. `preFixed` - `Boolean` \(optional, default: `false`\): If the last parameter is `true`, the given message will NOT automatically be prefixed with `"\x19Ethereum Signed Message:\n" + message.length + message`, and assumed to be already prefixed.
+3. `preFixed` - `Boolean` (optional, default: `false`): If the last parameter is `true`, the given message will NOT automatically be prefixed with `"\x19Ethereum Signed Message:\n" + message.length + message`, and assumed to be already prefixed.
 
 **Returns:**
 
 `String`: The Meter address used to sign this data.
 
-## encrypt    
+## encrypt   &#x20;
 
 ```javascript
 meterify.eth.accounts.encrypt(privateKey, password);
@@ -324,14 +324,14 @@ meterify.eth.accounts.encrypt('0x4c0883a69102937d6231471b5dbb6204fe5129617082792
 
 **Parameters:**
 
-1. `privateKey` - `String`: The private key to encrypt.`password` 
+1. `privateKey` - `String`: The private key to encrypt.`password`&#x20;
 2. `String`: The password used for encryption.
 
 **Returns:**
 
 `Object`: The encrypted keystore v3 JSON.
 
-## decrypt    
+## decrypt   &#x20;
 
 ```javascript
 meterify.eth.accounts.decrypt(keystoreJsonV3, password);
@@ -379,7 +379,7 @@ meterify.eth.accounts.decrypt({
 
 `Object`: The decrypted account.
 
-## wallet    
+## wallet   &#x20;
 
 ```javascript
 meterify.eth.accounts.wallet;
@@ -410,7 +410,7 @@ Contains an in memory wallet with multiple accounts. These accounts can be used 
     }
 ```
 
-### wallet.create <a id="wallet-create"></a>
+### wallet.create <a href="#wallet-create" id="wallet-create"></a>
 
 ```javascript
 meterify.eth.accounts.wallet.create(numberOfAccounts [, entropy]);
@@ -434,13 +434,13 @@ Generates one or more accounts in the wallet. If wallets already exist they will
 **Parameters:**
 
 1. `numberOfAccounts` - `Number`: Number of accounts to create. Leave empty to create an empty wallet.
-2. `entropy` - `String`\(optional\): A string with random characters as additional entropy when generating accounts. If given it should be at least 32 characters.
+2. `entropy` - `String`(optional): A string with random characters as additional entropy when generating accounts. If given it should be at least 32 characters.
 
 **Returns:**
 
 `Object`: The wallet object.
 
-### wallet.add <a id="wallet-add"></a>
+### wallet.add <a href="#wallet-add" id="wallet-add"></a>
 
 ```javascript
 meterify.eth.accounts.wallet.add(account);
@@ -484,7 +484,7 @@ Adds an account using a private key or account object to the wallet.
 
 `Object`: The added account.
 
-### wallet.remove <a id="wallet-remove"></a>
+### wallet.remove <a href="#wallet-remove" id="wallet-remove"></a>
 
 ```javascript
     meterify.eth.accounts.wallet.remove(account);
@@ -520,7 +520,7 @@ Removes an account from the wallet.
 
 `Boolean`: `true` if the wallet was removed. `false` if it couldn't be found.
 
-### wallet.clear <a id="wallet-clear"></a>
+### wallet.clear <a href="#wallet-clear" id="wallet-clear"></a>
 
 ```javascript
     meterify.eth.accounts.wallet.clear();
@@ -552,7 +552,7 @@ none
 
 `Object`: The wallet object.
 
-### wallet.encrypt <a id="wallet-encrypt"></a>
+### wallet.encrypt <a href="#wallet-encrypt" id="wallet-encrypt"></a>
 
 ```javascript
     meterify.eth.accounts.wallet.encrypt(password);
@@ -596,7 +596,7 @@ Encrypts all wallet accounts to an array of encrypted keystore v3 objects.
 
 `Array`: The encrypted keystore v3.
 
-### wallet.decrypt <a id="wallet-decrypt"></a>
+### wallet.decrypt <a href="#wallet-decrypt" id="wallet-decrypt"></a>
 
 ```javascript
     meterify.eth.accounts.wallet.decrypt(keystoreArray, password);
@@ -658,7 +658,7 @@ Decrypts keystore v3 objects.
 
 `Object`: The wallet object.
 
-### wallet.save <a id="wallet-save"></a>
+### wallet.save <a href="#wallet-save" id="wallet-save"></a>
 
 ```javascript
     meterify.eth.accounts.wallet.save(password [, keyName]);
@@ -679,13 +679,13 @@ Note: Browser only.
 **Parameters:**
 
 1. `password` - `String`: The password to encrypt the wallet.
-2. `keyName` - `String`: \(optional\) The key used for the local storage position, defaults to `"web3js_wallet"`.
+2. `keyName` - `String`: (optional) The key used for the local storage position, defaults to `"web3js_wallet"`.
 
 **Returns:**
 
 `Boolean`
 
-### wallet.load <a id="wallet-load"></a>
+### wallet.load <a href="#wallet-load" id="wallet-load"></a>
 
 ```javascript
 meterify.eth.accounts.wallet.load(password [, keyName]);
@@ -712,9 +712,8 @@ Note: Browser only.
 **Parameters:**
 
 1. `password` - `String`: The password to decrypt the wallet.
-2. `keyName` - `String`: \(optional\) The key used for the local storage position, defaults to `"web3js_wallet"`.
+2. `keyName` - `String`: (optional) The key used for the local storage position, defaults to `"web3js_wallet"`.
 
 **Returns:**
 
 `Object`: The wallet object.
-
