@@ -10,15 +10,17 @@ Becoming a delegate node requires staking MTRG tokens. You will also need a litt
 
 It is recommended to have a public IP address if you want to become a delegate node and have the following ports open for inbound TCP connections on your firewall or cloud network security group.
 
-| Port Range | Functions                   |
-| ---------- | --------------------------- |
-| 9209       | PoW P2P (required)          |
-| 8332       | PoW API                     |
-| 8669       | Wallet RESTful API          |
-| 8670-8671  | PoW/PoS Messages (required) |
-| 55555      | Discovery Server            |
-| 11235      | PoS P2P (required)          |
-| 9100       | node explorers              |
+| Port Range | Functions                              |
+| ---------- | -------------------------------------- |
+| 9209       | PoW P2P (required)                     |
+| 8332       | PoW API                                |
+| 8669       | Wallet RESTful API                     |
+| 8670-8671  | PoW/PoS Messages (required)            |
+| 55555      | Discovery Server                       |
+| 11235      | PoS P2P (required)                     |
+| 8545       | Ethereum Compatible http RPC interface |
+| 8546       | Ethereum Compatible ws RPC interface   |
+| 9100       | node explorers                         |
 
 &#x20; **2. Elect your node to be a candidate In Meter Wallet**
 
