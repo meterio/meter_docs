@@ -40,7 +40,9 @@ If a candidate receives enough votes and ranked in the top 300, it will become a
 
 ## Jailing
 
-Meter has a variable block period with a minimum of 2 seconds.  For every block, a validator nodes in the active consensus committee is elected randomly to be the leader to propose and gather votes.  If the node fails to propose the block, the committee will fall to the next node.  Therefore, a misbehaving node may introduce time out in the network.  To remove misbehaving nodes from the consensus group, we introduced a jailing mechanism.  If a node misses more than two proposals in 2 epochs in the past 8 epochs, double signs or fail to start an epoch, it will be jailed (or removed from the consensus group).  The cost of bailing out a node on the main net is 10 MTRG.
+Meter has a variable block period with a minimum of 2 seconds.  For every block, a validator nodes in the active consensus committee is selected randomly to be the leader to propose and gather votes.  If the node fails to propose the block, the committee will fall to the next node.  Therefore, a misbehaving node may introduce time out in the network.  To remove misbehaving nodes from the consensus group, we introduced a jailing mechanism.  If a node misses more than two proposals in 2 epochs in the past 8 epochs, double signs or fail to start an epoch, it will be jailed (or removed from the consensus group).  The cost of bailing out a node on the main net is 10 MTRG. &#x20;
+
+You could bail out a candidate from the [staking portal](https://staking.meter.io), select the jailed candidate and then find "Bail Out" from the three dots on your candidate row.  You could only bail out a candidate from the candidate's own wallet.
 
 ## Uncandidate
 
