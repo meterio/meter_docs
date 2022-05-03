@@ -1,22 +1,22 @@
 # Meterify DApp Tutorials
 
-DApps are decentralized applications that utilize blockchains to store a history of operations \(e.g. transactions\). They can also consist of functional code, called smart contracts, that are published to the blockchain. DApps interfaces can be graphical, console-based, or APIs.
+DApps are decentralized applications that utilize blockchains to store a history of operations (e.g. transactions). They can also consist of functional code, called smart contracts, that are published to the blockchain. DApps interfaces can be graphical, console-based, or APIs.
 
 Popular categories for DApps include finance, exchanges, and gambling, but social applications and games also exist.
 
-One of the primary use cases for a DApp is sending cryptocurrency between two accounts. For example, when Alice wishes to send some MTR and MTRG to Bob's account. Application developers can create methods for this on the Meter blockchain using `meterify`, an extended version of `Web3` \(AKA the Ethereum JavaScript API library\).
+One of the primary use cases for a DApp is sending cryptocurrency between two accounts. For example, when Alice wishes to send some MTR and MTRG to Bob's account. Application developers can create methods for this on the Meter blockchain using `meterify`, an extended version of `Web3` (AKA the Ethereum JavaScript API library).
 
 The final project files can be found here:
 
 * [index.js](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/index.js)
-* [sample\_token.sol](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/sample_token.sol)
+* [sample\_token.sol](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/sample\_token.sol)
 * [docker-compose.yml](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/docker-compose.yml)
 
 ## Prerequisites
 
 Meterify requires that Node.js version 10.15.1 or above is [installed](https://nodejs.org/en/download/package-manager/), as well as `npm`.
 
-```text
+```
 $ node --version
 
 v10.16.3
@@ -30,9 +30,9 @@ $ npm --version
 
 ### Step 1 - Project Setup
 
-Create a directory \(e.g. meter-dapp\) and initialize a new project using `npm`. Then install the app prerequisites `meterify` and `web3`, plus the JavaScript bindings for the Solidity compiler \(`solc`\).
+Create a directory (e.g. meter-dapp) and initialize a new project using `npm`. Then install the app prerequisites `meterify` and `web3`, plus the JavaScript bindings for the Solidity compiler (`solc`).
 
-```text
+```
 $ mkdir meter-dapp
 
 $ cd meter-dapp
@@ -52,13 +52,13 @@ Create a file called `index.js`, and include the `meterify` and `web3` requireme
 
 **index.js:**
 
-```text
+```
 const mtr = require("meterify").meterify;
 const Web3 = require("web3");
-const meterify = mtr(new Web3(), "http://test.meter.io:8669");
+const meterify = mtr(new Web3(), "https://testnet.meter.io");
 ```
 
-```text
+```
 $ node index.js
 ```
 
@@ -143,7 +143,7 @@ function sendCrypto(fromAddress, toAddress, code, amount){
 
 ### Step 6 - Run the application.
 
-```text
+```
 $ node index.js
 ```
 
@@ -153,7 +153,7 @@ The following modifications to the example demonstrate the use of a sample smart
 
 ### Step 1 - Load a Smart Contract.
 
-The file can be found here: [sample\_token.sol](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/sample_token.sol)
+The file can be found here: [sample\_token.sol](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/sample\_token.sol)
 
 ```javascript
 function loadContract(file){
@@ -303,7 +303,7 @@ function mintToken(contractInstance,address){
 
 ### Step 1 - Ensure `docker-compose` is Installed.
 
-```text
+```
 $ sudo curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 $ sudo chmod +x /usr/local/bin/docker-compose
@@ -317,7 +317,7 @@ docker-compose version 1.24.1, build 4667896b
 
 A copy of this file can be found here: [docker-compose.yml](https://github.com/meter-io-docs/meter-io-docs.github.io/blob/master/examples/includes/meter-dapp/docker-compose.yml)
 
-```text
+```
 version: '3.5'
 services:
   node:
@@ -340,7 +340,7 @@ services:
 
 Initiate the test application with `docker-compose`.
 
-```text
+```
 $ docker-compose up
 ```
 
@@ -348,7 +348,7 @@ If there are no errors the connection was successful.
 
 > Stop Docker using `Ctrl+C`.
 
-```text
+```
 Ctrl+C
 ```
 
@@ -356,7 +356,7 @@ Ctrl+C
 
 After the first run in `docker-compose.yml`, stop repeated initialization and dependency installation by commenting out the following lines.
 
-```text
+```
 version: '3.5'
 services:
   node:
@@ -375,4 +375,3 @@ services:
 #            npm install solc@0.4.24 --save &&
 #            node index.js"
 ```
-

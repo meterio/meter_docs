@@ -68,8 +68,8 @@ const meterify = meter(new Web3(), "https://testnet.meter.io");
   _provider: {
     _events: Events,
     _eventsCount: 1,
-    RESTHost: "http://test.meter.io:8669",
-    WSHost: "ws://test.meter.io:8669",
+    RESTHost: "https://test.meter.io",
+    WSHost: "wss://wstest.meter.io",
     timeout: 0, 
     …
   },
