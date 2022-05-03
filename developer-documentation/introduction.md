@@ -93,5 +93,5 @@ Using the code below you can create a web3 instance. You are then able to use th
 ```
 const meterify = require(“meterify”).meterify;
 const Web3 = require(“web3");
-const web3 = meterify(new Web3(), “https://mainnet.meter.io:8667”);
+const web3 = meterify(new Web3(), “https://mainnet.meter.io”);
 ```
