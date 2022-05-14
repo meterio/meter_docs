@@ -132,7 +132,7 @@ Bridge contract Github:&#x20;
 
 Chainbridge original documentation:
 
-[https://chainbridge.chainsafe.io/](https://chainbridge.chainsafe.io)\
+[https://chainbridge.chainsafe.io/](https://chainbridge.chainsafe.io/)\
 
 
 ### Contact Information
