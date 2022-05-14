@@ -1,6 +1,6 @@
 # Useful Information
 
-**Meter Explorer:** &#x20;
+**Meter Explorer:  **
 
 https://scan.meter.io
 

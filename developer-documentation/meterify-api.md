@@ -34,6 +34,6 @@ Several guides and tutorials have been written to explain how to work with the M
 
 ### Other Resources <a href="#other-resources" id="other-resources"></a>
 
-* [Request test tokens](http://faucet-warringstakes.meter.io/)
+* [Request test tokens](http://faucet-warringstakes.meter.io)
 * [Read the whitepaper](https://docsend.com/view/6gebiph)
 * [Meterify web3 GitHub repository](https://github.com/meterio/meterify)
