@@ -72,9 +72,19 @@ The faucet for Testnet can be found at:
 
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allow the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
-The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
+The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
+****
 
+**Multisig Wallet**
+
+Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Meter mainnet.  It can be found at:
+
+{% embed url="https://safe.meter.io" %}
+Meter Multsig Wallet
+{% endembed %}
+
+****
 
 **RESTful API (Not Required if you are using Ethereum RPC toolchains)**
 
