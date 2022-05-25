@@ -88,7 +88,7 @@ Meter Multsig Wallet
 
 **RESTful API (Not Required if you are using Ethereum RPC toolchains)**
 
-This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io:8667](https://mainnet.meter.io:8667).
+This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
 
 You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.
 
