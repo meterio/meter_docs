@@ -38,6 +38,8 @@ RPC Endpoint:&#x20;
 
 &#x20;              RPC: [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
 
+&#x20;                       [https://rpc-meter.jellypool.xyz](https://rpc-meter.jellypool.xyz) (community maintained)
+
 &#x20;              Websocket: <mark style="color:blue;">ws</mark>[<mark style="color:blue;">s://ws.meter.io</mark>](https://rpc.meter.io)  (port 8546 on the mainnet docker)
 
 ChainID: 82
