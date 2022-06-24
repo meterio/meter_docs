@@ -9,21 +9,21 @@ The Meter system consists of two tokens:
 1. MTR, the low-volatility meta-stable token created by PoW miners.
 2. MTRG, the governance token used by PoS validators in a HotStuff BFT style consensus to validate transactions.
 
-Unlike traditional cryptocurrencies the Meter protocol separates the economic consensus from the record-keeping consesus. The economic consensus determines how much new value will be added to the economy whereas the record-keeping consesus prevents double spending. In the Meter system MTR represents the economic consesus while MTRG represents the record-keeping consensus.
+Unlike traditional cryptocurrencies, the Meter protocol separates the economic consensus from the record-keeping consesuses. The economic consensus determines how much new value will be added to the economy whereas the record-keeping consesus prevents double spending. In the Meter system MTR represents the economic consesus while MTRG represents the record-keeping consensus.
 
 This division of work mirrors the physical world where miners extract gold or silver from the Earth while bankers maintain the financial system. Miners and validators collaborate to make the Meter system more stable, secure, and scalable.
 
 ## Why is Proof of Value better than Proof of Work and Proof of Stake?
 
-Most existing blockchains mix currency creation with record keeping despie them being fundamentally two separate consensus.
+Most existing blockchains mix currency creation with record keeping despite them being fundamentally two separate consensuses.
 
-The advantages of seperating the two are as follows:
+The advantages of separating the two are as follows:
 
 1. PoW mining of MTR consumes less energy due to the economic game design
 2. Transactions are processed extremely quickly with instant finality.
-3. Traditional problems with PoS such as long-range attacks and the 'rich-get-richer' problem can are avoided.
+3. Traditional problems with PoS such as long-range attacks and the 'rich-get-richer' problem can be avoided.
 
-The hybrid consensus mechanism makes Meter extremely secure. In order to attack the Meter network you would be required to pass the sybil resistance for both PoW and PoS. Since transactions settle instantly in our system it is more secure than Bitcoin or Ethereum where transaction roll back problems exist.
+The hybrid consensus mechanism makes Meter extremely secure. In order to attack the Meter network, you would be required to pass the sybil resistance for both PoW and PoS. Since transactions settle instantly in our system it is more secure than Bitcoin or Ethereum where transaction rollback problems exist.
 
 More details about Proof of Value can be found here:
 
