@@ -62,6 +62,8 @@ _Useful Contracts:_
 
 Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
+WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
+
 ****
 
 **Important Things to Pay Attention to:**
