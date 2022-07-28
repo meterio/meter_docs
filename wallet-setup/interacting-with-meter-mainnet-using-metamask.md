@@ -15,7 +15,7 @@ If you are configuring manually, there following are the details:
 
 1. Select the network drop-down menu, and then click on the custom RPC at the bottom.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 If you are using the mobile app version of Metamask, the custom RPC setup is under "Settings" and then "Networks".
 

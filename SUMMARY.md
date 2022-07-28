@@ -32,7 +32,9 @@
 ## Staking and Validation <a href="#full-node-and-validation" id="full-node-and-validation"></a>
 
 * [Staking MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/README.md)
-  * [How to Stake MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-stake-mtrg.md)
+  * [How to Stake MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-stake-mtrg/README.md)
+    * [Choosing Candidates](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-stake-mtrg/choosing-candidates.md)
+    * [Factors affecting Staking Rewards](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-stake-mtrg/factors-affecting-staking-rewards.md)
   * [How to Stake Incremental MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-stake-incremental-mtrg.md)
   * [How to Undelegate MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-undelegate-mtrg.md)
   * [How to Unbound MTRG](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/how-to-unbound-mtrg.md)

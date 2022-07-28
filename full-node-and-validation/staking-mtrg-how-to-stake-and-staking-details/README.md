@@ -121,8 +121,8 @@ New emitted MTRG is earned by the delegators through the [on-chain auctions](../
 
 ## &#x20;Tutorials
 
-{% content-ref url="how-to-stake-mtrg.md" %}
-[how-to-stake-mtrg.md](how-to-stake-mtrg.md)
+{% content-ref url="how-to-stake-mtrg/" %}
+[how-to-stake-mtrg](how-to-stake-mtrg/)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-stake-incremental-mtrg.md" %}
