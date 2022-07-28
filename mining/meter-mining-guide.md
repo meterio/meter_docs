@@ -84,8 +84,8 @@ On the testnet, coin daemons have already been set up by the Meter team. Normall
 
 The following are the minimal version requirements for Node.js and Redis. If older versions than the following are used (e.g. installed by a package manager) then problems will arise:
 
-* [Node.js](http://nodejs.org) v0.10+ ([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/#))
-* [Redis](http://redis.io) v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
+* [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/))
+* [Redis](http://redis.io/) v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 
 In Ubuntu, you could use the following command to install nodejs and Redis:
 

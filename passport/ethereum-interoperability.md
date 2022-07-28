@@ -34,7 +34,7 @@ Meter Wallet supports native Meter transactions including staking, starting cand
 
 To export the private keys from Meter Wallet to Metamask:
 
-![Backup Keystore into a .json file from MeterWallet](<../.gitbook/assets/image (11).png>)
+![Backup Keystore into a .json file from MeterWallet](<../.gitbook/assets/image (11) (1).png>)
 
 ![Import the .json file into Metamask](<../.gitbook/assets/image (10).png>)
 
@@ -46,10 +46,3 @@ Export Private Key from Metamask and Import to Meter Wallet
 
 
 
-## Liquidity Mining
-
-On Binance Smart Chain (BSC), we are partnering with Pancakeswap in their yield farming program.&#x20;
-
-On Ethereum, we are partnering with [ChadSwap](https://chadswap.finance) for liquidity mining program. Uniswap liquidity providers could stake the eMTRG/ETH LP tokens in on ChadSwap to earn around 200% annual returns, of which 25% is vested immediately and 75% will be vested linearly over a year.
-
-Whether you are participating in the liquidity mining for ChadSwap, you will receive 30% APY airdrops in eMTRG directly sent to your wallet on a weekly basis

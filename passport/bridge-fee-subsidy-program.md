@@ -2,7 +2,7 @@
 
 To qualify for the program the user has to use the same address on both the source chain and the destination chain (default mode).
 
-**All bridge transfers across all assets into the Meters Tesla Mainnet will be reimbursed to 85% of the bridge fees. **
+**All bridge transfers across all assets into the Meters Tesla Mainnet will be reimbursed to 85% of the bridge fees.**&#x20;
 
 **Passport transfer in all other directions:**&#x20;
 

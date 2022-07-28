@@ -3,7 +3,7 @@
 Meter mainnet now supports two transactions (tx) formats:&#x20;
 
 1. The native Meter tx: which is more expansive and supports staking, on-chain auctions, validator transactions, and future multiple chains/shards. This tx format is used by the Meter mainnet wallet which is a PC/Mac application [downloadable](https://www.meter.io/wallets/) from the Meter website or [Github](https://github.com/meterio/meter-wallet).&#x20;
-2. Ethereum tx: This is designed for backward compatibility with existing Ethereum dApps and ecosystem including wallets like [Metamask](https://metamask.io).
+2. Ethereum tx: This is designed for backward compatibility with existing Ethereum dApps and ecosystem including wallets like [Metamask](https://metamask.io/).
 
 Metamask communicates with the Meter mainnet through an RPC (Remote Procedure Call) emulation layer.  The user will have to configure a custom RPC network inside MetaMask. Here is how to do so.
 
@@ -35,7 +35,7 @@ In Meter, both MTR and MTRG are native network coins. However, Metamask can only
 
 These two ERC-20 contracts will only be effective after block 4.9M on the Meter mainnet.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 One potential confusing issue is that the minimum gas price is 500 gwei in Meter.  In some pages of Metamask, it may estimate the transaction fees too low unless the user set custom gas price 500 gwei.  Meter al
 
