@@ -32,7 +32,7 @@ MTRG: 0x8a419ef4941355476cf04933e90bf3bbf2f73814
 
 MTR: 0x4cb6cef87d8cadf966b455e8bd58fff32aba49d1&#x20;
 
-Useful Contracts:
+_Useful Contracts:_
 
 Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
@@ -58,7 +58,7 @@ _ERC20 System Interface:_
 
 \-MTR (Optional): 0x687A6294D0D6d63e751A059bf1ca68E4AE7B13E2
 
-Useful Contracts:
+_Useful Contracts:_
 
 Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
