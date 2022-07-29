@@ -10,7 +10,7 @@ Users lose potential rewards only when the candidate they have delegated gets ja
 
 #### Information currently available on the Candidates
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (2).png>)
 
 **Candidate Name:** The name of the candidate node on which you can stake
 

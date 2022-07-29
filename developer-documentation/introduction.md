@@ -36,6 +36,8 @@ _Useful Contracts:_
 
 Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
+WMTR: 0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271
+
 **Mainnet:**
 
 RPC Endpoint:&#x20;
