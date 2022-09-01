@@ -8,7 +8,7 @@ There are two primary methods of interacting with Meter:
 
 In order to better support existing Ethereum dApp developers, we developed an Ethereum emulation mode for Meter. Through an addon module called webgear Meter nodes are able to understand Ethereum transaction format and support the standard Ethereum RPC interface. It is like using the Apple M1 silicon to run x86 applications with a 100x performance improvement. Developers are even able to use their preferred Ethereum development tools like `Remix`, `ethers.js` and `web3.js` to interact with Meter. Due to the limitations of the Ethereum RPC, not all Meter functionality is available in Ethereum emulation mode. In this mode, MTRG must be treated as a special ERC20 token via a system contract.
 
-The other difference between Meter and Ethereum is that Meter removed the sequential nonce concept in Ethereum and uses a random number as nonce instead. The Ethereum emulation layer will automatically generate the random nonce, you will not be able to replace a transaction with the same nonce. Additionally, the sender of a transation must rely on the transaction hash returned by the node instead of generating it directly offline.
+The other difference between Meter and Ethereum is that Meter removed the sequential nonce concept in Ethereum and uses a random number as nonce instead. The Ethereum emulation layer will automatically generate the random nonce, you will not be able to replace a transaction with the same nonce. Additionally, the sender of a transaction must rely on the transaction hash returned by the node instead of generating it directly offline. &#x20;
 
 When interacting with Meter you must use "Injected Web3" in Remix alongside Metamask.
 
@@ -38,11 +38,17 @@ Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
 WMTR: 0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271
 
+WMTR:&#x20;
+
 **Mainnet:**
 
 RPC Endpoint:&#x20;
 
-&#x20;              RPC: [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
+&#x20;              RPC:&#x20;
+
+&#x20;                       [https://pokt.network](https://pokt.network) (recommended for developers running production application)
+
+&#x20;                       [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
 
 &#x20;                       [https://rpc-meter.jellypool.xyz](https://rpc-meter.jellypool.xyz) (community maintained)
 
@@ -66,16 +72,6 @@ Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
 WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
 
-****
-
-**Important Things to Pay Attention to:**
-
-1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
-2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
-3. **The minimum gas price on Meter is currently 500gwei.  Even if a lower gas price is specified, the network will still charge 500gwei silently.  Make sure you have enough MTR in the account.**
-4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
-5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy) ****&#x20;
-
 
 
 The faucet for Testnet can be found at:
@@ -87,6 +83,8 @@ The faucet for Testnet can be found at:
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allow the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
 The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
+
+The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).
 
 ****
 
@@ -100,7 +98,17 @@ Meter Multsig Wallet
 
 ****
 
-**RESTful API (Not Required if you are using Ethereum RPC toolchains)**
+**Important Things to Pay Attention to:**
+
+1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
+3. **The minimum gas price on Meter is currently 500gwei.  Even if a lower gas price is specified, the network will still charge 500gwei silently.  Make sure you have enough MTR in the account.**
+4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
+5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy) ****&#x20;
+
+****
+
+**RESTful API (Ignore if you are using Ethereum RPC toolchains)**
 
 This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
 

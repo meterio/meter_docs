@@ -35,7 +35,7 @@ In Meter, both MTR and MTRG are native network coins. However, Metamask can only
 
 These two ERC-20 contracts will only be effective after block 4.9M on the Meter mainnet.
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 One potential confusing issue is that the minimum gas price is 500 gwei in Meter.  In some pages of Metamask, it may estimate the transaction fees too low unless the user set custom gas price 500 gwei.  Meter al
 
