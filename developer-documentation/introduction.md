@@ -4,7 +4,7 @@ Meter is a DeFi infrastructure with a built-in, crypto-native, metastable curren
 
 There are two primary methods of interacting with Meter:
 
-**Ethereum RPC**
+## **1. Ethereum RPC**
 
 In order to better support existing Ethereum dApp developers, we developed an Ethereum emulation mode for Meter. Through an addon module called webgear Meter nodes are able to understand Ethereum transaction format and support the standard Ethereum RPC interface. It is like using the Apple M1 silicon to run x86 applications with a 100x performance improvement. Developers are even able to use their preferred Ethereum development tools like `Remix`, `ethers.js` and `web3.js` to interact with Meter. Due to the limitations of the Ethereum RPC, not all Meter functionality is available in Ethereum emulation mode. In this mode, MTRG must be treated as a special ERC20 token via a system contract.
 
@@ -108,7 +108,7 @@ Meter Multsig Wallet
 
 ****
 
-**RESTful API (Ignore if you are using Ethereum RPC toolchains)**
+## **2. RESTful API (Ignore if you prefer Ethereum RPC toolchains)**
 
 This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
 

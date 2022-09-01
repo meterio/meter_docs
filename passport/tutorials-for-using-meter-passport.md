@@ -18,11 +18,11 @@ Different assets are supported depend on the source and destination chains.  Cli
 
 2\) Allow Meter Passport to access the token that you want to bridge and then confirm the bridge transaction (two transactions the first time you send a token include both the approval and the bridge transaction.)
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 ![](file:///C:/Users/zhuxh/AppData/Local/Temp/msohtmlclip1/01/clip\_image006.jpg)![](file:///C:/Users/zhuxh/AppData/Local/Temp/msohtmlclip1/01/clip\_image008.gif)
 
-![](<../.gitbook/assets/image (16) (1).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 3\) Now that your tokens have been bridged (transferred) to the destination.  If you are bridging into Meter should automatically receive 0.3 MTR airdrop in your wallet whenever you bridge an asset into Meter.  You could use it for the initial transfers and swaps on the Meter mainnet.&#x20;
 

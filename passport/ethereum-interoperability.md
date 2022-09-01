@@ -34,7 +34,7 @@ Meter Wallet supports native Meter transactions including staking, starting cand
 
 To export the private keys from Meter Wallet to Metamask:
 
-![Backup Keystore into a .json file from MeterWallet](<../.gitbook/assets/image (11).png>)
+![Backup Keystore into a .json file from MeterWallet](<../.gitbook/assets/image (11) (1).png>)
 
 ![Import the .json file into Metamask](<../.gitbook/assets/image (10).png>)
 
