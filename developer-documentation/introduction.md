@@ -84,7 +84,7 @@ Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifyi
 
 The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
-The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).
+The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computer.   You could try using a Mac to upload the files.
 
 ****
 
@@ -112,7 +112,7 @@ Meter Multsig Wallet
 
 This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
 
-You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.
+You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.&#x20;
 
 In order to install Meterify run the following commands:
 
