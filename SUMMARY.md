@@ -17,6 +17,7 @@
 ## Wallet Setup
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
+* [Interacting with Meter Mainnet Using Ledger](wallet-setup/interacting-with-meter-mainnet-using-ledger.md)
 * [Getting MTR for Gas](wallet-setup/getting-mtr-for-gas.md)
 
 ## Meter Passport <a href="#passport" id="passport"></a>
