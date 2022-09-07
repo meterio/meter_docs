@@ -12,7 +12,7 @@ The other difference between Meter and Ethereum is that Meter removed the sequen
 
 When interacting with Meter you must use "Injected Web3" in Remix alongside Metamask.
 
-**Testnet:**
+### **Testnet:**
 
 Warringstakes Testnet Endpoints:&#x20;
 
@@ -38,9 +38,9 @@ Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
 WMTR: 0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271
 
-WMTR:&#x20;
 
-**Mainnet:**
+
+### **Mainnet:**
 
 RPC Endpoint:&#x20;
 
@@ -78,17 +78,17 @@ The faucet for Testnet can be found at:
 
 {% embed url="http://faucet-warringstakes.meter.io" %}
 
-**Source Code Verification**
+### **Source Code Verification**
 
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allow the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
 The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
-The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).
+The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computer.   You could try using a Mac to upload the files.
 
 ****
 
-**Multisig Wallet**
+### **Multisig Wallet**
 
 Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Meter mainnet.  It can be found at:
 
@@ -98,7 +98,7 @@ Meter Multsig Wallet
 
 ****
 
-**Important Things to Pay Attention to:**
+### **Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
@@ -112,7 +112,7 @@ Meter Multsig Wallet
 
 This is the native interface for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
 
-You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.
+You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.&#x20;
 
 In order to install Meterify run the following commands:
 
