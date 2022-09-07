@@ -38,7 +38,7 @@ Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
 WMTR: 0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271
 
-
+**Faucet for Testnet:** [http://faucet-warringstakes.meter.io/](http://faucet-warringstakes.meter.io/)
 
 ### **Mainnet:**
 
@@ -71,12 +71,6 @@ _Useful Contracts:_
 Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
 WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
-
-
-
-The faucet for Testnet can be found at:
-
-{% embed url="http://faucet-warringstakes.meter.io" %}
 
 ### **Source Code Verification**
 
