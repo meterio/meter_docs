@@ -16,9 +16,9 @@ In Meter, there are several types of full nodes in the network:
 2. **Delegate nodes:** These nodes are candidates for the committee nodes and have opportunity to propose and sign blocks. To become a delegate node, the top N (N is a protocol parameter) staked full nodes(including both self staking and votes from other stakers) are the delegate nodes.
 3. **Committee nodes:** A random subset of the delegate nodes are selected for every epoch. These nodes form a committee quorum and perform consensus. The committee nodes take turns to propose blocks. If a proposed block receives endorsement signatures from 2/3 of nodes in the committee, the signatures form a QC (Quorum Certificate). Each newly proposed block carries QC for the previous block. Once the newly proposed block obtains a QC, the previous block is considered as confirmed and finalized.
 
-In the initial launch of the main net. The number of Delegate Nodes will be the same as the number of the committee nodes, which are set at 300.
+In the initial launch of the main net. The number of Delegate Nodes will be the same as the number of the committee nodes, which are set at 500.
 
-Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory and 200GB of SSD (AWS c5.2xlarge instance or better). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 4GB of memory. When the network has minimum load, the average monthly block data is expected to be about 1.5GB.
+Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory and 200GB of SSD (AWS c5.2xlarge instance or better). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 8GB of memory. When the network has a minimum load, the average monthly block data is expected to be about 1.5GB.
 
 ## Tutorials (Community Version)
 
@@ -28,7 +28,7 @@ This [setup tool](https://github.com/daveodwyer/meter-node-creator) is created b
 
 ## Setting up Docker
 
-Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  It is recommended to use the latest Ubuntu LTS version for building the node.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu.
+Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  It is recommended to use the latest Ubuntu LTS version for building the node.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu.  **The current docker image release requires docker version higher than  20.10.12 (default in fully updated Ubuntu 20 or Ubuntu 22).**
 
 On Ubuntu, you could use the following commands to install docker
 
