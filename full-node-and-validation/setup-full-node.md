@@ -111,7 +111,7 @@ Please make sure the block height in the wallet is the same as the [official blo
 
 ## Upgrade a full node automatically
 
-Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrade accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using watchtower service during the first year after the mainnet launch.**
+Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrade accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using the watchtower service.**
 
 ```
 docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --include-stopped --revive-stopped --enable-lifecycle-hooks --interval 10 --cleanup meter_main
