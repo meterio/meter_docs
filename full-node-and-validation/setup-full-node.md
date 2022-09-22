@@ -28,7 +28,7 @@ This [setup tool](https://github.com/daveodwyer/meter-node-creator) is created b
 
 ## Setting up Docker
 
-Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  It is recommended to use the latest Ubuntu LTS version for building the node.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu.  **The current docker image release requires docker version higher than  20.10.12 (default in fully updated Ubuntu 20 or Ubuntu 22).**
+Since Meter full node consists of multiple processes, we packaged the entire node to a docker container image. The following instructions assume Ubuntu Linux.  It is recommended to use the latest Ubuntu LTS version for building the node.  If you are using Windows, you could [install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu image. Please refer to [Ubuntu Docker Installation Guide](https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04) for adding Docker support on Ubuntu.  **The current docker image release requires docker version higher than  20.10.12 (comes with fully updated Ubuntu 20 or Ubuntu 22).**
 
 On Ubuntu, you could use the following commands to install docker
 
@@ -111,7 +111,7 @@ Please make sure the block height in the wallet is the same as the [official blo
 
 ## Upgrade a full node automatically
 
-Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrade accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using the watchtower service.**
+Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrade accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using watchtower service during the first year after the mainnet launch.**
 
 ```
 docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --include-stopped --revive-stopped --enable-lifecycle-hooks --interval 10 --cleanup meter_main
