@@ -117,6 +117,6 @@ If you have any questions related to Moonbeam/Moonriver, please use the followin
 
 For Meter passport related support questions, please use the following channels:
 
-* Discord: [https://discordapp.com/invite/WPjTpMG](https://discordapp.com/invite/WPjTpMG)
+* Discord: [https://discord.com/invite/SCkaAqQCsZ](https://discord.com/invite/SCkaAqQCsZ)
 
 Telegram: [https://t.me/Meter\_IO](https://t.me/Meter\_IO)

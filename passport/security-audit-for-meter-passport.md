@@ -1,16 +1,9 @@
-# Security Audit for Meter Passport
+# Security Audit for Meter Passport V1.5
 
-The v1 version of Meter Passport is forked from Chainsafe chainbridge v1, which was audited by Consensys.  The audit report can be found [here](https://consensys.net/diligence/audits/private/adash47d-chainbridge/).
+The Meter Passport v1.5 smart contracts were developed on the ChainSafe v2.x bridge contracts. Meter’s additions were mainly focusing on the relay chain signature aggregation design. The original contracts were internally audited through a separate team at ChainSafe.
 
-The changes made by Meter Passport were intentionally limited to the peripherals of the Chainbridge smart contracts to ensure the original security parameters were intact.  
+The final version of the smart contracts were audited by HAECHI AUDIT.
 
-The list of changes can be found [here](https://github.com/meterio/chainbridge-solidity-v1.0.0-eth/commits/1d58a3fe0c10506b438b26f5d7a7a13982437126):
+During the audit, 8 findings of varying severity levels (three critical, two major, and three minor) were found and subsequently resolved ensuring that the codebase is rigorously tested and verified. HAECHI also recommended two tips to improve the codebase’s overall efficiency and usability.
 
-1. Automatically wrapping and unwrapping native gas tokens, for example converting between ETH and WETH.
-2. Configuring different bridge fees based on source and destination networks
-3. Configuring different proposal expiration block count to accommodate various block speed on different networks
-
-The changes have been thoroughly peer-reviewed by other teams who are familiar with the Chainbridge implementation including the Ampleforth team.  An official security report will be posted later when it is published.
-
-The relayers running Meter Passport are: Protofire, Hashquark, InfinityStones, Wetez, and Meter.  3 out of the 5 relayers were previously running the original Avalanche-Ethereum bridge, which was also based on Chainbridge and had more than $300M TVL with no security incidents.  They are also running validator nodes on various other networks including Binance Smart Chain, Polkadot, Polygon, Avalanche, Meter, and Fantom.
-
+You can view the published audit report in full detail [here](https://github.com/meterio/Passportv2Contracts/tree/main/audit).

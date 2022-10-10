@@ -13,11 +13,11 @@ The document is divided into the following sections:
 
 ### How does the bridge work at a high level?
 
-\--
+**TLDR:**
 
-TL-DR: Meter Passport works with a set of trusted decentralized relayers that read events from a source chain and execute actions on a destination chain. Users will pay for gas in the source chain to initiate the action, while relayers will pay for gas to execute it on the destination.
+Meter Passport works with a set of trusted decentralized relayers that read events from a source chain and execute actions on a destination chain. Users will pay for gas in the source chain to initiate the action, while relayers will pay for gas to execute it on the destination.
 
-\--
+**Details:**
 
 Meter Passport bridge is, at its core, a message-passing protocol. Events on a source chain are used to send a message that is routed to the destination chain. There are three main roles:
 
@@ -39,21 +39,18 @@ Target contract — as the name suggests, this is the contract we are going to i
 
 ### Token transfers - The different models
 
-\--
+**TLDR:**
 
-TL-DR: There are two supported token transfer models for the bridge. A lock-unlock model locks tokens on the origin chain and unlocks wrapped tokens (representations) on the destination chain. A lock/mint - burn/unlock model locks token on the origin chain and mints wrapped tokens (representations) on the destination chain. To transfer wrapped tokens back, these would be burned in the now origin chain, enabling an unlocking event in the now destination chain.
+There are two supported token transfer models for the bridge. A lock-unlock model locks tokens on the origin chain and unlocks wrapped tokens (representations) on the destination chain. A lock/mint - burn/unlock model locks token on the origin chain and mints wrapped tokens (representations) on the destination chain. To transfer wrapped tokens back, these would be burned in the now origin chain, enabling an unlocking event in the now destination chain.
 
-\--\
-
+**Details:**
 
 There are two main possibilities for transferring tokens from one chain to another: the lock-unlock mechanism and the lock/mint - burn/unlock mechanism. In both models, tokens in the destination chain are typically called “wrapped representations” of the original tokens.\
 
 
-Each model has pros and cons in terms of user experience, setup, token accountability and security. Let’s briefly review each model.\
+Each model has pros and cons in terms of user experience, setup, token accountability and security. Let’s briefly review each model.
 
-
-Lock-unlock\
-
+#### LOCK-UNLOCK
 
 In this model, tokens from the source chain (original tokens) are locked inside the handler contract of the source chain. The relayer’s multisig account can only withdraw them. When locking tokens, an event is emitted with the transfer data, picked by the relayers.\
 
@@ -66,8 +63,8 @@ For example, Alice wants to transfer 5 TACO tokens to Bob from chain A to chain 
 The main benefit of this token model is that it gives your team certain control on the maximum amount of tokens that can be wrapped in the target network, because wrapped tokens need to be preminted and transferred to the handler’s address. However, the main drawback is that token accountability becomes an issue, and the lack of wrapped tokens in the handler contract  can prevent the bridge from operating properly. This method is not preferred by the Meter Passport team.\
 
 
-Lock/mint - burn/unlock\
-\
+#### Lock/mint - burn/unlock
+
 In this model, as before,  tokens from the source chain (original tokens) are locked inside the handler contract of the origin chain. The relayer’s multisig account can only withdraw them. When locking tokens, an event is emitted with the transfer data, picked by the relayers.\
 
 
