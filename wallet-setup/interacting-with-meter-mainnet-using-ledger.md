@@ -53,26 +53,11 @@ In the Ledger Live app, you should see the Ethereum and Meter app listed under t
 
 Now that you've installed the Ledger Live apps, you can connect your Ledger to the computer, unlock it, and open the Meter app.
 
-Then import your Ledger account to MetaMask using the following steps:
+Then import your Ledger account to MetaMask as shown below;
 
-1. Click on the top-right logo to expand the menu
-2. Select Connect Hardware Wallet
+{% embed url="https://youtu.be/VO453rD6IyU" %}
 
-<figure><img src="https://lh3.googleusercontent.com/0JV37ke10-gYdHSbpaBUopN-gXcc0PYdh0fJE-8ttJaKK_3Dich0wk01s9QK3d6yqRP_EGWfPvsDaQJKWDgMR_ZEeEO9GpV3O7Agxln4ytu4rlqdCF8GIo_xFfxyqpVj8BaP0JgJ7zWxNSmph3R0vNFlgE32fpTvUZ4qXeAVCW9Gu0fHCC-VPIHftn4ZXfP26AhCUA" alt=""><figcaption></figcaption></figure>
-
-In the next screen, you are prompted to select which hardware wallet you'll like to use in MetaMask. At the moment of writing, only Ledger and Trezor hardware wallets are supported. Here, take the following steps:
-
-1. Select the Ledger logo
-2. Click on **Continue**
-
-<figure><img src="https://lh5.googleusercontent.com/kVDklbUEGcU9iqscgEMIMASva7-UxtPDTcvUVS5_YpsBz4iWObjPqIZW_oRp2ZoK7eZUmd3DnPMeENWyniPeqQ2G6a4tW6vSt9eM4LcqbJzC8Al1_CJrPbe69Ol3LJBYI21i0op3SQEXfbtK25TFUvldPf5YUMHn_mTFpgpWRJ9o1wolXxHl5OQ_LQWDRg60qeOzsw" alt=""><figcaption></figcaption></figure>
-
-If you're using Chrome or a Chrome-based browser like Brave, you'll be prompted to select your Ledger device to connect via WebHID:
-
-1. Select your Ledger device from the pop-up
-2. Click **Connect**
-
-If a pop-up doesn't appear, you may need to change your MetaMask settings to enable a WebHID connection. You can check and update your MetaMask settings by following these steps:
+If you're using Chrome or a Chrome-based browser like Brave, you'll be prompted to select your Ledger device to via a pop-up to connect via WebHID. If a pop-up doesn't appear, you may need to change your MetaMask settings to enable a WebHID connection. You can check and update your MetaMask settings by following these steps:
 
 1. Expand the top-right menu and go to **Settings**
 2. Navigate to **Advanced**
@@ -82,20 +67,11 @@ _**Note:** The Preferred Ledger Connection Type setting is only available on Chr
 
 If MetaMask was able to connect successfully to your Ledger device, you should see a list of five Meter/Ethereum-styled accounts. If not, double-check that Ledger Live is closed, you've connected your Ledger device to the computer, unlocked it, and have the Meter app open.
 
-## **Import Accounts and View Balances**
-
-From the list of accounts, take the following steps:
-
-1. Select the accounts you would like to import from your Ledger device
-2. Click on **Unlock**
+## **View Balances**
 
 If you've imported your Ledger account successfully, you should see your account and balance displayed in the main MetaMask screen
 
-
-
 You can switch accounts in MetaMask at any time to view the balance of your other imported Ledger accounts.
-
-You've now successfully imported a Meter compatible account from your Ledger device and are now ready to start interacting with your Ledger device.
 
 ## **Receive Tokens**
 
@@ -103,17 +79,19 @@ To get started interacting with your Ledger device, you will need to send some f
 
 Next, you will need to obtain some MTR tokens and using the address you just copied, send the tokens to your account. After the transaction has successfully gone through, you will see your balance update.
 
+{% embed url="https://youtu.be/KyjeDCMHYMM" %}
+
 _**Note:** You can receive both native tokens - MTR and MTRG from different sources (CEX, Address)_
 
 ## **Send Tokens**
 
 _**Note:** You need MTR tokens as gas currency for Meter Mainnet to send any assets. You can perform_ [_gasless swap_](https://wallet.meter.io/swap) _if you have MTRG tokens available in your wallet._
 
-Next up is sending and signing transactions on Meter using your Ledger device. To get started sending a transaction, click on the **Send** button
+Next up is sending and signing transactions on Meter using your Ledger device.&#x20;
 
+{% embed url="https://youtu.be/yL3RrArPxho" %}
 
-
-As you would in a standard transaction, set the recipient address, enter the number of tokens to send, review transaction details and confirm it. This will initiate the transaction signature wizard in your Ledger device. Here, take the following steps:
+Here are the steps to review on your ledger device:
 
 1. Click the button to proceed to the next screen. Your Ledger device is only warning you to review the transaction
 2. Check the number of tokens being sent then proceed to the next screen
