@@ -22,7 +22,7 @@
 
 ## Meter Passport V1.5 <a href="#passport" id="passport"></a>
 
-* [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
+* [Meter Passport Architecture](passport/meter-passport-architecture.md)
 * [Salient Features](passport/salient-features.md)
 * [Bridge Fee](passport/bridge-fee-subsidy-program.md)
 * [Tutorials for Using Meter Passport](passport/tutorials-for-using-meter-passport.md)
