@@ -1,6 +1,6 @@
 # Meter Passport Architecture
 
-_**NOTE:** The current version of Meter Passport is V1.5_
+_**NOTE:** The current version of Meter Passport is V1.5, its security audit is available_ [_here_](https://github.com/meterio/Passportv2Contracts/tree/main/audit)_._
 
 One of Meter's goals is maximizing interoperability with other public blockchains.  Meter Passport is a multi-chain router that enables smart contracts to both transfer assets and communicate across blockchains.
 
