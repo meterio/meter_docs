@@ -20,4 +20,4 @@ The addition of dual RPC endpoints for the relayers further **increases the Rela
 
 As long as there are enough relayers online to sign cross-chain transactions on the relay chain, **anyone could submit the relayers’ signatures directly** on the destination Chain. These will dramatically enhance the liveness and usability of the bridge.
 
-We believe the relay chain voting approach is almost as efficient as the ECDSA threshold signature based approach in terms of gas cost, but provides significantly better liveness, fully transparency, and more security to the users.
+We believe the relay chain voting approach is almost as efficient as the ECDSA threshold signature based approach in terms of gas cost, but provides significantly better liveness, full transparency, and more security to the users.
