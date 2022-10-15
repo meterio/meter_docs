@@ -1,6 +1,6 @@
 # How to Unbound MTRG
 
-### Purpose <a href="#f263" id="f263"></a>
+## Purpose <a href="#f263" id="f263"></a>
 
 “Unbound” enables users to remove the MTRG from staking. This maybe done for one of the below reasons;
 
@@ -8,9 +8,15 @@
 
 2\. Deploy MTRG in DeFI applications like DEX liquidity or Lending and Borrowing
 
-### Prerequisites <a href="#0f7c" id="0f7c"></a>
+## Prerequisites <a href="#0f7c" id="0f7c"></a>
 
 > 1\. Existing Vote ID
+
+## Video Tutorial
+
+{% embed url="https://youtu.be/2yGCGYctEkg" %}
+
+## Step-by-Step Guide
 
 ### Step 1
 

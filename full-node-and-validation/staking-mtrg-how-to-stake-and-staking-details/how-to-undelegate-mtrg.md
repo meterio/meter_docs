@@ -1,6 +1,6 @@
 # How to Undelegate MTRG
 
-### Purpose <a href="#5819" id="5819"></a>
+## Purpose <a href="#5819" id="5819"></a>
 
 “Undelegate” enables users to change the candidate on the Vote while continuing staking. This maybe done for one of the below reasons;
 
@@ -10,9 +10,15 @@
 
 3\. The user wants to move Votes to a candidate with lower commission
 
-### Prerequisites: <a href="#f2b4" id="f2b4"></a>
+## Prerequisites: <a href="#f2b4" id="f2b4"></a>
 
 > Existing Vote ID
+
+## Video Tutorial
+
+{% embed url="https://youtu.be/pRWMUvtFr7g" %}
+
+## Step-by-Step Guide
 
 ### Step 1
 

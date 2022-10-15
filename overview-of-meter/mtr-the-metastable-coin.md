@@ -2,11 +2,11 @@
 
 ## What is MTR?
 
-Meter Stable \(MTR\) is the unit of account and medium of exchange for the Meter network. It is a fully-decentralized, permissionless, low-volatility cryptocurrency that is created using SHA256 Proof of Work, the same method used by Bitcoin.
+Meter Stable (MTR) is the unit of account and medium of exchange for the Meter network. It is a fully-decentralized, permissionless, low-volatility cryptocurrency that is created using SHA256 Proof of Work, the same method used by Bitcoin.
 
 Meter uses the cost of production and the PoW miners’ arbitraging behavior to establish a long-term equilibrium price for the market. This equilibrium price anchors MTR to the competitive global electricity price which is more stable in value than any fiat currency based on historical data. Between 1960 and 2021 electricity prices went up 6.3x when measured in USD, but stayed the same after adjusting for inflation.
 
-![US Electricity Price Measured by USD vs Adjust for Inflations](../.gitbook/assets/image%20%282%29.png)
+![US Electricity Price Measured by USD vs Adjust for Inflations](<../.gitbook/assets/image (2) (1).png>)
 
 The supply of MTR is uncapped. When demand is higher miners will expand the supply whereas when demand is lower the internal MTRG auction process wil continually remove MTR from circulation, reducing supply. This makes the value of MTR neither deflationary nor inflationary.
 
@@ -16,7 +16,7 @@ Externally MTR can be used to make everyday payments and as a store of value.
 
 On the Meter network MTR is used for transaction payments, gas, and storage fees PoS validators receive for approving transactions.
 
-MTR may also be converted to MTRG through a competitive bidding process. In Bitcoin the miners use their hash power to directly compete for the newly created Bitcoins. In Meter the miners first convert their hash power into mining credits \(MTR\) and then use the MTR to compete for MTRG. Please refer to the "[On-Chain Auctions](on-chain-auctions.md)” section for more information.
+MTR may also be converted to MTRG through a competitive bidding process. In Bitcoin the miners use their hash power to directly compete for the newly created Bitcoins. In Meter the miners first convert their hash power into mining credits (MTR) and then use the MTR to compete for MTRG. Please refer to the "[On-Chain Auctions](on-chain-auctions.md)” section for more information.
 
 ## How is Meter different than other stablecoins?
 
@@ -43,4 +43,3 @@ In Bitcoin miners use hash power to bid on newly created BTC. The block reward i
 We expect the long term sustainable market equilibrium to be in the 0.6 to 1.25 USD range for MTR to be continuously created. Once the MTRG on-chain auction starts even if the price of MTR drops the auction consumptions will remove any surplus MTR from circulation and bring the price back to the sustainable range. The stability of the system is ever increasing as it grows.
 
 Meter has a [reserve mechanism](the-meter-reserve.md) to account for larger price fluctuations.
-

@@ -1,10 +1,16 @@
 # How to Stake MTRG
 
-### Prerequisites: <a href="#7161" id="7161"></a>
+## Prerequisites: <a href="#7161" id="7161"></a>
 
 > 1\. Min of 100 MTRG
 >
 > 2\. Some MTR for transaction fees
+
+## Video Tutorial
+
+{% embed url="https://youtu.be/3UJcLTyJvc8" %}
+
+## Step-by-Step Guide
 
 ### Step 1
 

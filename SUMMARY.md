@@ -18,7 +18,11 @@
 
 * [Interacting with Meter Mainnet Using MetaMask](wallet-setup/interacting-with-meter-mainnet-using-metamask.md)
 * [Interacting with Meter Mainnet Using Ledger](wallet-setup/interacting-with-meter-mainnet-using-ledger.md)
+* [Adding Custom Tokens to MetaMask](wallet-setup/adding-custom-tokens-to-metamask.md)
 * [Getting MTR for Gas](wallet-setup/getting-mtr-for-gas.md)
+* [Revoking Contract Spend Limits](wallet-setup/revoking-contract-spend-limits.md)
+* [Specifying gas (GWEI) for transactions](wallet-setup/specifying-gas-gwei-for-transactions.md)
+* [Speeding Up/ Canceling Transactions](wallet-setup/speeding-up-canceling-transactions.md)
 
 ## Meter Passport V1.5 <a href="#passport" id="passport"></a>
 

@@ -1,6 +1,6 @@
 # How to Stake Incremental MTRG
 
-### Purpose <a href="#8a00" id="8a00"></a>
+## Purpose <a href="#8a00" id="8a00"></a>
 
 ‘Vote More’ MTRG enables users to add more MTRG to the existing Vote ID. This maybe done for one of the below reasons;
 
@@ -8,11 +8,17 @@
 
 2\. The user adds staking rewards periodically to the existing Vote ID to compound staking rewards
 
-### Prerequisites <a href="#1ef9" id="1ef9"></a>
+## Prerequisites <a href="#1ef9" id="1ef9"></a>
 
 > 1\. Existing Vote of minimum 100 MTRG
 >
 > 2\. Additional MTRG to add to the Vote ID
+
+## Video Tutorial
+
+{% embed url="https://youtu.be/-w20sTrmAx4" %}
+
+## Step-by-Step Guide
 
 ### Step 1
 
