@@ -42,12 +42,12 @@ The Meter app is dependent on the Ethereum app, so first you will need to instal
 
 To get started, open up Ledger Live and:
 
-1. Select **Manager** from the menu
+1. Select **'My Ledger'** from the menu
 2. Connect and unlock your device (this must be done before installation)
 3. In the **App catalog** search for Ethereum (ETH) and click **Install**. Your Ledger device will show **Processing** and once the installation is complete, the app will appear on your Ledger device
 4. Search for Meter (MTR) in the **App catalog** and click **Install**. Again, your Ledger device will show **Processing** and once complete, the Meter app will appear on your Ledger device
 
-In the Ledger Live app, you should see the Ethereum and Meter app listed under the **Apps installed** tab on the **Manager** page. After the apps have been successfully installed, you can close out of Ledger Live.
+In the Ledger Live app, you should see the Ethereum and Meter app listed under the **Apps installed** tab on the **'My Ledger'** page. After the apps have been successfully installed, you can close out of Ledger Live.
 
 ## **Import your Ledger Account to MetaMask**
 
