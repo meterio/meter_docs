@@ -21,6 +21,10 @@ In this tutorial, you will learn how to get started with your Ledger hardware wa
 
 As the Meter App is supported through third party service (MetaMask), all assets available on Meter Network are currently supported.
 
+MTRG can be added as a custom ERC20 token:
+
+
+
 The native assets - MTR and MTRG - are not currently available on Ledger Live.
 
 ## **Prerequisites**

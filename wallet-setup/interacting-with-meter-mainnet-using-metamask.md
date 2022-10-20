@@ -49,7 +49,5 @@ If you are using the mobile app version of Metamask, new Network settings can be
 
 **MTRG can be treated as a custom ERC20 token:**
 
-_ERC20 System Interface:_
-
 \-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
 
