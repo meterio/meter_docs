@@ -40,6 +40,12 @@ In addition, you'll need MetaMask as an intermediary between your Ledger device 
 
 The Meter app is dependent on the Ethereum app, so first you will need to install the Ethereum app. Once the Ethereum app is installed you will be able to install the Meter app without a problem. Please note that the Meter app is only for the Meter network.
 
+**Video Tutorial:**
+
+{% embed url="https://youtu.be/68VhSfb6FyE" %}
+
+**Step-by-Step Guide:**
+
 To get started, open up Ledger Live and:
 
 1. Select **'My Ledger'** from the menu
