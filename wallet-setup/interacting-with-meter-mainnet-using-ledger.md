@@ -23,7 +23,7 @@ As the Meter App is supported through third party service (MetaMask), all assets
 
 MTRG can be added as a custom ERC20 token:
 
-
+\-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
 
 The native assets - MTR and MTRG - are not currently available on Ledger Live.
 

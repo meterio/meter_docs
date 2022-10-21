@@ -51,3 +51,7 @@ If you are using the mobile app version of Metamask, new Network settings can be
 
 \-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
 
+## Setup Meter Desktop Wallet Account in MetaMask
+
+{% embed url="https://youtu.be/11ZjtEpiF0U" %}
+
