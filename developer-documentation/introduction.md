@@ -38,7 +38,9 @@ Multi-call: 0x649e0ce6fc6191D67EA81Ba94b105E28D1815d95
 
 WMTR: 0xfAC315d105E5A7fe2174B3EB1f95C257A9A5e271
 
-**Faucet for Testnet:** [http://faucet-warringstakes.meter.io/](http://faucet-warringstakes.meter.io/)
+**Faucet for Testnet:**&#x20;
+
+[https://faucet-warringstakes.meter.io/](https://faucet-warringstakes.meter.io/)
 
 ### **Mainnet:**
 
@@ -46,7 +48,7 @@ RPC Endpoint:&#x20;
 
 &#x20;              RPC:&#x20;
 
-&#x20;                       [https://pokt.network](https://pokt.network) (recommended for developers running production application)
+&#x20;                       [https://pokt.network](https://pokt.network) (recommended for developers running production applications)
 
 &#x20;                       [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
 
@@ -74,11 +76,11 @@ WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
 
 ### **Source Code Verification**
 
-Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allow the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
+Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
 The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
-The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computer.   You could try using a Mac to upload the files.
+The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computers.   You could try using a Mac to upload the files.
 
 ****
 
