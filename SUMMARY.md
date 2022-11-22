@@ -29,6 +29,7 @@
 * [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
 * [Salient Features](passport/salient-features.md)
 * [Bridge Fee](passport/bridge-fee-subsidy-program.md)
+* [Programming For Meter Passport](passport/programming-for-meter-passport.md)
 * [Tutorials for Using Meter Passport](passport/tutorials-for-using-meter-passport.md)
 * [MTRG Crosschain Info](passport/ethereum-interoperability.md)
 * [Onboarding Passport for Your Project](passport/onboarding-meter-passport-for-your-project.md)
