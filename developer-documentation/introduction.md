@@ -18,7 +18,7 @@ Warringstakes Testnet Endpoints:&#x20;
 
 &#x20;              RPC: [https://rpctest.meter.io](https://rpctest.meter.io)
 
-&#x20;              Websocket: <mark style="color:blue;">wss://wstest.meter.io</mark>&#x20;
+&#x20;              Websocket: [<mark style="color:blue;">wss://wstest.meter.io</mark>](wss://wstest.meter.io)&#x20;
 
 ChainID: 83
 
@@ -54,7 +54,7 @@ RPC Endpoint:&#x20;
 
 &#x20;                       [https://rpc-meter.jellypool.xyz](https://rpc-meter.jellypool.xyz) (community maintained)
 
-&#x20;              Websocket: <mark style="color:blue;">ws</mark>[<mark style="color:blue;">s://ws.meter.io</mark>](https://rpc.meter.io)  (port 8546 on the mainnet docker)
+&#x20;              Websocket: [<mark style="color:blue;">wss://ws.meter.io</mark> ](wss://ws.meter.io) (port 8546 on the mainnet docker)
 
 ChainID: 82
 
