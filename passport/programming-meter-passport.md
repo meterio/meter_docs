@@ -14,7 +14,7 @@ ERC20 tokens with special features like transfer tax and burning, please reach o
 
 #### Generic Message Passing
 
-Meter Passport is the first bridge that supports generic cross chain messaging in production.  [Ampleforth](https://ampleforth.org) team uses Meter Passport for both AMPL token transfers and crosschain rebasing.  Meter Passport is a fork of ChainSafe's Sygma bridge v2.  The generic message-passing interface is the same as the Sygma Bridge.  The details of the generic messaging passing can be found in the Sygma bridge documents.
+Meter Passport is the first bridge that supports generic cross chain messaging in production.  [Ampleforth](https://ampleforth.org) team uses Meter Passport for both AMPL token transfers and crosschain rebasing.  The details of the generic messaging passing can be found in the Sygma bridge documents.
 
 {% embed url="https://docs.buildwithsygma.com/architecture/generic" %}
 Sygma Generic Message Passing Docs
