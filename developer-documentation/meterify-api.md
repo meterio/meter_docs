@@ -1,14 +1,14 @@
-# Meterify Web3 API（Native TX）
+# Meterify Web3 API(Native TX)
 
 ### **API Documentation**
 
-The [API documentation](meterify-api-documentation/) focuses on the use of the `meterify` library to develop DApps for the Meter blockchain through the native RESTful API interface.  The RESTful API uses the native Meter TX format instead of the Ethereum TX format and is not compatible with existing Ethers.js, Web3.js, or web3j libraries.   &#x20;
+The [API documentation](meterify-api-documentation/) focuses on the use of the `meterify` library to develop DApps for the Meter blockchain through the native RESTful API interface.  The RESTful API uses the native Meter TX format instead of the Ethereum TX format and is not compatible with existing Ethers.js, Web3.js, or web3j libraries.  Therefore `meterify`was created to bridge the gap.&#x20;
 
 `meterify` is a node.js package.  It provides interfaces almost the same as the well known `web3.js`library, and much of its relevant open source documentation has been merged with information more specific to Meter.  Using `meterify` generates native Meter transactions and is more direct than using `web3.js` through the RESTful interface. &#x20;
 
 The meterify.js library uses the http restful API.  You could either use your own node or interact with a full node on the Meter mainnet/testnet. &#x20;
 
-Restful API end points:
+Restful API endpoints:
 
 Local: `http://node_ip:8669`
 
