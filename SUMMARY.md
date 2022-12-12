@@ -61,7 +61,7 @@
 
 * [Introduction to Developer Documentation](developer-documentation/introduction.md)
 * [Developing with Remix, Ethers.js and Web3.js](developer-documentation/interacting-with-meter-with-remix.md)
-* [Meterify Web3 API（Native TX）](developer-documentation/meterify-api.md)
+* [Meterify Web3 API(Native TX)](developer-documentation/meterify-api.md)
 * [Meterify API Documentation](developer-documentation/meterify-api-documentation/README.md)
   * [meterify.eth](developer-documentation/meterify-api-documentation/meterify.eth.md)
   * [meterify.eth.Contract](developer-documentation/meterify-api-documentation/meterify.eth.contract.md)
