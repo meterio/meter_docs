@@ -39,3 +39,4 @@ Several guides and tutorials have been written to explain how to work with the M
 * [Request test tokens](http://faucet-warringstakes.meter.io/)
 * [Read the whitepaper](https://docsend.com/view/6gebiph)
 * [Meterify web3 GitHub repository](https://github.com/meterio/meterify)
+* [Java library for Native TX Meter-SDK4j](https://github.com/meterio/meter-sdk4j)
