@@ -2,7 +2,7 @@
 
 ### Meter Network as Relay Chain
 
-With Meter Passport V1.5, **Meter Network is now used as the relay chain** with a signature collection contract deployed on Meter for the relayers to vote.&#x20;
+With Meter Passport V2.0, **Meter Network is now used as the relay chain** with a signature collection contract deployed on Meter for the relayers to vote.&#x20;
 
 Compared to other EVM chains, the **instant finality** behavior on Meter Network **makes it an ideal Relay Chain**. Every transaction in the block is 100% finalized, introducing **minimal delay** and ensuring **certainty** to the cross-chain transactions.
 

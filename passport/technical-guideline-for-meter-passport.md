@@ -107,16 +107,7 @@ With either token transfer model, a token registration procedure needs to take p
 Note: if you use the same private key and nonce that you used to deploy the original token contract to deploy the token contract on other chains, they will all have the same address (which is awesome!)\
 
 
-To register the token on the bridge please send an email to the following address:\
-
-
-* Moonriver: [moonriver@meter.i](mailto:moonriver@meter.io)o
-* Moonbeam (not yet available)
-
 ### Links of interest
-
-Chainbridge explained: [https://docs.moonbeam.network/integrations/bridges/ethereum/chainbridge/](https://docs.moonbeam.network/integrations/bridges/ethereum/chainbridge/)\
-
 
 Meter Passport bridge tokens Github:
 
@@ -125,19 +116,12 @@ Meter Passport bridge tokens Github:
 
 Bridge contract Github:&#x20;
 
-[https://github.com/meterio/chainbridge-solidity-v1.0.0-eth](https://github.com/meterio/chainbridge-solidity-v1.0.0-eth)
+[https://github.com/meterio/Passportv2Contracts](https://github.com/meterio/Passportv2Contracts)
 
 Chainbridge original documentation:
 
-[https://chainbridge.chainsafe.io/](https://chainbridge.chainsafe.io/)\
+[https://docs.buildwithsygma.com/](https://docs.buildwithsygma.com/)\
 
-
-### Contact Information
-
-For any inquiries regarding the bridge, please contact:
-
-* Moonriver: [moonriver@meter.io](mailto:moonriver@meter.io)
-* Moonbeam (not yet available)
 
 For Meter passport related support questions, please use the following channels:
 

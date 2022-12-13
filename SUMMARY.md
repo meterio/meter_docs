@@ -24,7 +24,7 @@
 * [Specifying gas (GWEI) for transactions](wallet-setup/specifying-gas-gwei-for-transactions.md)
 * [Speeding Up/ Canceling Transactions](wallet-setup/speeding-up-canceling-transactions.md)
 
-## Meter Passport V1.5 <a href="#passport" id="passport"></a>
+## Meter Passport V2.0 <a href="#passport" id="passport"></a>
 
 * [Meter Passport Architecture](passport/cross-chain-interoperability-goals.md)
 * [Salient Features](passport/salient-features.md)
@@ -34,7 +34,7 @@
 * [MTRG Crosschain Info](passport/ethereum-interoperability.md)
 * [Onboarding Passport for Your Project](passport/onboarding-meter-passport-for-your-project.md)
 * [Technical Guideline for Meter Passport](passport/technical-guideline-for-meter-passport.md)
-* [Security Audit for Meter Passport V1.5](passport/security-audit-for-meter-passport.md)
+* [Security Audit for Meter Passport V2.0](passport/security-audit-for-meter-passport.md)
 
 ## Staking and Validation <a href="#full-node-and-validation" id="full-node-and-validation"></a>
 
