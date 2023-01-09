@@ -18,7 +18,7 @@ In Meter, there are several types of full nodes in the network:
 
 In the initial launch of the main net. The number of Delegate Nodes will be the same as the number of the committee nodes, which are set at 500.
 
-Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory and 200GB of SSD (AWS c5.2xlarge instance or better). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 8GB of memory. When the network has a minimum load, the average monthly block data is expected to be about 1.5GB.
+Requirements for running a delegate/committee node: To achieve the full performance of the Meter network, the recommended hardware configuration is more than 8 compute optimized vCPU, 16GB of memory, and 200GB of SSD (AWS c5.2xlarge instance or better). The maximum block size in Meter is around 1.3MB. It is also recommended to have data center class 1Gbps to 10Gbps internet connection. However the Meter consensus protocol is capable of adapting to transaction load, network, and node processing speed to some extent by varying the block period from 2 sec to up to 30 sec. The minimum requirement is 2 vCPU and 8GB of memory. Currently, the average monthly block data is around 1.7GB.
 
 ## Tutorials (Community Version)
 
@@ -63,7 +63,7 @@ $ source ~/.bashrc
 
 1. Launch the Meter container
 
-**The following instructions assumes the user operates in METER\_MAIN\_DATA\_PATH. Please pay attention to the parameters in the commands and replace the path accordingly to your environment, especially the path after -v in docker run commands**.
+**The following instructions assume the user operates in METER\_MAIN\_DATA\_PATH. Please pay attention to the parameters in the commands and replace the path accordingly to your environment, especially the path after -v in docker run commands**.
 
 ```
 docker run --network host --name meter_main --restart always -e NETWORK="main" -v $METER_MAIN_DATA_PATH:/pos -d meterio/mainnet:latest
@@ -111,7 +111,7 @@ Please make sure the block height in the wallet is the same as the [official blo
 
 ## Upgrade a full node automatically
 
-Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrade accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using the watchtower service.**
+Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease the node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrades accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using the watchtower service.**
 
 ```
 docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --include-stopped --revive-stopped --enable-lifecycle-hooks --interval 10 --cleanup meter_main
