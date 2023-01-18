@@ -14,7 +14,7 @@ The bridge fee exists to support the gas spending and operations for the team of
 
 Different assets are supported depend on the source and destination chains.  Click “Change” to select the network where you want to bring the tokens from. Then select the token and the amount. Make sure “I want to send funds to my address.” is checked for bridge fee subsidy and airdrops.  Lastly, click on “Start Transfer” to initiate the bridging.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 2\) Allow Meter Passport to access the token that you want to bridge and then confirm the bridge transaction (two transactions the first time you send a token include both the approval and the bridge transaction.)
 

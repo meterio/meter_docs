@@ -36,13 +36,13 @@ To export the private keys from Meter Wallet to Metamask:
 
 ![Backup Keystore into a .json file from MeterWallet](<../.gitbook/assets/image (11).png>)
 
-![Import the .json file into Metamask](<../.gitbook/assets/image (10).png>)
+![Import the .json file into Metamask](<../.gitbook/assets/image (10) (1).png>)
 
 Export Private Key from Metamask and Import to Meter Wallet
 
-![Export Private Key from Account details in Metamask](<../.gitbook/assets/image (12).png>)
+![Export Private Key from Account details in Metamask](<../.gitbook/assets/image (12) (1).png>)
 
-![Import Metamask Private Key to Meterwallet](<../.gitbook/assets/image (9).png>)
+![Import Metamask Private Key to Meterwallet](<../.gitbook/assets/image (9) (1).png>)
 
 
 

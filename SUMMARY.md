@@ -48,6 +48,7 @@
   * [Frequently Asked Questions](full-node-and-validation/staking-mtrg-how-to-stake-and-staking-details/frequently-asked-questions.md)
 * [Running a Full Node on Meter Mainnet](full-node-and-validation/setup-full-node.md)
 * [Configure the Full Node to Validator Node](full-node-and-validation/configure-the-full-node-to-validator-node.md)
+* [Meter Incentive Programs to promote decentralization](full-node-and-validation/meter-incentive-programs-to-promote-decentralization.md)
 
 ## Mining
 
