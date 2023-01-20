@@ -94,7 +94,25 @@ Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Me
 Meter Multsig Wallet
 {% endembed %}
 
-****
+### **Graph Node**
+
+The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our product graph nodes.
+
+For testnet:
+
+```
+"create-test": "graph create --node http://graphtest.meter.io:8020/ [graph-name]",
+"remove-test": "graph remove --node http://graphtest.meter.io:8020/ [graph-name]",
+"deploy-test": "graph deploy --node http://graphtest.meter.io:8020/ --ipfs http://graphtest.meter.io:50
+```
+
+For Mainnet:
+
+```
+"create-mainnet": "graph create --node http://graph.meter.io:8020/ [graph-name]",
+"remove-mainnet": "graph remove --node http://graph.meter.io:8020/ [graph-name]",
+"deploy-mainnet": "graph deploy --node http://graph.meter.io:8020/ --ipfs http://graph.meter.io:5001 [graph-name]",
+```
 
 ### **Important Things to Pay Attention to:**
 
