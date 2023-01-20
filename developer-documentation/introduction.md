@@ -2,6 +2,8 @@
 
 Meter is a DeFi infrastructure with a built-in, crypto-native, metastable currency called MTR. You can use Meter as a Layer 1 blockchain to build DeFi apps on top of, or as a highly-decentralized, high-performance side chain for Ethereum and other public chains.
 
+**The current Ethereum version on Meter is 1.10.17**
+
 There are two primary methods of interacting with Meter: Ethereum compatible RPC or Meter Native Restful APIs.  This section describes the Ethereum compatible RPC interface and native Restful APIs are detailed [here](meterify-api.md).
 
 ## **1. Ethereum RPC**
