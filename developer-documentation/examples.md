@@ -8,7 +8,7 @@ Please change the end point in `meterifiedWeb3.js` to your own node or the offic
 
 mainnet: https://mainnet.meter.io
 
-Warringstakes tesnet: http://warrin.meter.io
+Warringstakes tesnet: http://testnet.meter.io
 
 ```
 $ sudo apt install npm
