@@ -98,7 +98,9 @@ Meter Multsig Wallet
 
 The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our product graph nodes.
 
-For testnet:
+**On testnet:**
+
+In the package.json file for your subgraph:
 
 ```
 "create-test": "graph create --node http://graphtest.meter.io:8020/ [graph-name]",
@@ -106,13 +108,24 @@ For testnet:
 "deploy-test": "graph deploy --node http://graphtest.meter.io:8020/ --ipfs http://graphtest.meter.io:50
 ```
 
-For Mainnet:
+In the subgraph.yaml file for your subgraph:
 
-```
-"create-mainnet": "graph create --node http://graph.meter.io:8020/ [graph-name]",
-"remove-mainnet": "graph remove --node http://graph.meter.io:8020/ [graph-name]",
+<pre><code><strong>network:metertest
+</strong></code></pre>
+
+**On Mainnet:**
+
+In the package.json file for your subgraph:
+
+<pre><code><strong>"create-mainnet": "graph create --node http://graph.meter.io:8020/ [graph-name]",
+</strong>"remove-mainnet": "graph remove --node http://graph.meter.io:8020/ [graph-name]",
 "deploy-mainnet": "graph deploy --node http://graph.meter.io:8020/ --ipfs http://graph.meter.io:5001 [graph-name]",
-```
+</code></pre>
+
+In the subgraph.yaml file for your subgraph:
+
+<pre><code><strong>network:meter
+</strong></code></pre>
 
 ### **Important Things to Pay Attention to:**
 
