@@ -74,7 +74,7 @@ Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
 WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
 
-### **Source Code Verification**
+## **2. Source Code Verification**
 
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
@@ -86,7 +86,7 @@ The main difference between Sourcify and Etherscan verification is that Sourcify
 
 ****
 
-### **Multisig Wallet**
+## **3. Multisig Wallet**
 
 Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Meter mainnet.  It can be found at:
 
@@ -94,7 +94,7 @@ Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Me
 Meter Multsig Wallet
 {% endembed %}
 
-### **Graph Node**
+## **4. Graph Node**
 
 The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our product graph nodes.
 
@@ -127,7 +127,7 @@ In the subgraph.yaml file for your subgraph:
 <pre><code><strong>network:meter
 </strong></code></pre>
 
-### **Important Things to Pay Attention to:**
+## **5. Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
