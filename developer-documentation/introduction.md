@@ -2,7 +2,7 @@
 
 Meter is a DeFi infrastructure with a built-in, crypto-native, metastable currency called MTR. You can use Meter as a Layer 1 blockchain to build DeFi apps on top of, or as a highly-decentralized, high-performance side chain for Ethereum and other public chains.
 
-There are two primary methods of interacting with Meter:
+There are two primary methods of interacting with Meter: Ethereum compatible RPC or Meter Native Restful APIs.  This section describes the Ethereum compatible RPC interface and native Restful APIs are detailed [here](meterify-api-documentation/).
 
 ## **1. Ethereum RPC**
 
@@ -136,23 +136,3 @@ In the subgraph.yaml file for your subgraph:
 5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy) ****&#x20;
 
 ****
-
-## **2. RESTful API (Ignore if you prefer Ethereum RPC toolchains)**
-
-This is the native interface (the tx format is slightly different from Ethereum tx and supports enhanced features like parallel sending and etc.) for Meter and is directly supported by Meter node on port 8669. There is an additional mainnet endpoint at [https://mainnet.meter.io ](https://mainnet.meter.io:8667)
-
-You are able to access all of our functionality and create Meter native transactions through this interface. We have implemented an Ethereum web3 compatible interface library called meterify.&#x20;
-
-In order to install Meterify run the following commands:
-
-```
-npm install meterify
-```
-
-Using the code below you can create a web3 instance. You are then able to use the Ethereum web3 interfaces to interact with the Meter mainnet.
-
-```
-const meterify = require(“meterify”).meterify;
-const Web3 = require(“web3");
-const web3 = meterify(new Web3(), “https://mainnet.meter.io”);
-```
