@@ -9,15 +9,15 @@ Governance Proposal: [Link](https://snapshot.org/#/meter-mainnet.eth/proposal/0x
 * [x] This program is a non-approval based incentive program.
 * [x] This program can be leveraged in conjunction with 'Meter Developer Grant Program'
 
-## Core Objective:
+## Core Objective
 
 As with the ‘Meter Developer Grant Program’, the core objective of the Meter Up TVL Incentive program is growth and adoption of Meter Network as a public goods platform.&#x20;
 
-## Key Performance Criteria to choose a recipient:&#x20;
+## Key Performance Criteria to choose a recipient
 
 We at Meter Foundation understand that success of Meter Network is a byproduct of the success of the dApps deployed on the Network. This program aims to share the burden of adoption by incentivizing TVL ON ALL DAPPS (meeting operational requirements specified below) deployed on the network.&#x20;
 
-## Program Incentives:
+## Program Incentives
 
 | TVL                                                            | APR  | TVL Source | Method                                           |
 | -------------------------------------------------------------- | ---- | ---------- | ------------------------------------------------ |
@@ -28,7 +28,7 @@ Builders can use the rewards to internalize profits or use as liquidity incentiv
 
 As all rewards are directly correlated to TVL, we anticipate users to be fairly incentivized by the dApps. MTRG incentives will be over and above any incentives provided by the dApps.
 
-## Program Terms and Eligibility:
+## Program Terms and Eligibility
 
 1. Register their protocol with DeFi Llama (https://defillama.com/) to track the TVL. Only TVL mentioned on Defillama will be used. Usage will be calculated by the time-weighted total value locked (TVL) of the protocol.
    * In case of change in key contracts, it is the responsibility of the project team to update the information on Defillama. Requests to consider TVL not updated on Defillama will not be reviewed. We will make no exception to this rule to reduce operational overheads
@@ -36,11 +36,11 @@ As all rewards are directly correlated to TVL, we anticipate users to be fairly 
 2. Project should be deployed on the Meter Network at the time of the monthly distribution
 3. Projects should have a minimum TVL of US$10,000 at the time of distribution
 
-## Overall Duration for the Program:
+## Overall Duration for the Program
 
 The MTRG incentives will be reviewed when the total TVL reaches 25 Million or at the end of 1 year post launch of the program (whichever is earlier).
 
-## Key Categories:
+## Key Categories
 
 As the program incentivizes TVL on the network; naturally, categories of dApps supporting TVL are only applicable. They are;
 
@@ -50,12 +50,12 @@ As the program incentivizes TVL on the network; naturally, categories of dApps s
 
 Categories not mentioned but supporting TVL would also be incentivized.
 
-## MTRG Incentive Distribution:
+## MTRG Incentive Distribution
 
 1. MTRG Rewards are distributed at the end of every month to each protocol’s \`Deployer Address’ submitted in the ‘Meter Up’ Registration Form ([Link](https://forms.gle/TcLb1gnEdtaibgmx8)).
 2. Incentives will be distributed in the beginning of the month based on TVL reported
 
-### Example:
+### Example
 
 **Projected Rewards** = Project time-weighted-average TVL of MTRG pairs with blue chip assets x 10% + Project time-weighted-average TVL x 7.5%
 
@@ -69,7 +69,7 @@ All other Project time-weighted-average TVL = $5,000,000
 
 **Rewards may vary based on the price of MTRG**. Builders can use the rewards to internalize profits or use as liquidity incentives back to users.
 
-## Requirements:
+## Requirements
 
 ‘Meter Up’ TVL Incentive Program Registration Form - [https://forms.gle/TcLb1gnEdtaibgmx8](https://forms.gle/TcLb1gnEdtaibgmx8)&#x20;
 

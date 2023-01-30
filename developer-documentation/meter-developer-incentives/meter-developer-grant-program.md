@@ -7,11 +7,11 @@
 
 
 
-## Core Objective:
+## Core Objective
 
 The core objective of the Meter Developer Grant program is growth and adoption of Meter Network as a public goods platform.&#x20;
 
-## Key Performance Criteria to choose a recipient:&#x20;
+## Key Performance Criteria to choose a recipient
 
 The key performance indicators that drive the decision-making in providing grant to a project/ recipient are;
 
@@ -20,11 +20,11 @@ The key performance indicators that drive the decision-making in providing grant
 3. Ability to attract new user to Meter Network
 4. Fill gap in the current Meter Ecosystem needs
 
-## Overall Budget for the Program:
+## Overall Budget for the Program
 
 The overall budget for the ‘Meter Developer Grant Program’ is 10 Million USD in its current phase. The funding for the program will be sourced from MTRG reserved for ecosystem and future products ([Tokenomics paper](https://docsend.com/view/pubkivhipjgsqdn8)).&#x20;
 
-## Key Categories:
+## Key Categories
 
 The overarching goal of the Grant Program is adoption of Meter Network and increase in network activity. We would review any project which fits the overarching goal.&#x20;
 
@@ -40,7 +40,7 @@ In cognizance of the current state of Meter Ecosystem, Meter Foundation is more 
 
 Meter Foundation will support any type of deployment through the grant program (New development, Port from Other Network, Fork of established protocol)
 
-## Grant Estimate across Key Categories:
+## Grant Estimate across Key Categories
 
 Meter foundation is primarily interested in projects that align to the key performance criteria mentioned earlier. Based on our experience, below are the key performance criteria and grant estimates across different categories (detailed above):
 
@@ -54,7 +54,7 @@ Meter foundation is primarily interested in projects that align to the key perfo
 | DAO and DAO Tooling                      | MAU                  | Up to 20,000 USD | -                                              |
 | Tooling, Infrastructure and Integrations | Ecosystem Gap        | Up to 20,000 USD | -                                              |
 
-## Requirements:
+## Requirements
 
 Please fill out this application form diligently - [https://forms.gle/qnJ2eNagGCRefwQ17](https://forms.gle/qnJ2eNagGCRefwQ17)
 
