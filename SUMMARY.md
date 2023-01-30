@@ -60,6 +60,9 @@
 
 ## Developer Documentation
 
+* [Meter Developer Incentives](developer-documentation/meter-developer-incentives/README.md)
+  * [Meter Developer Grant Program](developer-documentation/meter-developer-incentives/meter-developer-grant-program.md)
+  * [METER UP: TVL Incentive Program](developer-documentation/meter-developer-incentives/meter-up-tvl-incentive-program.md)
 * [Introduction to Developer Documentation](developer-documentation/introduction.md)
 * [Developing with Remix, Ethers.js and Web3.js](developer-documentation/interacting-with-meter-with-remix.md)
 * [Meter Native TX RESTful APIs](developer-documentation/meterify-api.md)
