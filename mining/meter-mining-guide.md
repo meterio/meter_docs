@@ -84,7 +84,8 @@ On the testnet, coin daemons have already been set up by the Meter team. Normall
 
 The following are the minimal version requirements for Node.js and Redis. If older versions than the following are used (e.g. installed by a package manager) then problems will arise:
 
-* [Node.js](http://nodejs.org/) v0.10+ ([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/))
+* Ubuntu 18 (later Ubuntu version will not build properly.  If you have a later OS, refer to the section for running the mining pool in docker)
+* [Node.js](http://nodejs.org/) v10.19 ([follow these installation instructions](https://tecadmin.net/install-nodejs-with-nvm/))
 * [Redis](http://redis.io/) v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 
 In Ubuntu, you could use the following command to install nodejs and Redis:
@@ -141,3 +142,25 @@ $ node init.js
 ```
 
 The pool should now start running and we could see the status of the pool from the log and http://pool\_ip:8080/stats.
+
+### Running the Pool in Docker
+
+```
+git clone https://github.com/meterio/meter-nomp.git
+```
+
+Follow the Pool configurations section to create a proper meter.json file
+
+```
+sudo docker pull meterio/nomp 
+sudo docker run -it --name nomp -v /home/ubuntu/meter-nomp/pool_configs/meter.json:/nomp/pool_configs/meter.json meterio/nomp
+```
+
+The pool will immediately start running.  You could see the logs of pool through
+
+```
+sudo docker container logs nomp 
+```
+
+
+
