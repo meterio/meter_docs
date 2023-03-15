@@ -131,7 +131,7 @@ In the subgraph.yaml file for your subgraph:
 
 ## **5. APIs**
 
-1. Thirdweb.com provides RPC endpoints, smart contract libraries and APIs for developers to launch dApp quickly:
+1. Thirdweb.com provides RPC endpoints, tools, smart contract libraries and APIs for developers to launch dApp quickly:
 
 {% embed url="https://thirdweb.com/meter" %}
 
