@@ -98,7 +98,7 @@ Meter Multsig Wallet
 
 ## **4. Graph Node**
 
-The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our product graph nodes.
+The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our production graph nodes.
 
 **On testnet:**
 
