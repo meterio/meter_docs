@@ -129,7 +129,19 @@ In the subgraph.yaml file for your subgraph:
 <pre><code><strong>network:meter
 </strong></code></pre>
 
-## **5. Important Things to Pay Attention to:**
+## **5. APIs**
+
+1. Thirdweb.com provides RPC endpoints, smart contract libraries and APIs for developers to launch dApp quickly:
+
+{% embed url="https://thirdweb.com/meter" %}
+
+{% embed url="https://thirdweb.com/meter-testnet" %}
+
+2. covalenthq.com provides data anylytics APIs on the Meter mainnet.
+
+{% embed url="https://www.covalenthq.com/docs/networks/meter/" %}
+
+## **6. Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
