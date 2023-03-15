@@ -141,7 +141,13 @@ In the subgraph.yaml file for your subgraph:
 
 {% embed url="https://www.covalenthq.com/docs/networks/meter/" %}
 
-## **6. Important Things to Pay Attention to:**
+## **6. Bridges**
+
+Layer 0 connects Meter Mainnet and Testnet to more than 20 other chains.  The documentation could be found at [https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
+
+Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT tokens to the supported list, please make a pull request based on the instructions here: [https://github.com/meterio/token-list](https://github.com/meterio/token-list)
+
+## **7. Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
