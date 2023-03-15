@@ -143,7 +143,7 @@ In the subgraph.yaml file for your subgraph:
 
 ## **6. Bridges**
 
-Layer 0 connects Meter Mainnet and Testnet to more than 20 other chains.  The documentation could be found at [https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
+[Layer 0](https://layerzero.network/) connects Meter Mainnet and Testnet to more than 20 other chains.  The documentation could be found at [https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
 
 Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT tokens to the supported list, please make a pull request based on the instructions here: [https://github.com/meterio/token-list](https://github.com/meterio/token-list)
 
