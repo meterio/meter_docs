@@ -147,7 +147,11 @@ In the subgraph.yaml file for your subgraph:
 
 Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT tokens to the supported list, please make a pull request based on the instructions here: [https://github.com/meterio/token-list](https://github.com/meterio/token-list)
 
-## **7. Important Things to Pay Attention to:**
+## **7. Oracles**
+
+Currently [Band Protocol](https://docs.bandchain.org/band-standard-dataset/supported-blockchains.html) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  The Meter foundation is also actively talking to various oracle providers to bring them onboard on Meter.
+
+## **8. Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
