@@ -33,7 +33,7 @@ If you are configuring manually, there following are the details:
 
 If you are using the mobile app version of Metamask, new Network settings can be added through the Network dropdown --> 'Add Network' --> 'Custom Network'
 
-![](<../.gitbook/assets/image (8).png>)![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (8).png>)![](<../.gitbook/assets/image (4) (2).png>)
 
 ## Network Information:
 

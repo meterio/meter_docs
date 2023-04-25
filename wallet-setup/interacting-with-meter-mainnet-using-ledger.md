@@ -128,5 +128,5 @@ _**Note:** This option is necessary to use your Ledger device to interact with E
 
 ## **Support**
 
-Users can reach out on [Telegram](https://t.me/Meter\_IO), [Twitter](https://twitter.com/Meter\_IO) or [Discord](https://discord.gg/WPjTpMG) for immediate support related to ledger integration. You can also reach out to us via email __ at __ info@meter.io.
+Users can reach out on [Telegram](https://t.me/Meter\_IO), [Twitter](https://twitter.com/Meter\_IO) or [Discord](https://discord.gg/WPjTpMG) for immediate support related to ledger integration. You can also reach out to us via email at info@meter.io.
 

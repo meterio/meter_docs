@@ -86,7 +86,7 @@ There are two levels of verification: 1. source code match and 2. both source co
 
 The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computers.   You could try using a Mac to upload the files.
 
-****
+
 
 ## **3. Multisig Wallet**
 
@@ -157,7 +157,6 @@ Currently [Band Protocol](https://docs.bandchain.org/band-standard-dataset/suppo
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
 3. **The minimum gas price on Meter is currently 500gwei (Use eth\_estimateGas to obtain the gas price).  Even if a lower gas price is specified, the network will still charge 500gwei silently.  Make sure you have enough MTR in the account.**
 4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
-5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy) ****&#x20;
+5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy)&#x20;
 6. **If you use Ethereum RPC to obtain the next nonce, you will receive a random number.  In fact, you could use any nonce when sending a transaction on Meter.  However, transactions from the same account with duplicated nonce will not be executed.  Precomputed Ethereum tx hash is also guaranteed to be the same as on-chain hash.**
 
-****

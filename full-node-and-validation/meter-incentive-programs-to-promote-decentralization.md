@@ -23,9 +23,19 @@ This program was critical in increasing the validator node count from 150 to ove
 
 ### Actual Returns of a node
 
-Below are the actual returns of a node between March 25, 2022 and December 15, 2022 with 22,500 MTRG Delegation.&#x20;
+Below are the actual returns of a node with 22,500 MTRG Delegation and with a Tesla NFT delegation of 50,000 MTRG.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**IMPORTANT UPDATE**
+
+Tesla Validator NFTs are moved to Meter Network post this announcement - [TESLA Founding Validator NFTs returning to Meter Network! ](https://medium.com/meter-io/tesla-founding-validator-nfts-returning-to-meter-network-efdafa30476d)
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Post 30 April 2023, Tesla Founding Validator NFTs on Ethereum Network will cease to have utility or value.**</mark>
 
 ## MIP: Incentivizing TVL and Node Operations through Meter Foundation Node Delegation
 

@@ -139,7 +139,7 @@ meterify.eth.accounts.signTransaction({
    3. `to` - `String`: (optional) The receiver of the transaction, can be empty when deploying a contract.
    4. `data` - `String`: (optional) The call data of the transaction, can be empty for simple value transfers.
    5. `value` - `String`: (optional) The value of the transaction in wei.
-   6. `gasPrice` - `String`: (optional) The gas price set by this transaction. If empty, it will use [`meterify.eth.getGasPrice()`](meterify.eth.md#getgasprice)``
+   6. `gasPrice` - `String`: (optional) The gas price set by this transaction. If empty, it will use [`meterify.eth.getGasPrice()`](meterify.eth.md#getgasprice)
    7. `gas` - `String`: The gas provided by the transaction.
 2. `privateKey` - `String`: The private key to sign with.
 3. `callback` - `Function`: (optional) Optional callback, returns an error object as first parameter and the result as second.
