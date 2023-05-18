@@ -50,13 +50,19 @@ RPC Endpoint:&#x20;
 
 &#x20;              RPC:&#x20;
 
-&#x20;                       [https://pokt.network](https://pokt.network) (recommended for developers running production applications)
+&#x20;                       [https://blockpi.io/](https://blockpi.io/) provides both public and API based end points
+
+&#x20;                       [https://pokt.network](https://pokt.network)&#x20;
 
 &#x20;                       [https://rpc.meter.io](https://rpc.meter.io)  (port 8545 on the mainnet docker)
 
 &#x20;                       [https://rpc-meter.jellypool.xyz](https://rpc-meter.jellypool.xyz) (community maintained)
 
-&#x20;              Websocket: [<mark style="color:blue;">wss://ws.meter.io</mark> ](wss://ws.meter.io) (port 8546 on the mainnet docker)
+&#x20;              Websocket:&#x20;
+
+&#x20;                       [<mark style="color:blue;">wss://ws.meter.io</mark> ](wss://ws.meter.io) (port 8546 on the mainnet docker)
+
+&#x20;                       [https://blockpi.io/](https://blockpi.io/) provides wss access through API keys
 
 ChainID: 82
 
