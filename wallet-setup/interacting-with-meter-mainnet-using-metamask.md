@@ -39,7 +39,11 @@ If you are using the mobile app version of Metamask, new Network settings can be
 
 **Network Name:** Meter Mainnet
 
-**RPC URL:** https://rpc.meter.io
+**RPC URL:**&#x20;
+
+&#x20;   https://rpc.meter.io or&#x20;
+
+&#x20;   https://meter.blockpi.network/v1/rpc/public (maintained by [public.blockpi.io](https://public.blockpi.io/))
 
 **Chain ID:** 82
 
