@@ -3,7 +3,8 @@
 [Apply here.](https://forms.gle/qnJ2eNagGCRefwQ17)
 
 * [x] This program is an approval based Grant.
-*   [x] This program can be leveraged in conjunction with 'METER UP: TVL Incentive Program'
+* [x] This program can be leveraged in conjunction with 'Meter TVL Incentive Program'
+*   [x] This program can be leveraged in conjunction with 'Meter Gas Monetization Program'
 
 
 

@@ -27,13 +27,13 @@ Below are the actual returns of a node with 22,500 MTRG Delegation and with a Te
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **IMPORTANT UPDATE**
 
 Tesla Validator NFTs are moved to Meter Network post this announcement - [TESLA Founding Validator NFTs returning to Meter Network! ](https://medium.com/meter-io/tesla-founding-validator-nfts-returning-to-meter-network-efdafa30476d)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**Post 30 April 2023, Tesla Founding Validator NFTs on Ethereum Network will cease to have utility or value.**</mark>
 

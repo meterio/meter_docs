@@ -28,7 +28,7 @@ More details on choosing a candidate can be found here;
 [choosing-candidates.md](choosing-candidates.md)
 {% endcontent-ref %}
 
-![](<../../../.gitbook/assets/image (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1).png>)
 
 _**Note:** The requisition address should have minimum of 100 MTRG and some MTR for transaction fees_
 

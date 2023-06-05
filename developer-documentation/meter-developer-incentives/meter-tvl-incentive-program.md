@@ -1,4 +1,4 @@
-# METER UP: TVL Incentive Program
+# Meter TVL Incentive Program
 
 [Register here.](https://forms.gle/TcLb1gnEdtaibgmx8)
 
@@ -8,6 +8,7 @@ Governance Proposal: [Link](https://snapshot.org/#/meter-mainnet.eth/proposal/0x
 
 * [x] This program is a non-approval based incentive program.
 * [x] This program can be leveraged in conjunction with 'Meter Developer Grant Program'
+* [x] This program cannot be used in conjunction with 'Meter Gas Monetization Program'
 
 ## Core Objective
 
