@@ -5,6 +5,8 @@ Reach out to @ALOMETER on Telegram for more info and support&#x20;
 Blog: [Link](https://medium.com/meter-io/meter-co-marketing-program-for-ecosystem-partners-33fa61df24af)
 
 * [x] This program is a approval based incentive program.
+* [x] Unutilized Monthly budget is not carried forward.
+* [x] Distribution is solely to users directly from Meter based on allocated budget
 
 ## Core Objective
 
