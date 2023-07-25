@@ -82,6 +82,12 @@ Multi-call: 0x99D510753552698d13D28c3B2042A37Ac6F9E38C
 
 WMTR: 0x160361ce13ec33C993b5cCA8f62B6864943eb083
 
+
+
+List of Common ERC20 Tokens on Meter mainnet:
+
+[https://github.com/meterio/token-list/blob/master/generated/meter-tokens.json](https://github.com/meterio/token-list/blob/master/generated/meter-tokens.json)
+
 ## **2. Source Code Verification**
 
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
