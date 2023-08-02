@@ -2,7 +2,7 @@
 
 MTR is required to pay for gas and transaction fees on the Meter blockchain. &#x20;
 
-Each transfer transaction on Meter requires about 0.0105 MTR and a swap takes around 0.08 to 0.1 MTR.  Here are the ways to get MTR if you don't want to use a centralized exchange:
+Each transfer transaction on Meter requires about 0.0021 MTR and a swap takes around 0.016 to 0.02 MTR.  Here are the ways to get MTR if you don't want to use a centralized exchange:
 
 ## MTR airdrop on bridging funds with passport.meter.io
 
