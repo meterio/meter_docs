@@ -18,9 +18,9 @@ Binance Smart Chain(BSC):
 
 MTRG contract address: [0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F](https://etherscan.io/token/0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F)
 
-MoonRiver:
+Base Mainnet:
 
-MTRG contract address: [0x1e24EC84F66cd26Dad607d81796DbeB13Cb22692](https://blockscout.moonriver.moonbeam.network/address/0x1e24EC84F66cd26Dad607d81796DbeB13Cb22692)
+eMTRG contract address: [0xa023E6f6B4862EA38cbe45e377abD908abAb2f82](https://basescan.org/address/0xa023e6f6b4862ea38cbe45e377abd908abab2f82)
 
 Meter Mainnet:
 
