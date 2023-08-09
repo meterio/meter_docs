@@ -50,7 +50,9 @@ RPC Endpoint:&#x20;
 
 &#x20;              RPC:&#x20;
 
-&#x20;                       [https://blockpi.io/](https://blockpi.io/) provides both public and API based end points
+&#x20;                       [https://blockpi.io/](https://blockpi.io/)  ([https://meter.blockpi.network/v1/rpc/public](https://meter.blockpi.network/v1/rpc/public))
+
+&#x20;                             BlockPi also provides API based endpoints
 
 &#x20;                       [https://pokt.network](https://pokt.network)&#x20;
 
