@@ -104,7 +104,7 @@ The main difference between Sourcify and Etherscan verification is that Sourcify
 
 ## **3. Multisig Wallet**
 
-Meter team has deployed a forked version of Gnosis Safe multsig wallet on the Meter mainnet.  It can be found at:
+Meter team has deployed a forked UI of Gnosis Safe multsig wallet on the Meter mainnet.  The smart contracts for the multsig were officially deployed by the Gnosis team. It can be found at:
 
 {% embed url="https://safe.meter.io" %}
 Meter Multsig Wallet
