@@ -49,11 +49,11 @@ If you are using the mobile app version of Metamask, new Network settings can be
 
 **Symbol:** MTR
 
-**Block Explorer URL:** https://scan.meter.io&#x20;
+**Block Explorer URL:** [https://scan.meter.io](https://scan.meter.io)&#x20;
 
 **MTRG can be treated as a custom ERC20 token:**
 
-\-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
+\-MTRG: [0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3](https://scan.meter.io/address/0x228ebbee999c6a7ad74a6130e81b12f9fe237ba3)
 
 ## Setup Meter Desktop Wallet Account in MetaMask
 
