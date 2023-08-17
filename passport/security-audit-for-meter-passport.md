@@ -1,6 +1,6 @@
-# Security Audit for Meter Passport V1.5
+# Security Audit for Meter Passport V2.0
 
-The Meter Passport v1.5 smart contracts were developed on the ChainSafe v2.x bridge contracts. Meter’s additions were mainly focusing on the relay chain signature aggregation design. The original contracts were internally audited through a separate team at ChainSafe.
+The Meter Passport v2.0 smart contracts were developed on the ChainSafe v2.x bridge contracts. Meter’s additions were mainly focusing on the relay chain signature aggregation design. The original contracts were internally audited through a separate team at ChainSafe.
 
 The final version of the smart contracts were audited by HAECHI AUDIT.
 
