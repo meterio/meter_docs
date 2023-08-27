@@ -7,7 +7,7 @@ The Meter network employs an innovative Proof of Value (PoV) consensus mechanism
 The Meter system consists of two tokens:
 
 1. MTR, the low-volatility meta-stable token created by PoW miners.
-2. MTRG, the governance token used by PoS validators in a HotStuff BFT style consensus to validate transactions.
+2. MTRG, the governance token used by PoS validators in a HotStuff 2 BFT style consensus to validate transactions.
 
 Unlike traditional cryptocurrencies, the Meter protocol separates the economic consensus from the record-keeping consesuses. The economic consensus determines how much new value will be added to the economy whereas the record-keeping consesus prevents double spending. In the Meter system MTR represents the economic consesus while MTRG represents the record-keeping consensus.
 
