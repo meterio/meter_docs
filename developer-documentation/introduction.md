@@ -92,13 +92,13 @@ List of Common ERC20 Tokens on Meter mainnet:
 
 ## **2. Source Code Verification**
 
-Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) for verifying the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
+Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) to verify the onchain contracts' byte code is exactly the same as the source code.  Verifying contracts also allows the explorer to properly decode smart contract transactions.  There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
-The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  If a contract is verified through Sourcify Portal, it may take a few hours for the Meter Explorer to pick up the information.
+The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).  If a contract is verified through the Sourcify Portal, it may take a few hours for the Meter Explorer to pick up the information.
 
 There are two levels of verification: 1. source code match and 2. both source code, metadata match.  Source code match is considered the minimum for contract verification purposes.
 
-The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computers.   You could try using a Mac to upload the files.
+The main difference between Sourcify and Etherscan verification is that Sourcify requires metadata  to be uploaded for verification in addition to source code and byte code.  Information on finding the metadata file is available in [Sourcify Documents](https://docs.sourcify.dev/docs/metadata/).  Both the Meter Explorer and Sourcify website allow uploading zip file.  If your file is too large, we recommend directly using the Sourcify website to upload multiple files.  If you are using Truffle, sometimes after you upload the json file, Sourcify complains not able to find the corresponding find .sol files in your local file path.  You could try zip all the contract source code in a file and upload to Sourcify website.  It will typically resolve the issue.  From time to time, Sourcify may have problem recognizing files uploaded from Windows computers.   You could try using a Mac to upload the files.
 
 
 
@@ -112,7 +112,7 @@ Meter Multsig Wallet
 
 ## **4. Graph Node**
 
-The meter foundation is maintaining two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on discord or telegram.  We are happy to host the subgraph on our production graph nodes.
+The meter foundation maintains two separate graph nodes for the Meter Testnet and mainnet for dApp developers.  They are for testing purposes only.  If you need production-level graph nodes on Meter mainnet, please reach out to the team on Discord or Telegram.  We are happy to host the subgraph on our production graph nodes.
 
 **On testnet:**
 
@@ -145,19 +145,19 @@ In the subgraph.yaml file for your subgraph:
 
 ## **5. APIs**
 
-1. Thirdweb.com provides RPC endpoints, tools, smart contract libraries and APIs for developers to launch dApp quickly:
+1. Thirdweb.com provides RPC endpoints, tools, smart contract libraries, and APIs for developers to launch dApp quickly:
 
 {% embed url="https://thirdweb.com/meter" %}
 
 {% embed url="https://thirdweb.com/meter-testnet" %}
 
-2. covalenthq.com provides data anylytics APIs on the Meter mainnet.
+2. covalenthq.com provides data analytics APIs on the Meter mainnet.
 
 {% embed url="https://www.covalenthq.com/docs/networks/meter/" %}
 
 ## **6. Bridges**
 
-[Layer 0](https://layerzero.network/) connects Meter Mainnet and Testnet to more than 20 other chains.  The documentation could be found at [https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids](https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids) and [https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
+[Layer 0](https://layerzero.network/) connects Meter Mainnet and Testnet to more than 20 other chains.  The documentation can be found at [https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids](https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids) and [https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses](https://layerzero.gitbook.io/docs/technical-reference/testnet/testnet-addresses)
 
 Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT tokens to the supported list, please make a pull request based on the instructions here: [https://github.com/meterio/token-list](https://github.com/meterio/token-list)
 
@@ -167,7 +167,7 @@ Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockcha
 
 ## **8. Important Things to Pay Attention to:**
 
-1. **Currently, there is a limitation that MTR and MTRG could only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
+1. **Currently, there is a limitation that MTR and MTRG can only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
 3. **The minimum gas price on Meter is currently 100gwei (Use eth\_estimateGas to obtain the gas price).  Even if a lower gas price is specified, the network will still charge 100gwei silently.  Make sure you have enough MTR in the account.**
 4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
