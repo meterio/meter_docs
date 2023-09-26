@@ -163,7 +163,7 @@ Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT t
 
 ## **7. Oracles**
 
-Currently [Band Protocol](https://docs.bandchain.org/band-standard-dataset/supported-blockchains.html) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  The Meter foundation is also actively talking to various oracle providers to bring them onboard on Meter.
+Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  [Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. The Meter Foundation is also actively talking to various Oracle providers to bring them onboard on Meter.
 
 ## **8. Important Things to Pay Attention to:**
 
@@ -171,6 +171,6 @@ Currently [Band Protocol](https://docs.bandchain.org/band-standard-dataset/suppo
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
 3. **The minimum gas price on Meter is currently 100gwei (Use eth\_estimateGas to obtain the gas price).  Even if a lower gas price is specified, the network will still charge 100gwei silently.  Make sure you have enough MTR in the account.**
 4. **Meter network is front-running resistant.  It does not order transactions by the gas price specified. Transactions are ordered by the time the proposing node receives them.  By default, if a transaction is not processed within 320 blocks after the network receives it, it will automatically expire.**
-5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy)  **If you want to use an EOA address and specific nonce to create a deterministic contract address, you will have to force the nonce of your transaction (for example in MetaMask) instead of relying on the random nonce returned from the RPC.  As long as the nonce has not been used, the transaction will be processed**&#x20;
+5. **Meter does not require sequential nonce for each account.  If you want to deploy your contract to a specified address, please use the** [**deterministic deployment method for Ethereum.**](https://github.com/Zoltu/deterministic-deployment-proxy)  **If you want to use an EOA address and specific nonce to create a deterministic contract address, you will have to force the nonce of your transaction (for example in MetaMask) instead of relying on the random nonce returned from the RPC.  As long as the nonce has not been used, the transaction will be processed and the same contract address can be created.**
 6. **If you use Ethereum RPC to obtain the next nonce, you will receive a random number.  In fact, you could use any nonce when sending a transaction on Meter.  However, transactions from the same account with duplicated nonce will not be executed.  Precomputed Ethereum tx hash is also guaranteed to be the same as on-chain hash.**
 
