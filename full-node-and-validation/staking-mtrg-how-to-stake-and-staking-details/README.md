@@ -20,7 +20,7 @@ Further Reading: [Edison Mainnet Launch](https://medium.com/meter-io/the-meter-m
 
 **Tesla Mainnet Launch**
 
-March 19, 2021 (Fully functional Mainnet with Staking and On-chain MTRG auctions). Node Operations open to community.
+March 19, 2021 (Fully functional Mainnet with Staking and On-chain MTRG auctions). Node Operations are open to the community.
 
 Further Reading: [Tesla Mainnet](https://medium.com/meter-io/the-meter-mainnet-is-now-live-3d0a4a1e1174)
 
@@ -36,13 +36,13 @@ Further Reading: [Tesla Mainnet](https://medium.com/meter-io/the-meter-mainnet-i
 
 Meter Network supports web staking with [staking.meter.io](https://staking.meter.io/) as well as staking on Meter Desktop wallet
 
-\*Meter Desktop wallet will be sunset in medium term. Meter desktop wallet is available to download on Meter.io homepage (section “Meter Desktop Wallet at the bottom of the page)
+\*Meter Desktop wallet will be sunset gradually and no longer be maintained. It is available to download on Meter.io homepage (section “Meter Desktop Wallet at the bottom of the page)
 
 ### **Staking Rewards**
 
 Staking rewards are sourced from the annual network emission and are provided every 24 epochs (typically 24 hours) to the address staking on the Meter Mainnet.
 
-\*_Users can DM “/staking (wallet address)” to @MeterValidatorBot on Telegram to get daily messages when your wallet receives the staking rewards. Users lose potential rewards only when the candidate they have delegated gets jailed._
+\*_Users can DM “/staking (wallet address)” to @MeterValidatorBot on Telegram to get daily messages when their wallet receives the staking rewards. Users lose potential rewards only when the candidate they have delegated gets jailed._
 
 ### **Staking Reward Token**
 
@@ -50,13 +50,13 @@ Community can earn either MTRG or MTR through the staking program.
 
 ### **Network Emission Rate**
 
-Annual 5% (this can be changed through governance). Current Annual Inflation available on [scan.meter.io](https://scan.meter.io/) homepage.&#x20;
+Annual 5% (this can be changed through governance). Current Annual Inflation is available on [scan.meter.io](https://scan.meter.io/) .&#x20;
 
 Daily emission available here: [Meter on-chain auctions](https://scan.meter.io/auction)
 
 ### **Circulating Supply**
 
-Circulating Supply includes the daily emission of MTRG through the network inflation required to secure the network. Current Circulating supply available on [scan.meter.io](https://scan.meter.io/) homepage.
+Circulating Supply includes the daily emission of MTRG through the network inflation required to secure the network. Current Circulating supply is available on [scan.meter.io](https://scan.meter.io/) .
 
 ### **Consensus Committee Size**
 
@@ -64,7 +64,7 @@ A consensus committee size determines how many Node Operators will take part in 
 
 ### **Staking Ratio**
 
-The proportion of circulating supply of MTRG that is staked. Current Staking Ratio available on [scan.meter.io](https://scan.meter.io/) homepage.
+The proportion of circulating supply of MTRG that is staked. Current Staking Ratio is available on [scan.meter.io](https://scan.meter.io/) homepage.
 
 ### **Staking Returns**
 
@@ -88,11 +88,11 @@ MTRG staking is done via “buckets/ Vote ID” which includes a specific amount
 
 ### Candidate
 
-The node operators with whom the user would like to delegate their MTRG tokens. You can choose a bucket either to vote for your own validator candidate nodes (top 500 validator nodes by votes can participate in the consensus currently) or other candidate nodes.
+The node operators with whom the user would like to delegate their MTRG tokens. You can choose a bucket either to vote for your own validator candidate nodes (the top 500 validator nodes by votes can participate in the consensus currently) or other candidate nodes.
 
 ### Unbound
 
-In order to withdraw MTRG stake from the staking application, User must 'unbound' the bucket and then wait for a period of 168 epochs (\~7 days) before MTRG is available in the user wallet.
+In order to withdraw MTRG stake from the staking application, the user must 'unbound' the bucket and then wait for a period of 7 days and at the end of the epoch, MTRG will be available in the user's wallet.
 
 ### Bonus Votes&#x20;
 
@@ -104,11 +104,11 @@ Users will be able to increase the bucket size by any amount of MTRG available i
 
 ### Undelegate
 
-Users have to ability to change the candidate they have delegated to ay any time. This is particularly helpful when the Node on which MTRG is delegated is not performing well (jailed multiple times) leading to loss of rewards for the delegator or the delegator wishes to move to a Node Candidate with lower commission or starts their own node.
+Users have to ability to change the candidate they have delegated to at any time. This is particularly helpful when the Node on which MTRG is delegated is not performing well (jailed multiple times) leading to loss of rewards for the delegator or the delegator wishes to move to a Node Candidate with lower commission or starts their own node.
 
 ### Commission
 
-Commission percentage is the portion of Delegator rewards shared with the node operator for the ability to participate in record keeping consensus. Currently, the maximum commission charged is 10%
+The commission percentage is the portion of Delegator rewards shared with the node operator for the ability to participate in record-keeping consensus. Currently, the maximum commission charged is 10%
 
 ### Auto Bid
 
@@ -117,7 +117,7 @@ New emitted MTRG is earned by the delegators through the [on-chain auctions](../
 1. Delegators/ Node Operators earn MTR rewards every epoch for participating in record keeping consensus. These MTR are sourced from previous days' auction process
 2. If auto-bid is selected by the delegator on their bucket/ Vote ID, MTR received is deposited in the duction auction to bid for newly emitted MTRG on the current day
 3. At the end of 24 epochs, Delegators get the MTRG based on the MTR submitted in to the Dutch auctions
-4. If auto-bid is not selected by the delegator on their bucket/ Vote ID, the delegators receives MTR as the rewards for the day
+4. If auto-bid is not selected by the delegator on their bucket/ Vote ID, the delegators receives MTR as the reward for the day
 
 ## &#x20;Tutorials
 
