@@ -28,7 +28,7 @@ More details on choosing a candidate can be found here;
 [choosing-candidates.md](choosing-candidates.md)
 {% endcontent-ref %}
 
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 _**Note:** The requisition address should have minimum of 100 MTRG and some MTR for transaction fees_
 
@@ -36,7 +36,7 @@ _**Note:** The requisition address should have minimum of 100 MTRG and some MTR 
 
 Stake/ Delegate to the Candidate and submit the vote
 
-![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 ![](https://miro.medium.com/max/1400/1\*Jz3UCh4GZYgoGWxjIXIdCw.png)
 

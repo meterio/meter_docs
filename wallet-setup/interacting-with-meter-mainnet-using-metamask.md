@@ -25,15 +25,15 @@ If you are configuring manually, there following are the details:
 
 1. Select the network drop-down menu, and then click on the 'Add Network' at the bottom.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 2\. Enter the following information for the Custom Network and click "Save":
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 If you are using the mobile app version of Metamask, new Network settings can be added through the Network dropdown --> 'Add Network' --> 'Custom Network'
 
-![](<../.gitbook/assets/image (8).png>)![](<../.gitbook/assets/image (4) (2) (1).png>)
+![](<../.gitbook/assets/image (25).png>)![](<../.gitbook/assets/image (37).png>)
 
 ## Network Information:
 

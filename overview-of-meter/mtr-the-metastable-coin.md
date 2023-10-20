@@ -6,7 +6,7 @@ Meter Stable (MTR) is the unit of account and medium of exchange for the Meter n
 
 Meter uses the cost of production and the PoW miners’ arbitraging behavior to establish a long-term equilibrium price for the market. This equilibrium price anchors MTR to the competitive global electricity price which is more stable in value than any fiat currency based on historical data. Between 1960 and 2021 electricity prices went up 6.3x when measured in USD, but stayed the same after adjusting for inflation.
 
-![US Electricity Price Measured by USD vs Adjust for Inflations](<../.gitbook/assets/image (2) (1) (1).png>)
+![US Electricity Price Measured by USD vs Adjust for Inflations](<../.gitbook/assets/image (27).png>)
 
 The supply of MTR is uncapped. When demand is higher miners will expand the supply whereas when demand is lower the internal MTRG auction process wil continually remove MTR from circulation, reducing supply. This makes the value of MTR neither deflationary nor inflationary.
 

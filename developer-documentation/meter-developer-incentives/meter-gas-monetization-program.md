@@ -22,7 +22,7 @@ The Gas Monetization Program is open to all applications which have more than mi
 
 The gas monetization incentive program will reimburse a PORTION of all gas fees incurred on the Meter Network by the dApp smart contracts.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt="" width="398"><figcaption></figcaption></figure>
 
 Builders can use the rewards to internalize profits or use as incentives back to users.&#x20;
 
@@ -68,9 +68,9 @@ The program incentivizes transaction Volume and user base on the network. Though
 
 ### Example
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="360"><figcaption></figcaption></figure>
 
 **Note:** The example assumes a certain average gas cost. Actual gas costs will determine the extent of gas monetization.
 

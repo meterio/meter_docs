@@ -16,7 +16,7 @@ To combine the expertise, resources of Meter and its ecosystem partners to prope
 
 The program aims **to empower our ecosystem partners to engage our communities collectively** through a monthly earmarked budget based on their social footprint.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 The budget is exclusively for the community.
 
