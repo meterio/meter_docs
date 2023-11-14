@@ -163,7 +163,7 @@ Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT t
 
 ## **7. Oracles**
 
-Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  [Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. The Meter Foundation is also actively talking to various Oracle providers to bring them onboard on Meter.
+Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  [Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. Meter Foundation is currently running a price pusher for USDC/USDT/ETH/MTRG/MTR/BTC/WBTC on the Meter mainnet and testnet.  In addition, Pyth network allows any developer to run additional price pushers permissionlessly.  The Meter Foundation is also actively talking to various Oracle providers to bring them onboard on Meter.
 
 ## **8. Important Things to Pay Attention to:**
 
