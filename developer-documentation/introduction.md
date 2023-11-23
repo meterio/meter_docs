@@ -92,7 +92,9 @@ List of Common ERC20 Tokens on Meter mainnet:
 
 Meter explorer uses [Sourcify](https://github.com/ethereum/sourcify) to verify the onchain contracts' byte code is exactly the same as the source code. Verifying contracts also allows the explorer to properly decode smart contract transactions. There are various tools (for example Remix plugins) that help developers to verify on Sourcify.
 
-The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/). If a contract is verified through the Sourcify Portal, it may take a few hours for the Meter Explorer to pick up the information.
+The submission for source code can be either done through [Meter Explorer](https://scan.meter.io) or [Sourcify Portal](https://sourcify.dev/).&#x20;
+
+Typically the fastest way to verify a solidity project build with Hardhat is to zip all the json files under the artifacts/build-info/ directory, upload the zip files to the [Sourcify Portal](https://sourcify.dev/), and select all the contracts to be verified.  If a contract is verified through the [Sourcify Portal](https://sourcify.dev/), you may have to interact with the contract tab on the explorer under the contract address page to force the explorer to sync the verification status from Sourcify, otherwise it may take a few hours for the Meter Explorer to automatically pick up the information.
 
 There are two levels of verification: 1. source code match and 2. both source code, metadata match. Source code match is considered the minimum for contract verification purposes.
 
