@@ -165,7 +165,13 @@ Meter Passport provides connection to 8 different chains.  To add ERC20 or NFT t
 
 Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet.  Detailed documentation can be found on their respective websites.  [Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. Meter Foundation is currently running a price pusher for USDC/USDT/ETH/MTRG/MTR/BTC/WBTC on the Meter mainnet and testnet.  In addition, Pyth network allows any developer to run additional price pushers permissionlessly.  The Meter Foundation is also actively talking to various Oracle providers to bring them onboard on Meter.
 
-## **8. Important Things to Pay Attention to:**
+## **8. Indexers**
+
+There are several indexer solutions available, each offering different levels of decentralisation, ease of development, and performance for you to consider. These solutions serve as intermediaries to assist in indexing the Avalanche network.
+
+[SubQuery](./subquery.md) is a leading blockchain data indexer that provides developers with fast, flexible, universal, open source and decentralised APIs for web3 projects. Another one of SubQuery's competitive advantages is the ability to aggregate data not only within a chain but across multiple blockchains all within a single project.
+
+## **9. Important Things to Pay Attention to:**
 
 1. **Currently, there is a limitation that MTR and MTRG can only be sent to a contract address through smart contract interactions.  For example, if you want to send MTR to a contract address manually, you will have to use the above ERC20 system interface.**
 2. **Meter network now requires all transactions to contain chainID.  Please make sure to configure your deployment script properly.**
