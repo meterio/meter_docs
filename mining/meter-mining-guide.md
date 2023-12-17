@@ -36,11 +36,11 @@ The following are the rough production parameters for different mining hardware 
 
 The adaption speed to hash rate changes is still relatively slow on the testnet. However, closer to the mainnet launch, parameters will be tuned to more efficient mining hardware and faster response speed.
 
-The Meter mining pool status statistics can be viewed at http://54.184.235.97:8088/stats.
+The Meter mining pool status statistics can be viewed at http://pool\_ip:8088/stats.
 
 ### Miner Configurations
 
-In order to configure a miner to join the mining pool, the following fields in the `Miner configuration` tab of the ASIC's web panel need to be set:
+To configure a miner to join the mining pool, the following fields in the `Miner configuration` tab of the ASIC's web panel needs to be set:
 
 ![S9 Configuration](../.gitbook/assets/conf\_s9.png)
 
@@ -90,7 +90,7 @@ npm install
 
 There is a json config file `meter.json` in the `pool_configs` sub-directory. Make sure to configure the appropriate fields in this file, especially the `rewardBeneficiary` and the `daemon`/`daemons` fields.
 
-In the following example, the pool owner's Meter address is `0a05c2d862ca051010698b69b54278cbaf945ccb` (no 0x in the beginning), the `rewardBeneficiary` should be configured accordingly. In addition, the mining pool has to connect to a coin daemon (full node) on the Meter network. We will use a full node on the testnet. The value for Meter in the `daemons` section should be configured as follows:
+In the sample meter.json file, the pool owner's Meter address is 0x0a05c2d862ca051010698b69b54278cbaf945ccb, which is configured as `rewardBeneficiary` . In addition, the mining pool has to connect to a coin daemon (full node) which is configured in the `daemons` section:
 
 ```
 [
@@ -105,7 +105,7 @@ In the following example, the pool owner's Meter address is `0a05c2d862ca0510106
 
 c04.meter.io is a node we provided for testing only, its availability is not guaranteed. If you are running a pool, you should be running a full node on Meter mainnet (Please refer to the mainnet full node tutorial on Github).
 
-There are many other fields in `meter.json`. We could ignore them for now as only limited functions was ported in the current Nomp implementation for Meter.
+There are many other fields in `meter.json`. We could ignore them for now as only limited functions were ported in the current Nomp implementation for Meter.
 
 For more information on these configuration options see the [pool module documentation](https://github.com/meterio/meter-stratum-pool/blob/master/README.md#module-usage).
 
@@ -121,24 +121,7 @@ $ node init.js
 
 The pool should now start running and we could see the status of the pool from the log and http://pool\_ip:8080/stats.
 
-### Running the Pool in Docker
-
-```
-git clone https://github.com/meterio/meter-nomp.git
-```
-
-Follow the Pool configurations section to create a proper meter.json file
-
-```
-sudo docker pull meterio/nomp 
-sudo docker run -it --name nomp -v /home/ubuntu/meter-nomp/pool_configs/meter.json:/nomp/pool_configs/meter.json meterio/nomp
-```
-
-The pool will immediately start running.  You could see the logs of pool through
-
-```
-sudo docker container logs nomp 
-```
+###
 
 
 
