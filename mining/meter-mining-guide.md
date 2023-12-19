@@ -50,6 +50,10 @@ Where:
 * `Worker` is the Meter wallet address.
 * `Password` is the password associated with the wallet.
 
+## Shared Mining Pool&#x20;
+
+The meter team has setup a test mining pool on the Meter mainnet.  A user could set the miner URL to http://pool.meter.io:3256  The pool pays out every 24 hours if the mining proceeds are greater than the transaction fees.  The pool charges 3% commission. &#x20;
+
 ## Running a Private Mining Pool on the Meter Network
 
 An example implementation of the Meter mining pool is available on [GitHub](https://github.com/meterio/meter-nomp), based on the open source nomp Bitcoin mining pool. This code has been provided to show the changes needed compared to standard bitcoin mining pools, and is not intended to be used in a production environment.
