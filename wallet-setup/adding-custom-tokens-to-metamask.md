@@ -10,7 +10,7 @@ MTRG can be treated as a custom ERC20 token in Metamask:
 
 _ERC20 System Interface:_
 
-\-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3
+**-MTRG: 0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3**
 
 ## Popular ERC20 tokens on Meter can be found at:
 
