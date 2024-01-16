@@ -12,7 +12,6 @@
 * [On-Chain Auctions](overview-of-meter/on-chain-auctions.md)
 * [The Meter Reserve](overview-of-meter/the-meter-reserve.md)
 * [Meter's Ethereum Emulation Mode](overview-of-meter/meters-ethereum-emulation-mode.md)
-* [Useful Information](overview-of-meter/useful-information.md)
 
 ## Wallet Setup
 
