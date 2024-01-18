@@ -50,11 +50,15 @@ RPC Endpoint:
 
 RPC:
 
+Providers with high quality API key access:
+
 [https://blockpi.io/](https://blockpi.io/) ([https://meter.blockpi.network/v1/rpc/public](https://meter.blockpi.network/v1/rpc/public))
 
-BlockPi also provides API key based endpoints
+[https://nownodes.io/meter-mtr](https://nownodes.io/meter-mtr)&#x20;
 
 [https://pokt.network](https://pokt.network)
+
+Free rate limited access:
 
 [https://rpc.meter.io](https://rpc.meter.io) (port 8545 on the mainnet docker)
 
@@ -64,7 +68,9 @@ Websocket:
 
 [<mark style="color:blue;">wss://ws.meter.io</mark> ](wss://ws.meter.io)(port 8546 on the mainnet docker)
 
-[https://blockpi.io/](https://blockpi.io/) provides wss access through API keys
+[https://blockpi.io/](https://blockpi.io/)&#x20;
+
+[https://nownodes.io/meter-mtr](https://nownodes.io/meter-mtr)&#x20;
 
 ChainID: 82
 
