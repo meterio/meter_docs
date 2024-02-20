@@ -103,7 +103,8 @@ After confirming the node is running properly through the log, you could then co
 
 You can compare the height of your running node with the [Explorer](http://scan.meter.io/) maintained by the team
 
-1. Point [Meter desktop wallet](https://meter.io/wallets) to your own full node In the settings of the wallet, under node, you could and connect add your own full node by adding [http://IPaddrOfYourNode:8669](http://ipaddrofyournode:8669) . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions.&#x20;
+1. Use http://IPaddrOfYourNode:8670/probe to check the current sync status and configurations of your node.  Compare "bestBlock" with the most recent block number in the [Explorer](https://scan.meter.io).
+2. If you installed the [Meter desktop wallet](https://meter.io/wallets), you could point it to your own full node: In the settings of the wallet, under node, you could and connect add your own full node by adding [http://IPaddrOfYourNode:8669](http://ipaddrofyournode:8669) . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions.&#x20;
 
 [![Adding Your Node in Wallet Settings](https://github.com/meterio/mainnet\_docs/raw/master/addnode.png)](https://github.com/meterio/mainnet\_docs/blob/master/addnode.png) [![Connecting to Your Node](https://github.com/meterio/mainnet\_docs/raw/master/connectnode.png)](https://github.com/meterio/mainnet\_docs/blob/master/connectnode.png)
 
