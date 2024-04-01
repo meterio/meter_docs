@@ -171,7 +171,11 @@ Meter Passport provides connection to 8 different chains. To add ERC20 or NFT to
 
 ## **7. Oracles**
 
-Currently, [Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet. Detailed documentation can be found on their respective websites. [Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. Meter Foundation is currently running a price pusher for USDC/USDT/ETH/MTRG/MTR/BTC/WBTC on the Meter mainnet and testnet. In addition, Pyth network allows any developer to run additional price pushers permissionlessly. The Meter Foundation is also actively talking to various Oracle providers to bring them onboard on Meter.
+[Band Protocol](https://docs.bandchain.org/develop/supported-blockchains/) and [Witnet](https://feeds.witnet.io/meter) are providing price feeds to the Meter mainnet and testnet. Detailed documentation can be found on their respective websites.&#x20;
+
+[Pyth Network](https://docs.pyth.network/documentation/pythnet-price-feeds/evm) provides real-time data in an on-demand-based push model. Meter Foundation is currently running a price pusher for USDC/USDT/ETH/MTRG/MTR/BTC/WBTC on the Meter mainnet and testnet. In addition, Pyth network allows any developer to run additional price pushers permissionlessly.&#x20;
+
+[Supra](https://supra.com/) provides decentralized oracle price feeds that can be used for on-chain and off-chain use-cases such as spot and perpetual DEXes, lending protocols, and payments protocols. Supra’s oracle chain and consensus algorithm makes it the fastest-to-finality oracle provider, with layer-1 security guarantees. The pull oracle has a sub-second response time.  The list of push based data available on Meter can be found [here](https://supra.com/data/networks/meter?nid=128\&networkType=mainnet).  The developer docs are available [here](https://supra.com/docs/overview/).
 
 ## **8. Important Things to Pay Attention to:**
 
