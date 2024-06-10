@@ -52,7 +52,11 @@ Where:
 
 ## Shared Mining Pool&#x20;
 
-The meter team has setup a test mining pool on the Meter mainnet.  A user could set the miner URL to http://pool.meter.io:3256  The pool pays out every 24 hours if the mining proceeds are greater than the transaction fees.  The pool charges 3% commission. &#x20;
+The meter team has setup a test mining pool on the Meter mainnet.  A user could set the miner URL to; \
+\
+[http://pool.meter.io:3256](http://pool.meter.io:3256)\
+\
+The pool pays out every 24 hours if the mining proceeds are greater than the transaction fees.  The pool charges 3% commission. &#x20;
 
 ## Running a Private Mining Pool on the Meter Network
 
