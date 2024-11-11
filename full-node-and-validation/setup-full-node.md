@@ -101,16 +101,30 @@ After confirming the node is running properly through the log, you could then co
 
 ## Fast Syncing from a snapshot
 
-The previous commands will start a full node syncing from scratch which may take several days.  The fully synced node contains entire history of the Meter blockchain and is an achieved node.  If you want to sync faster and reduce the usage of your hard disk or if you are running a validator node and running low on disk space, you could sync from a snapshot using the following commands:
+The previous commands will start a full node syncing from scratch which may take several days.  The fully synced node contains entire history of the Meter blockchain and is an achieved node.  If you want to sync faster and reduce the usage of your hard disk or if you are running a validator node and running low on disk space, you could sync from a snapshot using the following commands (this requires taking the node offline for about 1 hour depending on your network connection speed):
 
 ```
 $ sudo docker container stop meter_main  //stop the meter container to replace the database
 $ cd $METER_MAIN_DATA_PATH  //enter the meter_main_data directory
 $ sudo rm -rf instance-e695c63b238f5e52  //remove the database directory
-$ wget https://snapshot.meter.io/instance-pruned-mainnet-63742946.tar.gz
+$ wget https://snapshot.meter.io/instance-pruned-mainnet-63742946.tar.gz  //this is a prebuilt snapshot of the pruned database
 $ tar -xvf instance-pruned-mainnet-63742946.tar.gz
 $ rm instance-pruned-mainnet-63742946.tar.gz
-$ sudo docker container start meter_main
+$ sudo docker container start meter_main  //restart the meter container
+```
+
+## Pruning the database
+
+If you are running low on diskspace and could not expand the disk volume easily, you could choose to prune the Meter blockchain database to reduce the disk usage.  The pruning process however will require taking the node offline and may take a few days if you are pruning from the genesis of the blockchain.  It maybe faster to copy from a snapshot using the instructions in the previous section.
+
+```
+$ sudo docker container stop meter_main  //stop the meter container to replace the database
+$ sudo docker run --network host --name meter_pruning -it -v $METER_MAIN_DATA_PATH:/pos --entrypoint=/usr/bin/meter -d meterio/mainnet --network main --data-dir /pos --enable-pruning --no-discover 
+// To check if pruning completes
+$ sudo docker logs --tail=100 -f meter_pruning  
+//once pruning completes, you should see "state pruning loop completed"
+$ sudo docker container stop meter_pruning  //stop pruning container
+$ sudo docker container start meter_main //restart meter container
 ```
 
 ## Track node sync status
