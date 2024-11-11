@@ -99,6 +99,20 @@ docker cp meter_main:/var/log/supervisor/[LogFileNameHere]     //replace with th
 
 After confirming the node is running properly through the log, you could then connect the desktop wallet to your own full node.
 
+## Fast Syncing from a snapshot
+
+The previous commands will start a full node syncing from scratch which may take several days.  The fully synced node contains entire history of the Meter blockchain and is an achieved node.  If you want to sync faster and reduce the usage of your hard disk or if you are running a validator node and running low on disk space, you could sync from a snapshot using the following commands:
+
+```
+$ sudo docker container stop meter_main  //stop the meter container to replace the database
+$ cd $METER_MAIN_DATA_PATH  //enter the meter_main_data directory
+$ sudo rm -rf instance-e695c63b238f5e52  //remove the database directory
+$ wget https://snapshot.meter.io/instance-pruned-mainnet-63742946.tar.gz
+$ tar -xvf instance-pruned-mainnet-63742946.tar.gz
+$ rm instance-pruned-mainnet-63742946.tar.gz
+$ sudo docker container start meter_main
+```
+
 ## Track node sync status
 
 You can compare the height of your running node with the [Explorer](http://scan.meter.io/) maintained by the team
