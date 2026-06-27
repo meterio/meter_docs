@@ -122,8 +122,7 @@ web3 instance\
 │ ├── events.myEvent\
 │ ├── events.allEvents\
 │ └── getPastEvents\
-└── utils\
-
+└── utils<br>
 
 ## MODULES <a href="#modules" id="modules"></a>
 

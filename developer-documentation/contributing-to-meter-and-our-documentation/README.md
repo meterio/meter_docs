@@ -13,8 +13,7 @@ Meter has a number of projects you can contribute to. They are available here: [
 Some notable projects include:
 
 * [meterify](https://github.com/meterio/meterify): An extended version of `web3` to interact with Meter's RESTful API.
-* [Meter NOMP](https://github.com/meterio/meter-nomp): A cryptocurrency mining pool for Meter, written entirely in Node.js.\
-
+* [Meter NOMP](https://github.com/meterio/meter-nomp): A cryptocurrency mining pool for Meter, written entirely in Node.js.<br>
 
 ## Documentation Contributions
 

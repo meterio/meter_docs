@@ -22,7 +22,7 @@ Requirements for running a delegate/committee node: To achieve the full performa
 
 ## Tutorials (Community Version)
 
-This [step by step tutorial](https://medium.com/@Paolo\_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) on how to setup a full node and validator for Meter was created by a community member. The following guide is officially maintained.
+This [step by step tutorial](https://medium.com/@Paolo_G/step-by-step-guide-to-creating-a-node-in-meter-mainnet-4cdde1085fbb) on how to setup a full node and validator for Meter was created by a community member. The following guide is officially maintained.
 
 This [setup tool](https://github.com/daveodwyer/meter-node-creator) is created by the community for doing everything for you on a Ubuntu Linux machine.  There is also a [telegram group](https://t.me/joinchat/as-AgBXmUAxjMDA0) with automatic alerts and helps from the community.
 
@@ -134,7 +134,7 @@ You can compare the height of your running node with the [Explorer](http://scan.
 1. Use http://IPaddrOfYourNode:8670/probe to check the current sync status and configurations of your node.  Compare "bestBlock" with the most recent block number in the [Explorer](https://scan.meter.io).
 2. If you installed the [Meter desktop wallet](https://meter.io/wallets), you could point it to your own full node: In the settings of the wallet, under node, you could and connect add your own full node by adding [http://IPaddrOfYourNode:8669](http://ipaddrofyournode:8669) . The icon in the left of the address bar should turn green if everything is running properly. You could use the explorer inside the wallet to look at the status of the block productions.&#x20;
 
-[![Adding Your Node in Wallet Settings](https://github.com/meterio/mainnet\_docs/raw/master/addnode.png)](https://github.com/meterio/mainnet\_docs/blob/master/addnode.png) [![Connecting to Your Node](https://github.com/meterio/mainnet\_docs/raw/master/connectnode.png)](https://github.com/meterio/mainnet\_docs/blob/master/connectnode.png)
+[![Adding Your Node in Wallet Settings](https://github.com/meterio/mainnet_docs/raw/master/addnode.png)](https://github.com/meterio/mainnet_docs/blob/master/addnode.png) [![Connecting to Your Node](https://github.com/meterio/mainnet_docs/raw/master/connectnode.png)](https://github.com/meterio/mainnet_docs/blob/master/connectnode.png)
 
 Please make sure the block height in the wallet is the same as the [official block explorer](https://scan.meter.io).
 
@@ -143,7 +143,8 @@ Please make sure the block height in the wallet is the same as the [official blo
 Since the mainnet just launches, we expect there could be urgent upgrades from time to time. To ease the node operator's work, we have provided an automatic upgrade service called watchtower. It periodically pulls the docker container image releases and upgrades accordingly. For non-professional validators who can not monitor the node 24/7, **we highly recommend using the watchtower service.**
 
 ```
-docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --include-stopped --revive-stopped --enable-lifecycle-hooks --interval 10 --cleanup meter_main
+sudo docker rm -f watchtower  #remove the old watchtower version if you had it running
+sudo docker run -d --name watchtower --restart always -v /var/run/docker.sock:/var/run/docker.sock nickfedor/watchtower:latest --include-stopped --revive-stopped --enable-lifecycle-hooks --interval 10 --cleanup meter_main
 ```
 
 ## Upgrade a full node manually

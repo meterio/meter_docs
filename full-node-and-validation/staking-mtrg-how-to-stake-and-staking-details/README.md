@@ -119,6 +119,13 @@ New emitted MTRG is earned by the delegators through the [on-chain auctions](../
 3. At the end of 24 epochs, Delegators get the MTRG based on the MTR submitted in to the Dutch auctions
 4. If auto-bid is not selected by the delegator on their bucket/ Vote ID, the delegators receives MTR as the reward for the day
 
+### Liquid Staking
+
+To provide better DeFi composiblity and New emitted MTRG is earned by the delegators through the [on-chain auctions](../../overview-of-meter/on-chain-auctions.md). The brief staking rewards process is as below;
+
+1. Delegators/ Node Operators earn MTR rewards every epoch for participating in record keeping consensus. These MTR are sourced from previous days' auction process
+2. If auto
+
 ## &#x20;Tutorials
 
 {% content-ref url="how-to-stake-mtrg/" %}
